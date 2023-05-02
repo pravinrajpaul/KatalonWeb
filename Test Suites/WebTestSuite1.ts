@@ -17,5 +17,17 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/WebTestCase1/Step1</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7358eba2-52e4-44f1-8293-c97632b51dae</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>684bd2fd-81ea-4f1c-8036-4585f044e4e4</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
