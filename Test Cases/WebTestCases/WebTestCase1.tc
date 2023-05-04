@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Step1</name>
+   <name>WebTestCase1</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>cad47a9b-e665-4428-87be-dcd6a9c1f2cd</testCaseGuid>
@@ -25,7 +25,7 @@
       <name>name</name>
    </variable>
    <variable>
-      <defaultValue>'5'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>684bd2fd-81ea-4f1c-8036-4585f044e4e4</id>
       <masked>false</masked>

@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.apache.commons.lang3.RandomStringUtils as Random
 
 WebUI.openBrowser('')
 
@@ -33,19 +34,19 @@ WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/a_Proceed to C
 
 WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/a_Register Now'))
 
-WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_User ID_username'), name + n)
+n = Random.randomAlphanumeric(6)
+
+WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_User ID_username'), name + " " + n)
 
 WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_New password_password'), (name + '@') + n)
 
-WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_Repeat password_repeatedPassword'), (name + '@') + 
-    n)
+WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_Repeat password_repeatedPassword'), (name + '@') + n)
 
 WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_First name_account.firstName'), name)
 
 WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_Last name_account.lastName'), n)
 
-WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_Email_account.email'), (((name + n) + '@') + name) + 
-    '.com')
+WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_Email_account.email'), (((name + n) + '@') + name) + '.com')
 
 WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_Phone_account.phone'), '123456789')
 
