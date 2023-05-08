@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>25725166-6ddb-4ec5-979f-fa62daab78e2</webElementGuid>
+      <webElementGuid>92b0c2c1-c622-4a43-8863-480c797d9528</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/actions/Order.action?newOrderForm=</value>
-      <webElementGuid>43250d86-c3f6-4201-9374-bf4055c07aa4</webElementGuid>
+      <webElementGuid>ac31b69a-0392-4b44-9735-38651c886ced</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>Button</value>
-      <webElementGuid>d784a44b-eda5-432c-b126-454c5693f754</webElementGuid>
+      <webElementGuid>2150c20b-4fbb-4b49-8283-76c1e6d1f315</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Proceed to Checkout</value>
-      <webElementGuid>e2132071-8b45-4a98-8301-3fcfce596cdc</webElementGuid>
+      <webElementGuid>603d782c-7060-4710-8d9f-992015df707f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Cart&quot;)/a[@class=&quot;Button&quot;]</value>
-      <webElementGuid>22829475-a821-40ab-b6a8-d276fad848b1</webElementGuid>
+      <webElementGuid>1a016906-b921-4848-acab-511722dcc2e4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Cart']/a</value>
-      <webElementGuid>754344e3-9826-475f-86c2-8f1697e54f89</webElementGuid>
+      <webElementGuid>aacb98a3-10bb-4b88-82d0-d08561db1f60</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Proceed to Checkout')]</value>
-      <webElementGuid>59c3f694-4bee-46f6-b4c2-b9d484ba5b14</webElementGuid>
+      <webElementGuid>87a56308-ee76-4d43-8b97-242460950be3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sub Total: $18.50'])[1]/following::a[1]</value>
-      <webElementGuid>5cd15498-9607-4fce-aac8-bbe0f5954fac</webElementGuid>
+      <webElementGuid>ffa59f13-dc61-4d45-bffa-3b9bbac6b02d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove'])[1]/following::a[1]</value>
-      <webElementGuid>f49e9055-42e1-41a0-a18c-fe09b3fdca1a</webElementGuid>
+      <webElementGuid>b530653e-4559-40c2-aec9-2db0db7ae4c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='www.mybatis.org'])[1]/preceding::a[1]</value>
-      <webElementGuid>f5aafaa0-6e54-4848-a7b6-6cba8457d908</webElementGuid>
+      <webElementGuid>eedcacbc-b24d-4f73-a077-a71607e70a47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'Cart', '&quot;', ')/a[@class=', '&quot;', 'Button', '&quot;', ']')])[1]/preceding::a[2]</value>
-      <webElementGuid>87a5ab6f-b07f-4f7b-98a5-e093272bd0be</webElementGuid>
+      <webElementGuid>b8f0146c-6a1e-4dd2-8df1-e415ceb0c457</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Proceed to Checkout']/parent::*</value>
-      <webElementGuid>3d9aaa01-da1f-479c-a15e-de6ef040a536</webElementGuid>
+      <webElementGuid>0f284543-98b9-4cb6-8829-fb62ddc8df4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/actions/Order.action?newOrderForm=')]</value>
-      <webElementGuid>147dd81e-18a5-4ce7-b020-9c0bfc7dfe0f</webElementGuid>
+      <webElementGuid>6b79e22d-dfee-47ee-a65e-7e582e5bb922</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/a</value>
-      <webElementGuid>30bdd8f3-31b3-4384-b85b-e241bc4ed2ea</webElementGuid>
+      <webElementGuid>b26949b8-5eb8-44ad-bf06-4c1c992f9a5c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/actions/Order.action?newOrderForm=' and (text() = 'Proceed to Checkout' or . = 'Proceed to Checkout')]</value>
-      <webElementGuid>9850106a-25fe-4ebd-b295-bce6c5e34def</webElementGuid>
+      <webElementGuid>fa3a600d-58e9-4bc1-b15f-4218cc4db1fa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//area[@alt = 'Reptiles' and @href = 'Catalog.action?viewCategory=&amp;categoryId=REPTILES']</value>
+         <value>//div[@id='MainImageContent']/map/area[4]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>area</value>
-      <webElementGuid>7aa98fe4-38d2-4683-814b-0b0a2e478e4b</webElementGuid>
+      <webElementGuid>735be08a-2cd9-4ebf-9222-225536f8adbe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>alt</name>
       <type>Main</type>
       <value>Reptiles</value>
-      <webElementGuid>ed1a1be3-5ec7-4001-a726-48666066b742</webElementGuid>
+      <webElementGuid>60ab8531-0d6c-4ade-ad73-07dd3e9e7002</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>coords</name>
       <type>Main</type>
       <value>140,270,210,340</value>
-      <webElementGuid>ea0d6e9b-ae18-4c65-853b-9895238895ca</webElementGuid>
+      <webElementGuid>a9a9fba3-629d-4069-869c-5525877e1c80</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>href</name>
       <type>Main</type>
       <value>Catalog.action?viewCategory=&amp;categoryId=REPTILES</value>
-      <webElementGuid>c798d410-5933-40f8-b26e-55d52152c09a</webElementGuid>
+      <webElementGuid>c7a709b2-b7f5-432d-9b75-c623644665b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>shape</name>
       <type>Main</type>
       <value>RECT</value>
-      <webElementGuid>d2cc0149-5c5d-474b-8abf-121ec837f5fc</webElementGuid>
+      <webElementGuid>99fa99c1-a7ea-45e5-8c41-8aad0fa700f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;MainImageContent&quot;)/map[1]/area[4]</value>
-      <webElementGuid>0f82a7da-0eaf-4d16-954c-abf1676194be</webElementGuid>
+      <webElementGuid>b7aa5fe5-f66b-4569-9fef-fbbe02025a07</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='MainImageContent']/map/area[4]</value>
-      <webElementGuid>187ce15d-30a2-4d2b-98af-bdaf806fb647</webElementGuid>
+      <webElementGuid>71864ab4-a33f-4480-8390-42b5d70940d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//area[4]</value>
-      <webElementGuid>2d10b94e-b556-4e68-ac76-25f521fc198e</webElementGuid>
+      <webElementGuid>1e5ebb76-8205-4856-b8e0-52d61e4a9826</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//area[@alt = 'Reptiles' and @href = 'Catalog.action?viewCategory=&amp;categoryId=REPTILES']</value>
-      <webElementGuid>39067b6d-c968-4f02-84b7-609c358198bb</webElementGuid>
+      <webElementGuid>c0b7cf74-7ed1-4ee4-bf1b-8f7724d25e69</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

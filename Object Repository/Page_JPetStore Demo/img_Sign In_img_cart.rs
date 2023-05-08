@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>003b4563-b2ef-44e9-b483-c8efbfa9d274</webElementGuid>
+      <webElementGuid>16ecf557-d180-4d93-849f-eb305edee5b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>align</name>
       <type>Main</type>
       <value>middle</value>
-      <webElementGuid>373d4e15-86b1-4a3f-bcd0-7dd8789a81ce</webElementGuid>
+      <webElementGuid>843ab187-29d3-4742-a65a-67e47165a811</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>img_cart</value>
-      <webElementGuid>b385b4e1-dd45-4d14-aea5-98f5cdac49ff</webElementGuid>
+      <webElementGuid>a841404c-8899-438e-90aa-6f5287771e75</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>src</name>
       <type>Main</type>
       <value>../images/cart.gif</value>
-      <webElementGuid>6534452c-b220-411f-80c5-55e34a5faf14</webElementGuid>
+      <webElementGuid>ebbdf3d1-7f72-4af7-a93d-77bf1a428a7f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;MenuContent&quot;)/a[1]/img[1]</value>
-      <webElementGuid>9f3f0d21-62b6-4984-9f6d-67a0c2a057e2</webElementGuid>
+      <webElementGuid>4baf5ef4-64a3-46c9-880e-ca109675f1c8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//img[@name='img_cart']</value>
-      <webElementGuid>dd88354a-2891-45c9-b50e-3cd16341e86c</webElementGuid>
+      <webElementGuid>d1a502c7-7aaa-47e2-bfe9-b50018b50277</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='MenuContent']/a/img</value>
-      <webElementGuid>de257598-b2c3-4cc4-b79e-c782e25d7b27</webElementGuid>
+      <webElementGuid>aa71e510-84c5-43f3-a3bb-997cd7bb5e83</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/a/img</value>
-      <webElementGuid>65647b70-ba93-41f2-9df4-0633b0c40b99</webElementGuid>
+      <webElementGuid>43f282d3-03cc-45e8-9827-e4480b76e39b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@name = 'img_cart' and @src = '../images/cart.gif']</value>
-      <webElementGuid>29528fc1-09fe-494e-b698-f9e2c5b4d366</webElementGuid>
+      <webElementGuid>280b5642-9ee9-4f07-8101-e6e546ea571d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
