@@ -17,6 +17,48 @@
       <value></value>
       <variableId>684bd2fd-81ea-4f1c-8036-4585f044e4e4</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9cdb582e-94b7-4d9c-8e0e-0df12dea4c6b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9a1f995d-26a8-4862-8479-adca1209ec3c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4e92aeb2-3761-4aed-9a3d-4e19f3c54a47</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>28735b0c-f9bb-4aef-8abf-a4b8b4ab7132</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b3cc3327-fb89-4e81-b48d-59928206944b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>08e8a612-98ec-426f-af1b-85de55c80215</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e9502dfb-495e-4465-93bd-82135ede5aba</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Raj'</defaultValue>
       <description></description>
@@ -30,5 +72,54 @@
       <id>684bd2fd-81ea-4f1c-8036-4585f044e4e4</id>
       <masked>false</masked>
       <name>n</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ContactDetails').getValue('AddressLine1', null)</defaultValue>
+      <description></description>
+      <id>9cdb582e-94b7-4d9c-8e0e-0df12dea4c6b</id>
+      <masked>false</masked>
+      <name>addressline1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ContactDetails').getValue('AddressLine2', null)</defaultValue>
+      <description></description>
+      <id>9a1f995d-26a8-4862-8479-adca1209ec3c</id>
+      <masked>false</masked>
+      <name>addressline2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ContactDetails').getValue('Phone', null)</defaultValue>
+      <description></description>
+      <id>4e92aeb2-3761-4aed-9a3d-4e19f3c54a47</id>
+      <masked>false</masked>
+      <name>phone</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ContactDetails').getValue('City', null)</defaultValue>
+      <description></description>
+      <id>28735b0c-f9bb-4aef-8abf-a4b8b4ab7132</id>
+      <masked>false</masked>
+      <name>city</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ContactDetails').getValue('State', null)</defaultValue>
+      <description></description>
+      <id>b3cc3327-fb89-4e81-b48d-59928206944b</id>
+      <masked>false</masked>
+      <name>state</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ContactDetails').getValue('Postcode', null)</defaultValue>
+      <description></description>
+      <id>08e8a612-98ec-426f-af1b-85de55c80215</id>
+      <masked>false</masked>
+      <name>postcode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ContactDetails').getValue('Country', null)</defaultValue>
+      <description></description>
+      <id>e9502dfb-495e-4465-93bd-82135ede5aba</id>
+      <masked>false</masked>
+      <name>country</name>
    </variable>
 </TestCaseEntity>

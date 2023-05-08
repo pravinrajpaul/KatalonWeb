@@ -36,31 +36,33 @@ WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/a_Register Now
 
 n = Random.randomAlphanumeric(6)
 
-WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_User ID_username'), name + " " + n)
+WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_User ID_username'), (name + ' ') + n)
 
 WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_New password_password'), (name + '@') + n)
 
-WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_Repeat password_repeatedPassword'), (name + '@') + n)
+WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_Repeat password_repeatedPassword'), (name + '@') + 
+    n)
 
 WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_First name_account.firstName'), name)
 
 WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_Last name_account.lastName'), n)
 
-WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_Email_account.email'), (((name + n) + '@') + name) + '.com')
+WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_Email_account.email'), (((name + n) + '@') + name) + 
+    '.com')
 
-WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_Phone_account.phone'), '123456789')
+WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_Phone_account.phone'), phone)
 
-WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_Address 1_account.address1'), 'Add1')
+WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_Address 1_account.address1'), addressline1)
 
-WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_Address 2_account.address2'), 'Add2')
+WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_Address 2_account.address2'), addressline2)
 
-WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_City_account.city'), 'City')
+WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_City_account.city'), city)
 
-WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_State_account.state'), 'State')
+WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_State_account.state'), state)
 
-WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_Zip_account.zip'), '12345')
+WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_Zip_account.zip'), postcode)
 
-WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_Country_account.country'), 'India')
+WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_Country_account.country'), country)
 
 WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/input_Enable MyList_account.listOption'))
 
