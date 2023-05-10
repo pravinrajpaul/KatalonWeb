@@ -133,4 +133,11 @@
          <variableId>e9502dfb-495e-4465-93bd-82135ede5aba</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>a37f26fd-95b4-49b7-8ab1-235b4f4c79e3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JiraTests/IN-4 Story12</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
