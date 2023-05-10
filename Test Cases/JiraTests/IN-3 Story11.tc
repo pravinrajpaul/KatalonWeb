@@ -85,49 +85,49 @@ Description: </description>
       <name>n</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('ContactDetailsCSV').getValue('AddressLine1', null)</defaultValue>
+      <defaultValue>findTestData('ContactDetailsCSV').getValue('AddressLine1', 1)</defaultValue>
       <description></description>
       <id>9cdb582e-94b7-4d9c-8e0e-0df12dea4c6b</id>
       <masked>false</masked>
       <name>addressline1</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('ContactDetailsCSV').getValue('AddressLine2', null)</defaultValue>
+      <defaultValue>findTestData('ContactDetailsCSV').getValue('AddressLine2', 1)</defaultValue>
       <description></description>
       <id>9a1f995d-26a8-4862-8479-adca1209ec3c</id>
       <masked>false</masked>
       <name>addressline2</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('ContactDetailsCSV').getValue('Phone', null)</defaultValue>
+      <defaultValue>findTestData('ContactDetailsCSV').getValue('Phone', 1)</defaultValue>
       <description></description>
       <id>4e92aeb2-3761-4aed-9a3d-4e19f3c54a47</id>
       <masked>false</masked>
       <name>phone</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('ContactDetailsCSV').getValue('City', null)</defaultValue>
+      <defaultValue>findTestData('ContactDetailsCSV').getValue('City', 1)</defaultValue>
       <description></description>
       <id>28735b0c-f9bb-4aef-8abf-a4b8b4ab7132</id>
       <masked>false</masked>
       <name>city</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('ContactDetailsCSV').getValue('State', null)</defaultValue>
+      <defaultValue>findTestData('ContactDetailsCSV').getValue('State', 1)</defaultValue>
       <description></description>
       <id>b3cc3327-fb89-4e81-b48d-59928206944b</id>
       <masked>false</masked>
       <name>state</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('ContactDetailsCSV').getValue('Postcode', null)</defaultValue>
+      <defaultValue>findTestData('ContactDetailsCSV').getValue('Postcode', 1)</defaultValue>
       <description></description>
       <id>08e8a612-98ec-426f-af1b-85de55c80215</id>
       <masked>false</masked>
       <name>postcode</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('ContactDetailsCSV').getValue('Country', null)</defaultValue>
+      <defaultValue>findTestData('ContactDetailsCSV').getValue('Country', 1)</defaultValue>
       <description></description>
       <id>e9502dfb-495e-4465-93bd-82135ede5aba</id>
       <masked>false</masked>
