@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Story11
+Description: </description>
+   <name>IN-3 Story11</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10020&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;IN Sprint 1&quot;,&quot;state&quot;:&quot;future&quot;,&quot;boardId&quot;:1}],&quot;customfield_10000&quot;:&quot;{}&quot;,&quot;customfield_10017&quot;:&quot;purple&quot;,&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0000f:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://pravinrajpaul.atlassian.net/&quot;,&quot;self&quot;:&quot;https://pravinrajpaul.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://pravinrajpaul.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;IN&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;InitialProject&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Story11&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;pravinrajpaul@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Pravin Raj Paul&quot;,&quot;self&quot;:&quot;https://pravinrajpaul.atlassian.net/rest/api/2/user?accountId\u003d5a5ee328c5aa7728df8617e7&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://pravinrajpaul.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://pravinrajpaul.atlassian.net/rest/api/2/issue/IN-3/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://pravinrajpaul.atlassian.net/rest/api/2/issue/10002&quot;,&quot;key&quot;:&quot;IN-3&quot;,&quot;id&quot;:10002}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>19c04c57-1bf8-4dee-9eb0-ce416400abff</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7358eba2-52e4-44f1-8293-c97632b51dae</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>684bd2fd-81ea-4f1c-8036-4585f044e4e4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9cdb582e-94b7-4d9c-8e0e-0df12dea4c6b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9a1f995d-26a8-4862-8479-adca1209ec3c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4e92aeb2-3761-4aed-9a3d-4e19f3c54a47</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>28735b0c-f9bb-4aef-8abf-a4b8b4ab7132</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b3cc3327-fb89-4e81-b48d-59928206944b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>08e8a612-98ec-426f-af1b-85de55c80215</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e9502dfb-495e-4465-93bd-82135ede5aba</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Raj'</defaultValue>
+      <description></description>
+      <id>7358eba2-52e4-44f1-8293-c97632b51dae</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>684bd2fd-81ea-4f1c-8036-4585f044e4e4</id>
+      <masked>false</masked>
+      <name>n</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ContactDetailsCSV').getValue('AddressLine1', null)</defaultValue>
+      <description></description>
+      <id>9cdb582e-94b7-4d9c-8e0e-0df12dea4c6b</id>
+      <masked>false</masked>
+      <name>addressline1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ContactDetailsCSV').getValue('AddressLine2', null)</defaultValue>
+      <description></description>
+      <id>9a1f995d-26a8-4862-8479-adca1209ec3c</id>
+      <masked>false</masked>
+      <name>addressline2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ContactDetailsCSV').getValue('Phone', null)</defaultValue>
+      <description></description>
+      <id>4e92aeb2-3761-4aed-9a3d-4e19f3c54a47</id>
+      <masked>false</masked>
+      <name>phone</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ContactDetailsCSV').getValue('City', null)</defaultValue>
+      <description></description>
+      <id>28735b0c-f9bb-4aef-8abf-a4b8b4ab7132</id>
+      <masked>false</masked>
+      <name>city</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ContactDetailsCSV').getValue('State', null)</defaultValue>
+      <description></description>
+      <id>b3cc3327-fb89-4e81-b48d-59928206944b</id>
+      <masked>false</masked>
+      <name>state</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ContactDetailsCSV').getValue('Postcode', null)</defaultValue>
+      <description></description>
+      <id>08e8a612-98ec-426f-af1b-85de55c80215</id>
+      <masked>false</masked>
+      <name>postcode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ContactDetailsCSV').getValue('Country', null)</defaultValue>
+      <description></description>
+      <id>e9502dfb-495e-4465-93bd-82135ede5aba</id>
+      <masked>false</masked>
+      <name>country</name>
+   </variable>
+</TestCaseEntity>
