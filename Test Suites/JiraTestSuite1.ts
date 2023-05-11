@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>JiraTestSuite</name>
+   <name>JiraTestSuite1</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient>pravin.raveendran@katalon.com;</mailRecipient>
@@ -10,12 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>75813252-bcab-474c-be2c-47f2f2043f0e</testSuiteGuid>
+   <testSuiteGuid>bcc1fdb2-da12-45a6-a98a-533c5824430f</testSuiteGuid>
    <testCaseLink>
-      <guid>8ff31ca0-e471-45e1-a5bf-2e9463cda229</guid>
+      <guid>6c1c6992-ff0c-42aa-aa6f-faa41d78da82</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JiraTests/IN-3 Story11</testCaseId>
+      <testCaseId>Test Cases/JiraTests/IN-7 Story21</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -73,10 +73,10 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>a37f26fd-95b4-49b7-8ab1-235b4f4c79e3</guid>
+      <guid>4270b23f-d461-4840-8b25-46ef06e9253e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JiraTests/IN-4 Story12</testCaseId>
+      <testCaseId>Test Cases/JiraTests/IN-5 Story13</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
