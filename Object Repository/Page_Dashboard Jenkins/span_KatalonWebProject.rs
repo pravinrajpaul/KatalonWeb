@@ -6,12 +6,16 @@
    <elementGuidId>bb448a74-0872-441f-a4a5-05420abb12a0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[@id='job_KatalonWebProject']/td[3]/a/span</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'KatalonWebProject' or . = 'KatalonWebProject')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>a.jenkins-table__link.model-link.inside > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[@id='job_KatalonWebProject']/td[3]/a/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>0c309372-e5ee-4379-8671-c204bd41d378</webElementGuid>
+      <webElementGuid>5ddea851-99e2-47f1-ae63-6dbce5a9dfcc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>text</name>
       <type>Main</type>
       <value>KatalonWebProject</value>
-      <webElementGuid>ce22b49a-0bd5-4bf8-954d-85fa006d3d9c</webElementGuid>
+      <webElementGuid>d48ab011-0bcd-4aad-9e6d-49596edbc61e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;job_KatalonWebProject&quot;)/td[3]/a[@class=&quot;jenkins-table__link model-link inside&quot;]/span[1]</value>
-      <webElementGuid>647fea84-f10d-4768-8546-118564f5b313</webElementGuid>
+      <webElementGuid>57935c25-1f81-49e6-902f-d05a4526bed4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tr[@id='job_KatalonWebProject']/td[3]/a/span</value>
-      <webElementGuid>f808da31-ca6f-4777-a063-becae11ab6a1</webElementGuid>
+      <webElementGuid>5b7b7111-9bfe-4349-8a92-5781d7fcc871</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='All'])[1]/following::span[9]</value>
-      <webElementGuid>104233ff-9a7a-469f-a4db-a56ffe5dce9e</webElementGuid>
+      <webElementGuid>8be4d195-0f7a-45c2-97b1-2eb3650c60cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='N/A'])[1]/preceding::span[1]</value>
-      <webElementGuid>9e0aeb2e-d027-4f8d-ad1d-e79299dcbc34</webElementGuid>
+      <webElementGuid>ec5f9045-d382-4aaf-997d-a97e5c0148ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='#21'])[1]/preceding::span[1]</value>
-      <webElementGuid>86f9eac8-3384-496c-ace1-b73bdd6a8c1f</webElementGuid>
+      <webElementGuid>47b9df33-6250-48f6-9160-511243475d8b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='KatalonWebProject']/parent::*</value>
-      <webElementGuid>4cd68049-cec4-42ac-a20b-211f3e59c580</webElementGuid>
+      <webElementGuid>4a0b9736-1230-49a7-86d5-be27fd5a5cb3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[3]/a/span</value>
-      <webElementGuid>cf2a5020-6f71-4d14-9baf-13d6f8f0553f</webElementGuid>
+      <webElementGuid>6d73e953-651f-4dbc-8502-fcf823432f24</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'KatalonWebProject' or . = 'KatalonWebProject')]</value>
-      <webElementGuid>3c371aba-e4f6-4505-88f3-c1152bdd8218</webElementGuid>
+      <webElementGuid>bb5d19f0-a906-44a5-b5df-0d4c9b28eb33</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

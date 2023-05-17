@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>MobileTestCaseIOS</name>
+   <name>AlertPopup</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>cb58a916-0eba-4493-8dee-e35f553dada3</testCaseGuid>

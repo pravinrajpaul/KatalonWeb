@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Prompt Alert Box</name>
+   <tag></tag>
+   <elementGuidId>dc1d24c9-586a-4c6b-ace3-297d2717d434</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button[name=&quot;promptalertbox1234&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@name='promptalertbox1234']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b7a8dc00-cb64-430d-bf06-17e5d09645c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>promptalertbox1234</value>
+      <webElementGuid>edb761b8-06ae-4172-bad6-1aca272a9507</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>myFunctionThree()</value>
+      <webElementGuid>a66a68d6-f17b-4cd1-8c73-b01fdfaf3bca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Prompt Alert Box</value>
+      <webElementGuid>67136ce1-02a7-4e40-a327-0b293c9440ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;post_type_exist clearfix&quot;]/div[@class=&quot;elementor elementor-3008&quot;]/section[@class=&quot;elementor-section elementor-top-section elementor-element elementor-element-859c260 elementor-section-boxed elementor-section-height-default elementor-section-height-default&quot;]/div[@class=&quot;elementor-container elementor-column-gap-default&quot;]/div[@class=&quot;elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-d0c9145&quot;]/div[@class=&quot;elementor-widget-wrap elementor-element-populated&quot;]/div[@class=&quot;elementor-element elementor-element-22092c5 elementor-widget elementor-widget-html&quot;]/div[@class=&quot;elementor-widget-container&quot;]/center[1]/button[1]</value>
+      <webElementGuid>fe273e37-22e3-41c8-96bd-1457d0f86dd5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@name='promptalertbox1234']</value>
+      <webElementGuid>84a9e7be-b3ad-46f8-992b-eecbccb1c95b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/div[2]/div/div/section[3]/div/div[3]/div/div/div/center/button</value>
+      <webElementGuid>c6613325-f09c-4f59-aa71-60a076804d08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm Alert Box'])[1]/following::button[1]</value>
+      <webElementGuid>b0e1ba84-f147-40d0-8262-d1e240cb1fa3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alert Box'])[1]/following::button[2]</value>
+      <webElementGuid>83e26260-1b94-4fe3-a64a-3eeaca3cd2fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='© Copyright [2018-2023]. All Rights Reserved.'])[1]/preceding::button[1]</value>
+      <webElementGuid>59f0c10b-3119-4067-aa72-2d2e1bc80e55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Prompt Alert Box']/parent::*</value>
+      <webElementGuid>069f6c41-867a-47a1-92a9-a7da8c4caa5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/center/button</value>
+      <webElementGuid>c313e3bc-b7c2-434e-bff1-18a5240b99f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@name = 'promptalertbox1234' and (text() = 'Prompt Alert Box' or . = 'Prompt Alert Box')]</value>
+      <webElementGuid>edc6c108-268a-443f-b2f4-dca990d8b1e4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
