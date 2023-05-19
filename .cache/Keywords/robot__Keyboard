@@ -1,0 +1,49 @@
+{
+  "keywordFileContentHash": "26E330E361C0A418A16C1B6011E21457",
+  "keywordClasses": [
+    {
+      "name": "robot.Keyboard",
+      "keywordMethods": [
+        {
+          "name": "typeString",
+          "parameters": [
+            {
+              "name": "characters",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.CharSequence",
+                "unresolvedClassName": "CharSequence",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "pressSpecialKey",
+          "parameters": [
+            {
+              "name": "key",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

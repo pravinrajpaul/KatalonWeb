@@ -104,8 +104,15 @@
    <testCaseLink>
       <guid>6b70ca6c-22cb-4ae1-91e3-5982187a7038</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/WebTestCases/WebTestCase4Alert</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5ae6c7f4-af53-47d6-87b2-b6219e5f5f93</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WebTestCases/WebTestCase4AlertRobot</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
