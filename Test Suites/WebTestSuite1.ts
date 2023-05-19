@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>4a27df78-254c-4b94-be3f-31bde6e91236</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/WebTestCases/WebTestCase1</testCaseId>
       <testDataLink>
          <combinationType>MANY</combinationType>
@@ -84,8 +84,28 @@
    <testCaseLink>
       <guid>4a6da443-30bd-4937-b43e-0db87bc93334</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/WebTestCases/WebTestCase2</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6eb6269f-4a49-45c2-8ee5-082aa96fb79f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/WebTestCases/WebTestCase3</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1bbaa09e-ef6b-49da-bc96-19225d6f2a5a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6b70ca6c-22cb-4ae1-91e3-5982187a7038</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WebTestCases/WebTestCase4Alert</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
