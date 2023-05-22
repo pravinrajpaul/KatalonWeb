@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Improves skin tone_svelte-18nliqd multi-check_1</name>
+   <tag></tag>
+   <elementGuidId>1bbf6870-1fa5-41b0-b035-587e1ad8b416</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.svelte-18nliqd.multi-check</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='kit-4g-mark-scar-duo']/div/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>95e8a0e2-b8a7-4490-8bd1-15dba172acfe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>svelte-18nliqd multi-check</value>
+      <webElementGuid>92161a5a-6bd3-4dc7-b42b-0574a35496c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;kit-4g-mark-scar-duo&quot;)/div[@class=&quot;grid-y choosable svelte-18nliqd ctracking&quot;]/div[@class=&quot;cell align-self-top text-right svelte-18nliqd&quot;]/div[@class=&quot;circle svelte-18nliqd multi-select&quot;]/div[@class=&quot;svelte-18nliqd multi-check&quot;]</value>
+      <webElementGuid>95c01370-7374-4819-a3b3-bfb7244364a7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='kit-4g-mark-scar-duo']/div/div[2]/div/div</value>
+      <webElementGuid>47aac5cd-dfc9-4d07-8585-5479d92de010</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div/div/div[2]/div/div</value>
+      <webElementGuid>fd6f6df0-8cd7-40b2-a9c0-00411742f528</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

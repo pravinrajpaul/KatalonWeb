@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Hydrating_check svelte-1v1prx2</name>
+   <tag></tag>
+   <elementGuidId>42a06ae5-affd-44e5-a60c-eaf0e89a88b8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.grid-x.choosable.ctracking.svelte-1v1prx2.chosen > div.cell.text-right.svelte-1v1prx2 > div.circle.svelte-1v1prx2 > div.check.svelte-1v1prx2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sys-4g']/div/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>44f6359f-5865-416e-963c-b7b91a24fc6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>check svelte-1v1prx2</value>
+      <webElementGuid>841ab112-778c-44e8-a16b-483f655dc337</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sys-4g&quot;)/div[@class=&quot;grid-x choosable ctracking svelte-1v1prx2 chosen&quot;]/div[@class=&quot;cell text-right svelte-1v1prx2&quot;]/div[@class=&quot;circle svelte-1v1prx2&quot;]/div[@class=&quot;check svelte-1v1prx2&quot;]</value>
+      <webElementGuid>fbb2add0-9f70-48d3-897f-dc6eb5e1f774</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sys-4g']/div/div[2]/div/div</value>
+      <webElementGuid>6ab9a05b-6f68-4b27-bb50-78228d11834c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div[2]/div/div</value>
+      <webElementGuid>bffed33a-c9f9-47d8-b05d-893c1271ad42</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_next</name>
+   <tag></tag>
+   <elementGuidId>2ab83448-de00-483a-9a52-14cc047876c2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.m-0.svelte-1d6nfs6</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tpc-sas']/main/div/div[3]/div/div/a/div/div[2]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>e19e8b8f-f71d-4e8a-8db8-f336b8743158</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m-0 svelte-1d6nfs6</value>
+      <webElementGuid>37185390-bcab-4d3f-b795-e2ff6bb6ce31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>next</value>
+      <webElementGuid>b37dc995-c5d4-4499-97de-7532bfe159ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tpc-sas&quot;)/main[@class=&quot;svelte-139nppl&quot;]/div[@class=&quot;grid-x svelte-1f79eik&quot;]/div[@class=&quot;cell pane svelte-1f79eik&quot;]/div[@class=&quot;button-panel align-self-middle svelte-1f79eik&quot;]/div[@class=&quot;p-t-1 p-b-1 w-100 svelte-1f79eik&quot;]/a[@class=&quot;svelte-1d6nfs6 ctracking&quot;]/div[@class=&quot;btn svelte-1d6nfs6&quot;]/div[@class=&quot;w60 text-center align-self-middle svelte-1d6nfs6&quot;]/p[@class=&quot;m-0 svelte-1d6nfs6&quot;]</value>
+      <webElementGuid>de7e0f52-ecc2-4053-bc63-394e5f0f454c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tpc-sas']/main/div/div[3]/div/div/a/div/div[2]/p</value>
+      <webElementGuid>8d227c5a-2bd7-4b0d-a89b-bf865f608425</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$24.95/mo'])[3]/following::p[3]</value>
+      <webElementGuid>c86d839f-40e6-436b-b46f-ffa782e946d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='More details'])[3]/following::p[4]</value>
+      <webElementGuid>6c626905-d3a2-4b08-8b67-34c096a3991b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accessibility'])[1]/preceding::p[1]</value>
+      <webElementGuid>8297a385-f93d-4cf1-916b-5a611dbc2bc4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy Policy'])[1]/preceding::p[3]</value>
+      <webElementGuid>a1661e49-3467-4888-b66f-aa78a9a2cd35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='next']/parent::*</value>
+      <webElementGuid>5e2fe467-687c-4163-a7e5-db9ea29a5311</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/div/div[2]/p</value>
+      <webElementGuid>d3c9ec0c-2e6f-41f9-a1d6-83fbc73555a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'next' or . = 'next')]</value>
+      <webElementGuid>ec4aabf6-6260-4bcf-bdcb-9773ee65d505</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

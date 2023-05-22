@@ -116,7 +116,7 @@
       <name>postcode</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('ContactDetails').getValue('Country', null)</defaultValue>
+      <defaultValue>findTestData('ContactDetails').getValue('Country', 1)</defaultValue>
       <description></description>
       <id>e9502dfb-495e-4465-93bd-82135ede5aba</id>
       <masked>false</masked>

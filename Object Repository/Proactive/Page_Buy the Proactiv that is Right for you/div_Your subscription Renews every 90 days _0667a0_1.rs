@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Your subscription Renews every 90 days _0667a0_1</name>
+   <tag></tag>
+   <elementGuidId>700d8a2f-b468-4fb5-85c3-29587bb6223d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.grid-x.panel.svelte-qhqfzs</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tpc-sas']/main/div/div[5]/div[2]/div/div/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>403bdbd2-3fc1-44f1-9ac2-ad632739d432</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>grid-x panel svelte-qhqfzs</value>
+      <webElementGuid>a20f0747-3c92-4b80-a942-ef1aae7069fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>   Your subscription Renews every 90 days and billed monthly. (3 monthly installments of $34.95 )  Proactiv+® 3-Step Routine $24.95  Mark &amp; Scar Duo +$10.00    Pore Cleansing Brush $46.75 $0.00 Shipping Free  Today’s total $34.95</value>
+      <webElementGuid>1f3119d6-cf95-4337-b3eb-00352f0dfdd5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tpc-sas&quot;)/main[@class=&quot;svelte-139nppl&quot;]/div[@class=&quot;grid-x svelte-1jmohgr&quot;]/div[@class=&quot;cell svelte-1jmohgr small-order-4&quot;]/div[@class=&quot;grid-x pane svelte-1jmohgr&quot;]/div[@class=&quot;cell finalize svelte-1jmohgr&quot;]/div[@class=&quot;grid-x align-self-middle svelte-1jmohgr large-up-1&quot;]/div[@class=&quot;cell small-12 medium-5 large-7 xxlarge-6 align-self-middle svelte-1jmohgr medium-12&quot;]/div[@class=&quot;grid-x svelte-1jmohgr&quot;]/div[@class=&quot;cell align-self-middle svelte-1jmohgr&quot;]/div[@class=&quot;grid-x panel svelte-qhqfzs&quot;]</value>
+      <webElementGuid>30589742-12a2-424d-ae07-95201532b88e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tpc-sas']/main/div/div[5]/div[2]/div/div/div/div/div/div</value>
+      <webElementGuid>bd894290-9458-40f2-8e17-57ddef9f8b8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='More details'])[7]/following::div[7]</value>
+      <webElementGuid>8309c44a-8ba4-45de-963c-195a94696d98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$46.75'])[1]/following::div[9]</value>
+      <webElementGuid>20f93089-9d29-4386-8162-b1cdcbe05470</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[5]/div[2]/div/div/div/div/div/div</value>
+      <webElementGuid>2491d997-e7f8-470b-9aac-975a87d2c403</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '   Your subscription Renews every 90 days and billed monthly. (3 monthly installments of $34.95 )  Proactiv+® 3-Step Routine $24.95  Mark &amp; Scar Duo +$10.00    Pore Cleansing Brush $46.75 $0.00 Shipping Free  Today’s total $34.95' or . = '   Your subscription Renews every 90 days and billed monthly. (3 monthly installments of $34.95 )  Proactiv+® 3-Step Routine $24.95  Mark &amp; Scar Duo +$10.00    Pore Cleansing Brush $46.75 $0.00 Shipping Free  Today’s total $34.95')]</value>
+      <webElementGuid>8ce44c96-a075-47d2-ace5-7be9aeae9784</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

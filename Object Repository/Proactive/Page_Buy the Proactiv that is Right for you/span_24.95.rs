@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_24.95</name>
+   <tag></tag>
+   <elementGuidId>5edc6877-390d-4441-bab3-27d03f0f5d6e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.cell.small-4.text-right.svelte-qhqfzs > p.pmd.m-0.svelte-180tlh1 > span.svelte-180tlh1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tpc-sas']/main/div/div[5]/div[2]/div/div/div/div/div/div/div[2]/div[2]/div/div[2]/p/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>48ada0a6-7148-4ed3-88a6-94947c8df285</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>svelte-180tlh1</value>
+      <webElementGuid>3fdd4c52-1874-480a-8bd4-27b812bcc313</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>$24.95</value>
+      <webElementGuid>6bf54e16-7702-49e0-83b0-f50dcda7ec67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tpc-sas&quot;)/main[@class=&quot;svelte-139nppl&quot;]/div[@class=&quot;grid-x svelte-1jmohgr&quot;]/div[@class=&quot;cell svelte-1jmohgr small-order-4&quot;]/div[@class=&quot;grid-x pane svelte-1jmohgr&quot;]/div[@class=&quot;cell finalize svelte-1jmohgr&quot;]/div[@class=&quot;grid-x align-self-middle svelte-1jmohgr large-up-1&quot;]/div[@class=&quot;cell small-12 medium-5 large-7 xxlarge-6 align-self-middle svelte-1jmohgr medium-12&quot;]/div[@class=&quot;grid-x svelte-1jmohgr&quot;]/div[@class=&quot;cell align-self-middle svelte-1jmohgr&quot;]/div[@class=&quot;grid-x panel svelte-qhqfzs&quot;]/div[@class=&quot;cell summary auto align-self-middle svelte-qhqfzs&quot;]/div[@class=&quot;p-b-t svelte-qhqfzs&quot;]/div[@class=&quot;grid-x p-b-q svelte-qhqfzs&quot;]/div[@class=&quot;cell small-4 text-right svelte-qhqfzs&quot;]/p[@class=&quot;pmd m-0 svelte-180tlh1&quot;]/span[@class=&quot;svelte-180tlh1&quot;]</value>
+      <webElementGuid>b8fe2417-bd25-4fb0-8245-5ee34e3b858c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tpc-sas']/main/div/div[5]/div[2]/div/div/div/div/div/div/div[2]/div[2]/div/div[2]/p/span</value>
+      <webElementGuid>3e07d03c-8b1b-4c41-b2a6-26016e89b87e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='®'])[2]/following::span[1]</value>
+      <webElementGuid>32645d9b-3beb-416f-8e3c-8afe5388d673</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$34.95'])[1]/following::span[1]</value>
+      <webElementGuid>50a2ebd9-b1dc-43f4-8870-32bebed60144</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='+$10.00'])[1]/preceding::span[1]</value>
+      <webElementGuid>f6b97235-e826-428e-8d24-51a5909856b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$46.75'])[2]/preceding::span[2]</value>
+      <webElementGuid>56fcbe66-1ec3-4b08-b3ee-464ad68b6317</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='$24.95']/parent::*</value>
+      <webElementGuid>dce0b895-bf88-4490-89a4-7346653570c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div[2]/p/span</value>
+      <webElementGuid>f2bd7403-5967-4e06-866e-770ff34bd06b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '$24.95' or . = '$24.95')]</value>
+      <webElementGuid>5f062cfd-9cec-4b8b-a7ab-9ae67ff5d9df</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

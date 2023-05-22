@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>small_Hydrating</name>
+   <tag></tag>
+   <elementGuidId>8c1e1d1f-e377-4e2a-b646-d3a34b315d8f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#sys-4g > div.grid-x.choosable.ctracking.svelte-1v1prx2 > div.cell.svelte-1v1prx2 > div.ribbon.svelte-1wel5oa > p.m-0.svelte-1wel5oa > small.svelte-1wel5oa</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sys-4g']/div/div/div/p/small</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>small</value>
+      <webElementGuid>1164da13-76da-4519-b140-b461db483b17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>svelte-1wel5oa</value>
+      <webElementGuid>cc7bc534-d216-4b79-898d-4e31504312d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hydrating</value>
+      <webElementGuid>55f06174-7b24-4614-b4cd-1be7253c38e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sys-4g&quot;)/div[@class=&quot;grid-x choosable ctracking svelte-1v1prx2&quot;]/div[@class=&quot;cell svelte-1v1prx2&quot;]/div[@class=&quot;ribbon svelte-1wel5oa&quot;]/p[@class=&quot;m-0 svelte-1wel5oa&quot;]/small[@class=&quot;svelte-1wel5oa&quot;]</value>
+      <webElementGuid>7b399c1c-6d48-4a4f-be1c-3263b7872a23</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sys-4g']/div/div/div/p/small</value>
+      <webElementGuid>96181d8a-c140-4ee1-9494-1e1c3e496a28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$24.95/mo'])[1]/following::small[1]</value>
+      <webElementGuid>f04c83cc-6e19-4147-92ce-ad3a64dd5d68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='More details'])[1]/following::small[1]</value>
+      <webElementGuid>26e25032-d2b7-4043-bb9a-717be83d2a9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='®'])[2]/preceding::small[1]</value>
+      <webElementGuid>c18829cb-74df-4fdf-89a5-8d58d11e8017</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='More details'])[2]/preceding::small[1]</value>
+      <webElementGuid>f4592ba6-8ef9-4466-9c70-58f5bacdcdfc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Hydrating']/parent::*</value>
+      <webElementGuid>d3f12524-51c8-4c44-94eb-aab7f147bc70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/p/small</value>
+      <webElementGuid>a3ffaebb-d16a-41fb-a9ef-213ba83dcff7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//small[(text() = 'Hydrating' or . = 'Hydrating')]</value>
+      <webElementGuid>e27e8d5f-7a90-4cf6-94fc-d1ee2cf9507d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

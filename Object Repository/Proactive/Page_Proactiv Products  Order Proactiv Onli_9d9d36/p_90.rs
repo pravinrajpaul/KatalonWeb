@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_90</name>
+   <tag></tag>
+   <elementGuidId>4d591306-9579-42ff-b6dd-0799a2061de6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.supply.align-self-middle.text-center.svelte-1buoa1v > p.svelte-1buoa1v</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tpc-checkout']/main/div/div[2]/div/div[2]/div/div[2]/div/div[3]/div/div/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>c0b1e5a1-901a-49ae-b8ce-1c7e6c2d5644</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>svelte-1buoa1v</value>
+      <webElementGuid>bdbe415a-ff0c-4445-adab-7da95b9d3cca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>90</value>
+      <webElementGuid>e45d63a4-ebfe-49d2-96a4-1f72f2e31346</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tpc-checkout&quot;)/main[@class=&quot;svelte-f1zuwp&quot;]/div[@class=&quot;grid-x svelte-1x7jtfy&quot;]/div[@class=&quot;cell pane svelte-1x7jtfy&quot;]/div[@class=&quot;grid-x square svelte-1x7jtfy&quot;]/div[@class=&quot;cell svelte-1x7jtfy&quot;]/div[@class=&quot;grid-x panel m-b-1 svelte-1buoa1v&quot;]/div[@class=&quot;cell align-self-middle svelte-1buoa1v grouped&quot;]/div[@class=&quot;grid-x align-middle item svelte-1buoa1v line-item&quot;]/div[@class=&quot;cell medium-2 show-for-large align-self-middle svelte-1buoa1v&quot;]/div[@class=&quot;supply-box svelte-1buoa1v&quot;]/div[@class=&quot;supply align-self-middle text-center svelte-1buoa1v&quot;]/p[@class=&quot;svelte-1buoa1v&quot;]</value>
+      <webElementGuid>ac0acfc1-3909-4823-8e9e-d515fc2bccb1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tpc-checkout']/main/div/div[2]/div/div[2]/div/div[2]/div/div[3]/div/div/p</value>
+      <webElementGuid>ede9eab9-0a62-4bcb-94b9-23a7278ac38f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='- 90 Day'])[1]/following::p[1]</value>
+      <webElementGuid>5ab33bdc-2f80-4f62-84e8-243e9e136be5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='®'])[1]/following::p[1]</value>
+      <webElementGuid>9664d2f5-6ad1-4cb2-8dbd-ec94a76291a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='®'])[2]/preceding::p[2]</value>
+      <webElementGuid>3d486b35-1c75-4cce-815d-1ed65af605eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='90']/parent::*</value>
+      <webElementGuid>85853078-f77b-482f-b5f2-c32ebf56cfd1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div[2]/div/div[3]/div/div/p</value>
+      <webElementGuid>a830064f-b5e6-47ec-8de1-1fa42ac91d43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '90' or . = '90')]</value>
+      <webElementGuid>404f2f17-ec27-4e15-9152-8863f64dd0d0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

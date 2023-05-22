@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_testnewtooldemo1yopmail.com</name>
+   <tag></tag>
+   <elementGuidId>5ad9d5c1-b199-4d35-9caa-6b8ee1e02492</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.alc-highlighted.no-wrap.svelte-d8obv1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tpc-confirm']/main/div/div/div/div/p[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>eb874ca6-36a9-4b31-85f7-6cbd806888ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>alc-highlighted no-wrap svelte-d8obv1</value>
+      <webElementGuid>a2db290d-3e56-4270-a817-986acddbbbbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>testnewtooldemo1@yopmail.com</value>
+      <webElementGuid>38282000-c863-492b-9929-b0cd40d82ce9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tpc-confirm&quot;)/main[@class=&quot;svelte-d8obv1&quot;]/div[@class=&quot;grid-x svelte-d8obv1&quot;]/div[@class=&quot;cell pane svelte-d8obv1&quot;]/div[@class=&quot;grid-x square svelte-d8obv1&quot;]/div[@class=&quot;cell motto svelte-d8obv1&quot;]/p[@class=&quot;p-l-1 p-r-1 svelte-d8obv1&quot;]/span[@class=&quot;alc-highlighted no-wrap svelte-d8obv1&quot;]</value>
+      <webElementGuid>7c4c8872-d0ff-423d-b5dd-a81a4c5b90c7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tpc-confirm']/main/div/div/div/div/p[2]/span</value>
+      <webElementGuid>0b7783ff-336e-4fe7-8070-dad4535e8a48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your order is complete'])[1]/following::span[1]</value>
+      <webElementGuid>cc3f77c6-a716-4a88-92ef-d95ad22873c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Member dashboard'])[2]/following::span[1]</value>
+      <webElementGuid>abbb69b0-32e9-4213-83e6-2d4c4c8d6d7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order summary'])[1]/preceding::span[1]</value>
+      <webElementGuid>fbe3aa90-f315-4a67-bf28-33f7ec6cb95f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='®'])[1]/preceding::span[2]</value>
+      <webElementGuid>8ab4ff65-605c-4583-a696-34b8843778d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='testnewtooldemo1@yopmail.com']/parent::*</value>
+      <webElementGuid>cddd13ee-d47d-4cd8-a9de-e4ca8f15e547</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>3c7cd7b0-5eec-4639-945e-f3558fcbab22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'testnewtooldemo1@yopmail.com' or . = 'testnewtooldemo1@yopmail.com')]</value>
+      <webElementGuid>401905dd-7684-4a68-b8c1-9dec73863dcd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

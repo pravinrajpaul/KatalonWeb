@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>strong_Pore Cleansing Brush</name>
+   <tag></tag>
+   <elementGuidId>66259399-d75a-4813-afc6-aed123f0e39c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tpc-checkout']/main/div/div[2]/div/div[2]/div/div[2]/div[2]/div[2]/p/strong</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>strong</value>
+      <webElementGuid>d698168e-c027-4bfb-a794-06547869c9af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>svelte-1buoa1v</value>
+      <webElementGuid>60ff276c-d072-4d3e-84c0-f17535b9224a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pore Cleansing Brush </value>
+      <webElementGuid>12b84c46-4e53-4998-aacf-b69d03676a78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tpc-checkout&quot;)/main[@class=&quot;svelte-f1zuwp&quot;]/div[@class=&quot;grid-x svelte-1x7jtfy&quot;]/div[@class=&quot;cell pane svelte-1x7jtfy&quot;]/div[@class=&quot;grid-x square svelte-1x7jtfy&quot;]/div[@class=&quot;cell svelte-1x7jtfy&quot;]/div[@class=&quot;grid-x panel m-b-1 svelte-1buoa1v&quot;]/div[@class=&quot;cell align-self-middle svelte-1buoa1v grouped&quot;]/div[@class=&quot;grid-x align-middle item svelte-1buoa1v&quot;]/div[@class=&quot;cell small-6 medium-5 show-for-medium align-self-middle p-l-h svelte-1buoa1v&quot;]/p[@class=&quot;pmd m-0 p-l-1 p-r-h svelte-1buoa1v&quot;]/strong[@class=&quot;svelte-1buoa1v&quot;]</value>
+      <webElementGuid>c6014c2a-47d9-43d4-b606-0c31359138fc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tpc-checkout']/main/div/div[2]/div/div[2]/div/div[2]/div[2]/div[2]/p/strong</value>
+      <webElementGuid>eb06fe57-a553-4460-b8f2-e0b860872150</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='remove'])[1]/following::strong[1]</value>
+      <webElementGuid>4f161ffc-b3a8-467f-8adb-3a481d878ddc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='®'])[2]/following::strong[1]</value>
+      <webElementGuid>cfdcb3ce-8523-4529-971d-7986a3c984e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pore Cleansing Brush'])[2]/preceding::strong[1]</value>
+      <webElementGuid>ac22a744-8787-485a-bcc5-71ee972393d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$46.75'])[1]/preceding::strong[2]</value>
+      <webElementGuid>4c9fc7b4-c3ed-495a-a47a-e58beea68c79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pore Cleansing Brush']/parent::*</value>
+      <webElementGuid>6cba8799-32df-40fb-a324-4073c0668522</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/p/strong</value>
+      <webElementGuid>a82cef07-9a14-474e-891a-dcdfe220c760</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//strong[(text() = 'Pore Cleansing Brush ' or . = 'Pore Cleansing Brush ')]</value>
+      <webElementGuid>48b89fb0-2e3d-49c8-819a-209fe2893fe1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

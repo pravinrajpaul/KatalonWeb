@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_get started</name>
+   <tag></tag>
+   <elementGuidId>646940f2-de74-40c5-a278-7680dd78b7e2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#control-cta</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='control-cta']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>46f8bd82-15c0-4567-803e-085dfc138f9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/order</value>
+      <webElementGuid>dcfe235e-ac55-4250-a6c0-c2c5b75ab866</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>get started</value>
+      <webElementGuid>87628703-bab8-4c1b-a4f8-fedefb783788</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ctracking button1</value>
+      <webElementGuid>8764944a-8c4e-4253-a021-4ef08bcb8d1e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ctracking</name>
+      <type>Main</type>
+      <value>get-started-three-people-cta,56</value>
+      <webElementGuid>fec25c04-fca8-47d1-a2f2-f9aed01576ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>control-cta</value>
+      <webElementGuid>ca6396ce-14f8-4f34-977b-b85397147920</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onmouseenter</name>
+      <type>Main</type>
+      <value>const element = document.querySelector('.homebannercontainer');element.classList.remove('ctracking');</value>
+      <webElementGuid>3095122d-3f50-474e-9b6c-d2d0b036b0a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onmouseout</name>
+      <type>Main</type>
+      <value>const element = document.querySelector('.homebannercontainer');element.classList.add('ctracking');</value>
+      <webElementGuid>c87d1f9f-1e7e-4a08-9f60-5450c038f880</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>get started</value>
+      <webElementGuid>87047121-8e8e-49e0-97c0-c91051a4ccc5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;control-cta&quot;)</value>
+      <webElementGuid>e94abd74-2d34-4f3f-a784-4e4328b6e839</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='control-cta']</value>
+      <webElementGuid>817f81b2-de61-493b-bfb2-69467fb42350</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='control']/div/div[2]/div/a</value>
+      <webElementGuid>2a0d8ac8-5895-4450-9e62-55228a55b898</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'get started')]</value>
+      <webElementGuid>b8e157d6-d7ba-4a9f-afb9-158c5d554ea2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reveal Your Clear'])[1]/following::a[1]</value>
+      <webElementGuid>8e9bc932-76e8-4f13-9701-347f18a243f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign in'])[2]/following::a[2]</value>
+      <webElementGuid>4637b2e6-9f89-4788-85fe-153b7d6f845e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Zits Happen'])[1]/preceding::a[1]</value>
+      <webElementGuid>78e203b7-e0c5-4687-8cdb-35b1751f397e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='®'])[1]/preceding::a[1]</value>
+      <webElementGuid>aa5b6b12-1880-4fb6-8d26-ef1817981ca4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='get started']/parent::*</value>
+      <webElementGuid>1122dcdc-e8ea-4a3c-a0dc-39de3e31f245</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/order')]</value>
+      <webElementGuid>3fb2b796-124f-484c-849c-f5e61aaac0b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[2]/div/a</value>
+      <webElementGuid>aea8ee1d-249d-4d14-afe1-8f35aff24931</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/order' and @title = 'get started' and @id = 'control-cta' and (text() = 'get started' or . = 'get started')]</value>
+      <webElementGuid>df0e41b6-be2b-4f3b-a8e7-ccc97b40bc82</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

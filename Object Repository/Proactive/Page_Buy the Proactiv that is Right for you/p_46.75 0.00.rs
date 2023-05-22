@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_46.75 0.00</name>
+   <tag></tag>
+   <elementGuidId>ee79b467-ac1d-4d03-b791-9c2a743b00a8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tpc-sas']/main/div/div[5]/div[2]/div/div/div/div/div/div/div[2]/div[4]/div/div[2]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>3d7ff408-04f3-43dc-b1db-d5c71c1a2ae7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pmd m-0 svelte-180tlh1</value>
+      <webElementGuid>709be9d8-68b3-499b-9256-3d3bf3f8c370</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>$46.75 $0.00</value>
+      <webElementGuid>81d58bc0-b1e7-4cfa-9987-324228e3ba2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tpc-sas&quot;)/main[@class=&quot;svelte-139nppl&quot;]/div[@class=&quot;grid-x svelte-1jmohgr&quot;]/div[@class=&quot;cell svelte-1jmohgr small-order-4&quot;]/div[@class=&quot;grid-x pane svelte-1jmohgr&quot;]/div[@class=&quot;cell finalize svelte-1jmohgr&quot;]/div[@class=&quot;grid-x align-self-middle svelte-1jmohgr large-up-1&quot;]/div[@class=&quot;cell small-12 medium-5 large-7 xxlarge-6 align-self-middle svelte-1jmohgr medium-12&quot;]/div[@class=&quot;grid-x svelte-1jmohgr&quot;]/div[@class=&quot;cell align-self-middle svelte-1jmohgr&quot;]/div[@class=&quot;grid-x panel svelte-qhqfzs&quot;]/div[@class=&quot;cell summary auto align-self-middle svelte-qhqfzs&quot;]/div[@class=&quot;p-b-t svelte-qhqfzs&quot;]/div[@class=&quot;grid-x svelte-qhqfzs&quot;]/div[@class=&quot;cell small-4 text-right svelte-qhqfzs&quot;]/p[@class=&quot;pmd m-0 svelte-180tlh1&quot;]</value>
+      <webElementGuid>1ed3f411-e115-4254-9ee1-71748184b124</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tpc-sas']/main/div/div[5]/div[2]/div/div/div/div/div/div/div[2]/div[4]/div/div[2]/p</value>
+      <webElementGuid>4794fe06-3c50-414c-ad94-4a892cd349f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='+$10.00'])[1]/following::p[2]</value>
+      <webElementGuid>9c67b56b-7960-4005-8d85-125ee156471f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$24.95'])[1]/following::p[4]</value>
+      <webElementGuid>581885a4-e496-41b9-8e61-7190687beaf8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accessibility'])[1]/preceding::p[6]</value>
+      <webElementGuid>be388357-7da6-4f69-9791-95659b74e6e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='$0.00']/parent::*</value>
+      <webElementGuid>46c54372-49be-4bd7-a729-08b3b146611f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[4]/div/div[2]/p</value>
+      <webElementGuid>45cbf9b6-dcb0-41a1-a3b2-59d68b674474</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '$46.75 $0.00' or . = '$46.75 $0.00')]</value>
+      <webElementGuid>1ef6c34c-4bcd-41f6-b21a-87de063cd8bb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

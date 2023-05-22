@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Great for teens_svelte-18nliqd multi-check_1</name>
+   <tag></tag>
+   <elementGuidId>637a919f-efe1-4a57-957b-d43ea5463e6b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#kit-4g-oil-control-duo > div.grid-y.choosable.svelte-18nliqd.chosen > div.cell.align-self-top.text-right.svelte-18nliqd > div.circle.svelte-18nliqd.multi-select > div.svelte-18nliqd.multi-check</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='kit-4g-oil-control-duo']/div/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>cb6ce904-eeb7-4378-8fa7-ffb90ae3e3ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>svelte-18nliqd multi-check</value>
+      <webElementGuid>61fb5e7a-31bf-4dd4-ad0e-97efc5ef8440</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;kit-4g-oil-control-duo&quot;)/div[@class=&quot;grid-y choosable svelte-18nliqd chosen&quot;]/div[@class=&quot;cell align-self-top text-right svelte-18nliqd&quot;]/div[@class=&quot;circle svelte-18nliqd multi-select&quot;]/div[@class=&quot;svelte-18nliqd multi-check&quot;]</value>
+      <webElementGuid>8ef2a35e-0049-49e7-bc3b-94549b88bdb0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='kit-4g-oil-control-duo']/div/div[2]/div/div</value>
+      <webElementGuid>9c3ca613-d1a0-4e02-864b-810c49802e4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div[2]/div/div[2]/div/div</value>
+      <webElementGuid>fbebfd64-c4d5-422d-9f1a-3883a986d99e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

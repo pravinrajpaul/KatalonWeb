@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_For best results_check svelte-1e5f376</name>
+   <tag></tag>
+   <elementGuidId>85bfc721-500c-4c2f-8990-7e0e7f45b981</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.check.svelte-1e5f376</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='spl-90']/div/div[2]/div/div[2]/div/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>cdf03269-52dd-4773-9df6-74fc00d41585</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>check svelte-1e5f376</value>
+      <webElementGuid>a0bbd37a-6170-4655-8ab9-f30dc264ab60</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;spl-90&quot;)/div[@class=&quot;grid-x choosable ctracking svelte-1e5f376 chosen&quot;]/div[@class=&quot;cell supply-panel svelte-1e5f376&quot;]/div[@class=&quot;grid-x h-100 svelte-1e5f376&quot;]/div[@class=&quot;cell info small-10 p-l-h svelte-1e5f376&quot;]/div[@class=&quot;grid-x info-grid svelte-1e5f376&quot;]/div[@class=&quot;cell small-3 align-self-top text-right svelte-1e5f376&quot;]/div[@class=&quot;circle svelte-1e5f376&quot;]/div[@class=&quot;check svelte-1e5f376&quot;]</value>
+      <webElementGuid>a83a7a47-955a-4b35-8058-3b190ad06f02</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='spl-90']/div/div[2]/div/div[2]/div/div[2]/div/div</value>
+      <webElementGuid>3c2ec011-aa6d-4055-8aa7-2706840fd4f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div[2]/div/div[2]/div/div[2]/div/div</value>
+      <webElementGuid>f6d18a61-0a7d-426e-92d5-98c192b55a92</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

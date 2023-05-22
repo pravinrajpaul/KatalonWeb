@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Do not refresh this page or use the back button</name>
+   <tag></tag>
+   <elementGuidId>cf1e1f1e-1322-49ca-95a0-8b341b979900</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tpc-checkout']/main/div/div[4]/div/div[2]/div/div[2]/div/div/div/div/p[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>f2fbd9db-e91b-4b8b-9217-3dc3f08861ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>svelte-2ji987</value>
+      <webElementGuid>74662995-46ef-4cee-a72b-8c94a482792d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Do not refresh this page or use the back button</value>
+      <webElementGuid>dd922a9f-af78-49d8-9267-e6d15c9a3d27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tpc-checkout&quot;)/main[@class=&quot;svelte-f1zuwp&quot;]/div[@class=&quot;grid-x svelte-1x7jtfy&quot;]/div[@class=&quot;cell pane svelte-1x7jtfy&quot;]/div[@class=&quot;grid-x square svelte-1x7jtfy&quot;]/div[@class=&quot;cell svelte-1x7jtfy&quot;]/div[@class=&quot;grid-x panel svelte-68a4ih&quot;]/div[@class=&quot;cell svelte-68a4ih&quot;]/div[@class=&quot;background svelte-2ji987&quot;]/div[@class=&quot;wrapper svelte-2ji987&quot;]/div[@class=&quot;window svelte-2ji987&quot;]/div[@class=&quot;content text-center svelte-2ji987&quot;]/p[@class=&quot;svelte-2ji987&quot;]</value>
+      <webElementGuid>5dcba17f-8c79-4669-baea-98519fab0797</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tpc-checkout']/main/div/div[4]/div/div[2]/div/div[2]/div/div/div/div/p[2]</value>
+      <webElementGuid>a503cc6c-f535-4c2e-8441-e6284f9786ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Credit card'])[1]/following::p[2]</value>
+      <webElementGuid>1a42e086-4970-4366-80a4-98a62cb0c868</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment'])[1]/following::p[6]</value>
+      <webElementGuid>28a29330-442f-4982-b7a1-ee7f1e7161ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/preceding::p[2]</value>
+      <webElementGuid>07c60b58-e921-4ab7-a2ec-e83243c86916</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone'])[1]/preceding::p[2]</value>
+      <webElementGuid>c3192dd1-a224-4d8c-bca0-28652111c353</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Do not refresh this page or use the back button']/parent::*</value>
+      <webElementGuid>486d86f4-d693-4fdf-bc3c-359567e51a6d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[2]/div/div[2]/div/div/div/div/p[2]</value>
+      <webElementGuid>d1f2c9cf-9727-4ce3-86cb-9da7836a7ed7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Do not refresh this page or use the back button' or . = 'Do not refresh this page or use the back button')]</value>
+      <webElementGuid>d2268779-fc1e-42bf-b35a-a86f614c6813</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

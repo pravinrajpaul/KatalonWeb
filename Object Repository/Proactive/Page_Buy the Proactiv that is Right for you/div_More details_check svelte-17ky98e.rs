@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_More details_check svelte-17ky98e</name>
+   <tag></tag>
+   <elementGuidId>0007f921-2d84-4a5b-9b16-cc7a1db1ef15</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#gft-charcoal-bristle-brush > div.grid-x.ctracking.svelte-17ky98e.choosable > div.cell.svelte-17ky98e > div.grid-y.svelte-17ky98e > div.cell.align-self-top.text-right.svelte-17ky98e > div.circle.svelte-17ky98e > div.check.svelte-17ky98e</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='gft-charcoal-bristle-brush']/div/div/div/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3db82e10-1c4f-49e2-a35c-8c42c9d429e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>check svelte-17ky98e</value>
+      <webElementGuid>746e47fd-a991-4706-8998-8a763657f8b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gft-charcoal-bristle-brush&quot;)/div[@class=&quot;grid-x ctracking svelte-17ky98e choosable&quot;]/div[@class=&quot;cell svelte-17ky98e&quot;]/div[@class=&quot;grid-y svelte-17ky98e&quot;]/div[@class=&quot;cell align-self-top text-right svelte-17ky98e&quot;]/div[@class=&quot;circle svelte-17ky98e&quot;]/div[@class=&quot;check svelte-17ky98e&quot;]</value>
+      <webElementGuid>ebf48f32-71cc-4d79-a692-3b2887bb7092</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gft-charcoal-bristle-brush']/div/div/div/div[2]/div/div</value>
+      <webElementGuid>ac2ad9c7-a826-434f-967c-077c3d9bbef9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div</value>
+      <webElementGuid>7d956164-cc05-49da-81f3-293a1031e5db</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -81,38 +81,4 @@
          <variableId>e9502dfb-495e-4465-93bd-82135ede5aba</variableId>
       </variableLink>
    </testCaseLink>
-   <testCaseLink>
-      <guid>4a6da443-30bd-4937-b43e-0db87bc93334</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/WebTestCases/WebTestCase2</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6eb6269f-4a49-45c2-8ee5-082aa96fb79f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/WebTestCases/WebTestCase3</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>1bbaa09e-ef6b-49da-bc96-19225d6f2a5a</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6b70ca6c-22cb-4ae1-91e3-5982187a7038</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/WebTestCases/WebTestCase4Alert</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5ae6c7f4-af53-47d6-87b2-b6219e5f5f93</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/WebTestCases/WebTestCase4AlertRobot</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
 </TestSuiteEntity>
