@@ -147,7 +147,7 @@ public class Keyboard {
 				throw new IllegalArgumentException("Cannot type character " + character);
 		}
 	}
-	
+
 	@Keyword
 	public void pressSpecialKey(String key) {
 		switch (key) {
