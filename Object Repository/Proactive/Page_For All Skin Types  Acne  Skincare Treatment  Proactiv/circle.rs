@@ -4,26 +4,23 @@
    <name>circle</name>
    <tag></tag>
    <elementGuidId>8cf3d9a5-a31c-47c4-b487-369809a1fe38</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>circle</value>
+         <key>IMAGE</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.klaviyo-close-form circle</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>/html[@class=&quot;no-js globalstyles-v1&quot;]/body[@class=&quot;mz-homepage-new&quot;]/div[7]/div[@class=&quot;needsclick  kl-private-reset-css-Xuajs1&quot;]/div[@class=&quot;needsclick  kl-private-reset-css-Xuajs1&quot;]/div[@class=&quot;needsclick  kl-private-reset-css-Xuajs1&quot;]/div[@class=&quot;needsclick go3241907364 kl-private-reset-css-Xuajs1&quot;]/div[@class=&quot;needsclick  kl-private-reset-css-Xuajs1&quot;]/div[@class=&quot;needsclick  kl-private-reset-css-Xuajs1&quot;]/button[@class=&quot;needsclick klaviyo-close-form kl-private-reset-css-Xuajs1&quot;]/svg[@class=&quot;needsclick  kl-private-reset-css-Xuajs1&quot;]/circle[1]</value>
       </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>circle</value>
-      <webElementGuid>022bd526-43b2-45e7-aa45-0cf7461392ce</webElementGuid>
+      <webElementGuid>d317bbf9-0bad-4bc1-af3e-5cb780f788bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +36,7 @@
       <name>cx</name>
       <type>Main</type>
       <value>10</value>
-      <webElementGuid>24d2207b-c2ad-4154-a10a-f0ebe551f021</webElementGuid>
+      <webElementGuid>6e1ea9ac-de7d-473b-b8e3-552f52538fcf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +44,7 @@
       <name>cy</name>
       <type>Main</type>
       <value>10</value>
-      <webElementGuid>1bdce927-ff6c-40e2-8284-56c242570a77</webElementGuid>
+      <webElementGuid>77f78fdd-525f-4119-ba77-43ecfd07a372</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +52,7 @@
       <name>r</name>
       <type>Main</type>
       <value>9.5</value>
-      <webElementGuid>836a63c9-f4c6-4e02-bad8-460005432557</webElementGuid>
+      <webElementGuid>a93f111e-7f73-43ef-9d39-9e8ad9bedc03</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +60,7 @@
       <name>fill</name>
       <type>Main</type>
       <value>rgba(255,255,255,1)</value>
-      <webElementGuid>df354c85-df0b-475d-8246-363617809b55</webElementGuid>
+      <webElementGuid>e24e2928-91ba-4df6-b039-c371ac6c8cc9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +68,7 @@
       <name>stroke</name>
       <type>Main</type>
       <value>rgba(255,255,255,1)</value>
-      <webElementGuid>2dd059b7-1deb-4f3e-8ecc-e31ee974461c</webElementGuid>
+      <webElementGuid>2862105f-bf48-4113-9663-040bd7aa83d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -79,6 +76,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;no-js globalstyles-v1&quot;]/body[@class=&quot;mz-homepage-new&quot;]/div[7]/div[@class=&quot;needsclick  kl-private-reset-css-Xuajs1&quot;]/div[@class=&quot;needsclick  kl-private-reset-css-Xuajs1&quot;]/div[@class=&quot;needsclick  kl-private-reset-css-Xuajs1&quot;]/div[@class=&quot;needsclick go3241907364 kl-private-reset-css-Xuajs1&quot;]/div[@class=&quot;needsclick  kl-private-reset-css-Xuajs1&quot;]/div[@class=&quot;needsclick  kl-private-reset-css-Xuajs1&quot;]/button[@class=&quot;needsclick klaviyo-close-form kl-private-reset-css-Xuajs1&quot;]/svg[@class=&quot;needsclick  kl-private-reset-css-Xuajs1&quot;]/circle[1]</value>
-      <webElementGuid>71dffdb3-38ef-45d6-92aa-95a631c7ed36</webElementGuid>
+      <webElementGuid>1d9b19a3-bb0c-4d7f-b01e-bccea375abed</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

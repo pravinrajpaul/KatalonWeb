@@ -19,7 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://t30707-s51297.stg1.mozu.com/')
+
+WebUI.waitForElementVisible(findTestObject('Proactive/Page_For All Skin Types  Acne  Skincare Treatment  Proactiv/circle'), 
+    40)
+
+WebUI.doubleClick(findTestObject('Proactive/Page_For All Skin Types  Acne  Skincare Treatment  Proactiv/circle'))
+
+WebUI.waitForElementClickable(findTestObject('Proactive/Page_For All Skin Types  Acne  Skincare Tre_32c762/a_get started'), 
+    3)
 
 WebUI.click(findTestObject('Object Repository/Proactive/Page_For All Skin Types  Acne  Skincare Tre_32c762/a_get started'))
 
@@ -73,15 +83,10 @@ WebUI.verifyElementText(findTestObject('Object Repository/Proactive/Page_Buy the
 
 WebUI.click(findTestObject('Object Repository/Proactive/Page_Buy the Proactiv that is Right for you/div_46.75_w20 text-right align-self-middle _29eaaa'))
 
-WebUI.click(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/div_Preparing your items for checkout, please wait'))
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.rightClick(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/p_Preparing your items for checkout, please wait'))
-
-WebUI.rightClick(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/p_Preparing your items for checkout, please wait'))
-
-WebUI.rightClick(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/p_Preparing your items for checkout, please wait'))
-
-WebUI.verifyElementNotVisible(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/p_Preparing your items for checkout, please wait'))
+WebUI.waitForElementNotVisible(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/div_Preparing your items for checkout, please wait'), 
+    15)
 
 WebUI.click(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/p_90'))
 
@@ -92,7 +97,7 @@ WebUI.click(findTestObject('Object Repository/Proactive/Page_Proactiv Products  
 WebUI.click(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/p_Proactiv Mark and Scar Duo  - 90 Day'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/strong_Proactiv Mark and Scar Duo  - 90 Day'), 
-    'Proactiv+® Mark and Scar Duo - 90 Day')
+    'Proactiv+® Mark and Scar Duo')
 
 WebUI.click(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/p_90'))
 
@@ -107,7 +112,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Proactive/Page_Proacti
 WebUI.click(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/p_Unit price                               _3f1bcd'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/p_Unit price                               _3f1bcd'), 
-    'Unit price:\n $34.95')
+    'Unit price: $34.95')
 
 WebUI.click(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/p_Pore Cleansing Brush'))
 
@@ -125,7 +130,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Proactive/Page_Proacti
 WebUI.click(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/p_Unit price                               _031899'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/p_Unit price                               _031899'), 
-    'Unit price:\n $46.75 $0.00')
+    'Unit price: $46.75 $0.00')
 
 WebUI.click(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/p_All orders are backed by our 60-day money_ea3a6e'))
 
@@ -139,11 +144,6 @@ WebUI.setText(findTestObject('Object Repository/Proactive/Page_Proactiv Products
     '3106337951')
 
 WebUI.setText(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/input_Phone_billingFirstName'), 
-    '')
-
-WebUI.click(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/input_Phone_billingFirstName'))
-
-WebUI.setText(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/input_Phone_billingFirstName'), 
     'test')
 
 WebUI.setText(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/input_First name_billingLastName'), 
@@ -152,9 +152,7 @@ WebUI.setText(findTestObject('Object Repository/Proactive/Page_Proactiv Products
 WebUI.setText(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/input_Last name_billingAddress1'), 
     '120 Broadway')
 
-WebUI.click(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/input_Apartment, suite, unit (optional)_bil_b6bd4c'))
-
-WebUI.click(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/div_Continue with   Continue with  Continue_5f4926'))
+WebUI.click(findTestObject('Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/input_Phone_billingFirstName'))
 
 WebUI.setText(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/input_Apartment, suite, unit (optional)_bil_b6bd4c'), 
     'Santa Monica')
@@ -162,20 +160,11 @@ WebUI.setText(findTestObject('Object Repository/Proactive/Page_Proactiv Products
 WebUI.selectOptionByValue(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/select_State                               _46cb8f'), 
     'CA', true)
 
-WebUI.click(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/input_City_billingZipCode'))
-
 WebUI.setText(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/input_City_billingZipCode'), 
     '90401')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/span_Zip code_check-mark svelte-1l2t73t'), 
-    0)
-
-WebUI.click(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/input_Zip code_card'))
-
 WebUI.setText(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/input_Zip code_card'), 
     '4111 1111 1111 1111')
-
-WebUI.click(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/span_Expiration date (MMYY)'))
 
 WebUI.setText(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/input_Card number_cardExpiration'), 
     '12/23')
@@ -183,34 +172,20 @@ WebUI.setText(findTestObject('Object Repository/Proactive/Page_Proactiv Products
 WebUI.setEncryptedText(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/input__cardCvv'), 
     'tzH6RvlfSTg=')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/input__password'), 
-    'iyczyVKWjcnuD8uZDbKhEg==')
-
-WebUI.click(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/span_Zip code_check-mark svelte-1l2t73t'))
-
 WebUI.click(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/div_Buy Now'))
 
-WebUI.click(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/div_Please wait while we complete your requ_7f1816'))
-
-WebUI.verifyElementNotVisible(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/p_Do not refresh this page or use the back button'))
-
-WebUI.click(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/p_Your order is being processed, you will r_413a2d'))
+WebUI.waitForElementNotVisible(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/p_Do not refresh this page or use the back button'), 
+    15)
 
 WebUI.click(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/p_Your order is being processed, you will r_413a2d'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/span_testnewtooldemo1yopmail.com'), 
     'testnewtooldemo1@yopmail.com')
 
-WebUI.click(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/span_2267164'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/span_2267164'), 
-    '2267164')
+orderId = WebUI.getText(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/span_2267164'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/div_Subtotal 34.95'))
-
-WebUI.rightClick(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/p_34.95'))
-
-WebUI.rightClick(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/p_34.95'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/p_34.95'), 
     '$34.95')
