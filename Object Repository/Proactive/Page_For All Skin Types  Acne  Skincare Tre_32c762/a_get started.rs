@@ -6,16 +6,19 @@
    <elementGuidId>646940f2-de74-40c5-a278-7680dd78b7e2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='control-cta']</value>
+         <key>BASIC</key>
+         <value>//*[@href = '/order' and @title = 'get started' and @id = 'control-cta' and (text() = 'get started' or . = 'get started')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#control-cta</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@href = '/order' and @title = 'get started' and @id = 'control-cta' and (text() = 'get started' or . = 'get started')]</value>
+         <key>XPATH</key>
+         <value>(//a[@id='control-cta']) | (//a[@id='zits-lab-cta']) | (//a[@id='asian-girl-cta'])</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>f10f9b6b-b819-4123-93a4-bd0d7e3f533e</webElementGuid>
+      <webElementGuid>268fd8d6-f254-4a87-b445-4836ccd293d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/order</value>
-      <webElementGuid>ca060153-b157-468d-8e00-6deae0d8a495</webElementGuid>
+      <webElementGuid>0aa8932c-4e0a-4b0e-a491-7ff9ea87e3f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +45,7 @@
       <name>title</name>
       <type>Main</type>
       <value>get started</value>
-      <webElementGuid>74ae5aea-2054-413d-9b45-3fccf23fc6a1</webElementGuid>
+      <webElementGuid>2b13ea5f-6b20-4c8d-aba4-e23a3e6d172c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ctracking button1</value>
-      <webElementGuid>8a15b1d9-f41f-4d0b-9422-f222880b1efc</webElementGuid>
+      <webElementGuid>72fc9d62-2fe8-4e2c-adbf-42ba41b9ed89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +61,7 @@
       <name>data-ctracking</name>
       <type>Main</type>
       <value>get-started-three-people-cta,56</value>
-      <webElementGuid>cd64a0fc-216c-42c7-b4da-4ba1137dcdd1</webElementGuid>
+      <webElementGuid>757a134b-92e5-4442-96c0-3d259b70f7cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,7 +69,7 @@
       <name>id</name>
       <type>Main</type>
       <value>control-cta</value>
-      <webElementGuid>3f4e55e6-da51-4edb-9cf8-37f421f57e0b</webElementGuid>
+      <webElementGuid>1d179c88-6554-4024-aa0d-d96d99ffdf54</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +77,7 @@
       <name>onmouseenter</name>
       <type>Main</type>
       <value>const element = document.querySelector('.homebannercontainer');element.classList.remove('ctracking');</value>
-      <webElementGuid>618beea7-d223-4da0-be6b-b1b37743c54e</webElementGuid>
+      <webElementGuid>aedfed9a-3399-4e99-ab7d-35f2400bc397</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +85,7 @@
       <name>onmouseout</name>
       <type>Main</type>
       <value>const element = document.querySelector('.homebannercontainer');element.classList.add('ctracking');</value>
-      <webElementGuid>1edef43a-048f-4b4a-b2e1-5d66d5ae294a</webElementGuid>
+      <webElementGuid>d2f1dfbf-f599-4bb3-b08d-0a68440ba9f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -90,7 +93,7 @@
       <name>text</name>
       <type>Main</type>
       <value>get started</value>
-      <webElementGuid>3bb28684-0f54-480d-9b2c-5f84af0c836e</webElementGuid>
+      <webElementGuid>ed2ad593-639b-4c30-ad6b-b42b8e8ca30d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -98,7 +101,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;control-cta&quot;)</value>
-      <webElementGuid>3f42d888-4352-4ed1-a109-623296a3f6b1</webElementGuid>
+      <webElementGuid>e5f168fc-57f1-4032-b097-2bc35c645d71</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -106,7 +109,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='control-cta']</value>
-      <webElementGuid>8bdaa02c-9516-4863-9d2b-b761c4d4b216</webElementGuid>
+      <webElementGuid>35153b69-154e-416c-acb5-76b1d7be54f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +117,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='control']/div/div[2]/div/a</value>
-      <webElementGuid>2e6570a5-8c71-453c-bd00-a24b8a2c1946</webElementGuid>
+      <webElementGuid>3beb976d-12cc-4c1d-8558-4c883f53c32f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +125,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'get started')]</value>
-      <webElementGuid>9b574b99-5fb5-4e98-bbff-bb195b5af8af</webElementGuid>
+      <webElementGuid>190990fa-93ee-4880-97fc-3a0f3c82ac20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reveal Your Clear'])[1]/following::a[1]</value>
-      <webElementGuid>a3470c56-d1fb-44cc-bb8b-0da9d9faa19f</webElementGuid>
+      <webElementGuid>653c9dde-dd9e-463b-ba7c-c11250b41c86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,7 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign in'])[2]/following::a[2]</value>
-      <webElementGuid>0ab6dcfb-b412-4db9-b552-b5f738e6f4b5</webElementGuid>
+      <webElementGuid>d9ef96f3-038d-4d24-8d5c-3c48f6f4ef77</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -146,7 +149,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Zits Happen'])[1]/preceding::a[1]</value>
-      <webElementGuid>ea9ef524-c0d9-439c-9ec7-ae5bf3077f60</webElementGuid>
+      <webElementGuid>66f52308-3f3a-4d24-860f-50d89ff61fc1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -154,7 +157,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='®'])[1]/preceding::a[1]</value>
-      <webElementGuid>c358429d-2bdc-4432-8ae4-613ca71feeed</webElementGuid>
+      <webElementGuid>98e77584-1e42-4f9b-b74f-33f99386fdb7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -162,7 +165,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='get started']/parent::*</value>
-      <webElementGuid>ddbc23c2-2a8a-4ddd-b0bc-5c0d246aaac5</webElementGuid>
+      <webElementGuid>ad24a8d9-82bf-4ee3-8977-0c8713d97b45</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -170,7 +173,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/order')]</value>
-      <webElementGuid>ac442e5f-9bc1-4394-9f8b-b67738238a34</webElementGuid>
+      <webElementGuid>9fd24900-20f4-439c-bd88-01cbaaf7c78e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -178,7 +181,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div[2]/div/a</value>
-      <webElementGuid>defed288-87d4-44dc-8b3f-8f3a54ef49e4</webElementGuid>
+      <webElementGuid>b2efdabd-6aa9-49f4-a31e-ee8eb227eaad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -186,13 +189,13 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/order' and @title = 'get started' and @id = 'control-cta' and (text() = 'get started' or . = 'get started')]</value>
-      <webElementGuid>00f50f84-f4ff-4383-a6ac-bbf4146de5d0</webElementGuid>
+      <webElementGuid>f4753add-f9ac-417d-8557-cd44ab16d09d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <type>Main</type>
-      <value>//a[@id='zits-lab-cta']</value>
-      <webElementGuid>2096ca59-1d0e-4098-b969-7cc41652a2fb</webElementGuid>
+      <value></value>
+      <webElementGuid>b5df75ca-84e2-4326-ab16-a4c7424f6750</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

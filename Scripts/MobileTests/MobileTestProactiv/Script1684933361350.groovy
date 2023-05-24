@@ -23,14 +23,6 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://t30707-s51297.stg1.mozu.com/')
 
-WebUI.waitForElementVisible(findTestObject('Proactive/Page_For All Skin Types  Acne  Skincare Treatment  Proactiv/circle'), 
-    40, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.doubleClick(findTestObject('Proactive/Page_For All Skin Types  Acne  Skincare Treatment  Proactiv/circle'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.waitForElementClickable(findTestObject('Proactive/Page_For All Skin Types  Acne  Skincare Treatment  Proactiv/div_Zits Happen'), 
-    3)
-
 WebUI.click(findTestObject('Proactive/Page_For All Skin Types  Acne  Skincare Treatment  Proactiv/div_Zits Happen'))
 
 WebUI.click(findTestObject('Object Repository/Proactive/Page_Buy the Proactiv that is Right for you/small_Hydrating'))
@@ -83,10 +75,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/Proactive/Page_Buy the
 
 WebUI.click(findTestObject('Object Repository/Proactive/Page_Buy the Proactiv that is Right for you/div_46.75_w20 text-right align-self-middle _29eaaa'))
 
-WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
-
 WebUI.waitForElementNotVisible(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/div_Preparing your items for checkout, please wait'), 
-    15, FailureHandling.CONTINUE_ON_FAILURE)
+    5, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/strong_Proactiv Mark and Scar Duo  - 90 Day'), 
     'Proactiv+® Mark and Scar Duo')
@@ -116,7 +106,7 @@ WebUI.setText(findTestObject('Object Repository/Proactive/Page_Proactiv Products
     '3106337951')
 
 WebUI.setText(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/input_Phone_billingFirstName'), 
-    AddressLine1)
+    'test')
 
 WebUI.setText(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/input_First name_billingLastName'), 
     'test')
@@ -136,7 +126,7 @@ WebUI.setText(findTestObject('Object Repository/Proactive/Page_Proactiv Products
     '90401')
 
 WebUI.setText(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/input_Zip code_card'), 
-    card)
+    '4111 1111 1111 1111')
 
 WebUI.setText(findTestObject('Object Repository/Proactive/Page_Proactiv Products  Order Proactiv Onli_9d9d36/input_Card number_cardExpiration'), 
     '12/23')

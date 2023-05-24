@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TestSuiteForProactiv</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient>pravin.raveendran@katalon.com;</mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>b1f0ae4e-362d-4ab6-a83e-cdacf84d45ee</testSuiteGuid>
+   <testCaseLink>
+      <guid>09948101-43ff-4078-82d0-ff6084a6281f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WebTestCases/WebTestProactiv</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b4758f87-e477-40a5-92ec-a7dbc6867e3a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ContactDetails</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7576cb7e-d943-4520-8a25-9ad7f7ff1a6d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cafcde6b-d591-44ec-b914-9c7d8fce2d35</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

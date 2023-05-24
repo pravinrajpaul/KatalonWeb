@@ -5,4 +5,30 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>2b6481bd-faef-4e32-8d86-29047dc0d03b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7576cb7e-d943-4520-8a25-9ad7f7ff1a6d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cafcde6b-d591-44ec-b914-9c7d8fce2d35</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'4111 1111 1111 1111'</defaultValue>
+      <description></description>
+      <id>7576cb7e-d943-4520-8a25-9ad7f7ff1a6d</id>
+      <masked>false</masked>
+      <name>card</name>
+   </variable>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>cafcde6b-d591-44ec-b914-9c7d8fce2d35</id>
+      <masked>false</masked>
+      <name>AddressLine1</name>
+   </variable>
 </TestCaseEntity>
