@@ -6,12 +6,11 @@
    <elementGuidId>cadada8e-b996-42ea-b33c-7542001314a0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='responsive-menu']/div/ul/li/ul/li[3]/a</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@id='responsive-menu']/div/ul/li/ul/li[3]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>c713bdda-5e15-4c85-a915-42f31df93498</webElementGuid>
+      <webElementGuid>76c6f8d3-200b-47b3-a60e-024f74e0d64e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>f8e798be-261e-4d57-967f-4f01043e7461</webElementGuid>
+      <webElementGuid>ce15e5e7-d270-4f4a-af9c-c164731c3a4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +37,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>89244b75-53f3-4954-9e37-7edb644d20ba</webElementGuid>
+      <webElementGuid>72a9272b-9d2b-40f8-85bc-e255cf85cafe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Customer experience</value>
-      <webElementGuid>1198bf4c-df09-44df-ab7b-84e2c1e4d484</webElementGuid>
+      <webElementGuid>b85c00b3-30fc-4d50-a8da-f9f67a9b19cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;responsive-menu&quot;)/div[@class=&quot;is-drilldown&quot;]/ul[@class=&quot;vertical large-horizontal menu drilldown&quot;]/li[@class=&quot;navigation-list navigation-list__products is-drilldown-submenu-parent&quot;]/ul[@class=&quot;menu vertical submenu is-drilldown-submenu drilldown-submenu-cover-previous is-active&quot;]/li[@class=&quot;is-drilldown-submenu-parent is-submenu-item is-drilldown-submenu-item&quot;]/a[1]</value>
-      <webElementGuid>2d651e15-5b67-48ad-8174-df904aac567c</webElementGuid>
+      <webElementGuid>afbf5f8e-c836-43dd-8f0f-21c5df5586d5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='responsive-menu']/div/ul/li/ul/li[3]/a</value>
-      <webElementGuid>cadcdf11-9006-4da2-95a4-a63f1b4089c5</webElementGuid>
+      <webElementGuid>ecd4efac-bc8c-4132-84d5-47530849dda6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Customer experience')]</value>
-      <webElementGuid>9681450c-069e-4f8c-8709-6af3798f43c9</webElementGuid>
+      <webElementGuid>83daf610-52b6-43c4-aff9-3f8a1e4b05f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='API platform integrating UC &amp; contact center into everyday business apps'])[1]/following::a[1]</value>
-      <webElementGuid>c0f5979e-b21e-4085-9438-a7d3a853ef02</webElementGuid>
+      <webElementGuid>1ba4e3c9-0d40-4f8b-a922-febb10b788dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[3]/preceding::a[1]</value>
-      <webElementGuid>2e95fff1-91fd-4fad-82f0-527c928e8cb1</webElementGuid>
+      <webElementGuid>f31876af-8276-4436-b136-8e6c77be43f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Customer experience']/parent::*</value>
-      <webElementGuid>3d302aa9-e749-4beb-b965-ebf0e8370513</webElementGuid>
+      <webElementGuid>dc711074-a207-4f5b-a171-ea79a441a42e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li/ul/li[3]/a</value>
-      <webElementGuid>41818900-5fe7-4876-a14e-1ce448fe617e</webElementGuid>
+      <webElementGuid>d27f4dfc-817c-4974-a6f7-95e0bd49113a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[(text() = 'Customer experience' or . = 'Customer experience')]</value>
-      <webElementGuid>813d2c9b-14ac-4b68-94fd-d94beadc17d8</webElementGuid>
+      <webElementGuid>0d5c0ca7-41c4-4892-aee9-558ab01090ec</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

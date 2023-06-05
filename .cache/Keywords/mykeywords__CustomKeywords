@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "A7C77FF4D706751B0DD4D8A39FE734C1",
+  "keywordFileContentHash": "50DB44CA66FC3E27E6D748366BA38346",
   "keywordClasses": [
     {
       "name": "mykeywords.CustomKeywords",
@@ -47,6 +47,25 @@
           "javadoc": ""
         },
         {
+          "name": "randomNumber",
+          "parameters": [
+            {
+              "name": "digits",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
           "name": "startWinAppDriver",
           "parameters": [
             {
@@ -63,17 +82,17 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Win app driver set installation path\n\t *\n\t */"
+          "javadoc": "/**\r\n\t * Win app driver set installation path\r\n\t *\r\n\t */"
         },
         {
           "name": "startDefaultWinAppDriver",
           "parameters": [],
-          "javadoc": "/**\n\t * Win app driver default installation\n\t *\n\t */"
+          "javadoc": "/**\r\n\t * Win app driver default installation\r\n\t *\r\n\t */"
         },
         {
           "name": "exitWinAppDriver",
           "parameters": [],
-          "javadoc": "/**\n\t * Win app driver default installation\n\t *\n\t */"
+          "javadoc": "/**\r\n\t * Win app driver default installation\r\n\t *\r\n\t */"
         }
       ]
     }

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Thanks for your feedback</name>
+   <name>a_Accept_1</name>
    <tag></tag>
-   <elementGuidId>1438c2b9-76d0-44df-9a78-f46262a6e246</elementGuidId>
+   <elementGuidId>abeaba43-45c4-41c8-a740-1106da24d324</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#rn_AnswerFeedback_3_ThanksLabel</value>
+         <value>#acceptCookie</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='rn_AnswerFeedback_3_ThanksLabel']</value>
+         <value>//a[@id='acceptCookie']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,119 +21,127 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>d800f6c5-61a1-4f9c-a9cd-b4c032b4eb32</webElementGuid>
+      <value>a</value>
+      <webElementGuid>6da54f39-7e1c-4a6d-a3ac-9e455a6b7633</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>rn_AnswerFeedback_3_ThanksLabel</value>
-      <webElementGuid>97bb789b-77aa-4eea-9669-038ad73bdd29</webElementGuid>
+      <value>acceptCookie</value>
+      <webElementGuid>f5495c5a-094f-4671-ad5d-d7f45fb9c693</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>db03cf0e-765a-45aa-b48f-3106f21bd72e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>rn_ThanksLabel</value>
-      <webElementGuid>9a410c6c-d9d4-4184-871e-b518355f853e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>-1</value>
-      <webElementGuid>90f09644-0f93-46e7-a802-c6144f3d0565</webElementGuid>
+      <value>button primary small</value>
+      <webElementGuid>04de5fb9-0ccd-44c6-9ea6-5b0b08627e43</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Thanks for your feedback.</value>
-      <webElementGuid>85b80d86-f4cc-4350-9f56-c31d10f2f8e1</webElementGuid>
+      <value>Accept</value>
+      <webElementGuid>7d44dd7c-3d7f-49bb-9abc-a756048f53d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;rn_AnswerFeedback_3_ThanksLabel&quot;)</value>
-      <webElementGuid>3cc227fc-da7a-4b53-b530-b5ae0d0bac2a</webElementGuid>
+      <value>id(&quot;acceptCookie&quot;)</value>
+      <webElementGuid>36cfb47d-fbea-46fd-9ecb-2cfe2d01e429</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='rn_AnswerFeedback_3_ThanksLabel']</value>
-      <webElementGuid>e2a6c719-24b6-42ce-8b44-7257bf16d000</webElementGuid>
+      <value>//a[@id='acceptCookie']</value>
+      <webElementGuid>2160d3a2-8b0b-42d6-8016-aceb7014daa7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='rn_AnswerFeedback_3_AnswerFeedbackControl']/div</value>
-      <webElementGuid>8389765d-7916-4e81-b065-50c3b53ffd89</webElementGuid>
+      <value>//div[@id='cookies']/div/div/div[2]/p/a[2]</value>
+      <webElementGuid>97e224f8-bf4f-45d4-a6cc-fd77d4e45db4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Accept')])[2]</value>
+      <webElementGuid>8930336c-8bbd-4289-9979-b12fc3803e11</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Is this answer helpful?'])[1]/following::div[1]</value>
-      <webElementGuid>a68ad51b-f1da-4162-9117-3dc25a92da3c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='More Information'])[1]/following::a[1]</value>
+      <webElementGuid>eef70f60-afe0-4e7b-80a4-9295b4b15e9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change settings'])[1]/following::div[4]</value>
-      <webElementGuid>616cb4cf-a2e8-465c-9090-c46f77c123b7</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copyright © NEC Corporation of America 2023. All rights reserved.'])[1]/following::a[7]</value>
+      <webElementGuid>167bb61f-4887-44b1-af27-f10f1a1cb23b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Print Article'])[1]/preceding::div[1]</value>
-      <webElementGuid>c46d4af7-b7e4-48ad-aaa2-8a3e42126f2e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose country or region'])[1]/preceding::a[1]</value>
+      <webElementGuid>8e931d92-4132-47ef-b3f6-2551c7573556</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Article Information'])[1]/preceding::div[1]</value>
-      <webElementGuid>a0258f62-0f48-4a4b-a0e3-b7256db2e63d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='United States'])[1]/preceding::a[1]</value>
+      <webElementGuid>c5bbf93e-e157-4fae-bd0a-d74b5c7eb566</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:href</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Thanks for your feedback.']/parent::*</value>
-      <webElementGuid>c7941bc7-d929-4f7c-8186-d7b37fb7aaf2</webElementGuid>
+      <value>(//a[contains(@href, '#')])[4]</value>
+      <webElementGuid>e8bfb16f-6044-4457-aabd-fdfc6611fa24</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div[2]/div/div/div</value>
-      <webElementGuid>110641b2-5d46-4597-8444-527b55a9f718</webElementGuid>
+      <value>//div[4]/div/div/div[2]/p/a[2]</value>
+      <webElementGuid>b6fa779e-bc80-4f67-95f4-20a1b9c534b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id = 'rn_AnswerFeedback_3_ThanksLabel' and (text() = 'Thanks for your feedback.' or . = 'Thanks for your feedback.')]</value>
-      <webElementGuid>49899275-6004-4e79-9f44-e3fc7494c760</webElementGuid>
+      <value>//a[@id = 'acceptCookie' and @href = '#' and (text() = 'Accept' or . = 'Accept')]</value>
+      <webElementGuid>5ac49f9d-b893-49dc-9fbc-ecf779c15dc7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

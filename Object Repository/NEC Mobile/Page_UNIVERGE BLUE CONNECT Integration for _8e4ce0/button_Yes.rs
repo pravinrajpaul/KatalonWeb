@@ -6,12 +6,12 @@
    <elementGuidId>1df87674-baf7-4669-9c8f-2f356806f7e6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='rn_AnswerFeedback_3_RatingYesButton']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#rn_AnswerFeedback_3_RatingYesButton</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='rn_AnswerFeedback_3_RatingYesButton']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d817d075-4062-4c42-a12b-c81e2b5ba926</webElementGuid>
+      <webElementGuid>ff56e33f-4e53-495a-9521-5e900144198e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>rn_AnswerFeedback_3_RatingYesButton</value>
-      <webElementGuid>4fbd8c78-28ac-432b-bcfe-c4f3e84fa1b9</webElementGuid>
+      <webElementGuid>9fe1d0a4-b454-4868-8e45-5510af07d801</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>90225a64-8e32-4fc5-be20-4373a21d8e5c</webElementGuid>
+      <webElementGuid>5fdd54a4-b77f-4488-82b4-62a9d07c430f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-sm btn-success</value>
-      <webElementGuid>904c866b-40c8-497b-b89c-a8dbcc38f83d</webElementGuid>
+      <webElementGuid>45773aed-85b8-4ca2-8e88-7fd7849a8ea8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Yes</value>
-      <webElementGuid>a989fcf4-cb12-456a-a0e1-018224f31b2a</webElementGuid>
+      <webElementGuid>81418531-68cc-4828-bd8e-2f28148881ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;rn_AnswerFeedback_3_RatingYesButton&quot;)</value>
-      <webElementGuid>5e153754-07df-47b1-a346-40eb8c437874</webElementGuid>
+      <webElementGuid>9653a7e4-3b45-45e5-96d9-11482f3e1afd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='rn_AnswerFeedback_3_RatingYesButton']</value>
-      <webElementGuid>3a06f18a-244e-43a8-9d39-6c36b248c2a9</webElementGuid>
+      <webElementGuid>497193c0-b24d-4a57-93b5-cd36b892f491</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='rn_AnswerFeedback_3_RatingButtons']/button</value>
-      <webElementGuid>6dcee0ad-f496-411d-984d-cca60cab3816</webElementGuid>
+      <webElementGuid>94e38fd3-ba5d-4491-82ed-d78ebd933251</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Is this answer helpful?'])[1]/following::button[1]</value>
-      <webElementGuid>c380af84-baf6-4794-9594-874d489a6f94</webElementGuid>
+      <webElementGuid>8c00d169-e2b5-4be1-b1ac-72faa12913fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Change settings'])[1]/following::button[1]</value>
-      <webElementGuid>25a5b02f-7e4b-42e0-a1fd-38e4e480528a</webElementGuid>
+      <webElementGuid>5db72891-3d39-40eb-b32a-60c2d89859ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::button[1]</value>
-      <webElementGuid>a7fc27f3-77ce-4d4e-b0e1-9507c9e291e1</webElementGuid>
+      <webElementGuid>c341b42b-8448-414f-a43b-af62c47a590e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Print Article'])[1]/preceding::button[2]</value>
-      <webElementGuid>b8ec0a5e-905b-4126-b996-f2016a2c718b</webElementGuid>
+      <webElementGuid>1bb9820d-4eee-4174-8f6a-b0c98db3e853</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Yes']/parent::*</value>
-      <webElementGuid>b02e5a47-1d62-4122-b794-640586913099</webElementGuid>
+      <webElementGuid>b4bdf6e6-836f-4ba8-978e-73322a215a12</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/button</value>
-      <webElementGuid>497da4e3-b6a2-4d72-981e-610378684730</webElementGuid>
+      <webElementGuid>e3894825-19ce-49e9-a323-dd29d175f1a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@id = 'rn_AnswerFeedback_3_RatingYesButton' and @type = 'button' and (text() = 'Yes' or . = 'Yes')]</value>
-      <webElementGuid>9e23ea91-759d-4be6-a6eb-0072893279c4</webElementGuid>
+      <webElementGuid>65e7085f-c420-4ccd-8996-e2fcbf7ca572</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

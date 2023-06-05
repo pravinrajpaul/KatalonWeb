@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Admin Guide for Zendesk</name>
+   <name>a_Business Essentials</name>
    <tag></tag>
-   <elementGuidId>3e651d5f-061b-430e-b7c0-266e7f693639</elementGuidId>
+   <elementGuidId>39b13e82-ecf4-4485-a72a-a6d50d65fe39</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>a.button.primary</value>
+         <value>ul.menu.vertical.submenu.is-drilldown-submenu.drilldown-submenu-cover-previous.is-active > li.is-drilldown-submenu-parent.is-submenu-item.is-drilldown-submenu-item > a</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='uehnrvazge']/div/div/div/p/a</value>
+         <value>//div[@id='responsive-menu']/div/ul/li[2]/ul/li[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,110 +22,102 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>8eba55f6-9f19-4f2c-ba93-5104ad6aa869</webElementGuid>
+      <webElementGuid>ab7e9e93-c4a2-449c-b221-84edd8731c3d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>role</name>
       <type>Main</type>
-      <value>button primary</value>
-      <webElementGuid>ec22b8c9-5445-4a35-a310-967a05a01802</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>https://kb.univerge.blue/article/49319</value>
-      <webElementGuid>579a54cf-2bea-47fe-af00-ae46b225978e</webElementGuid>
+      <value>menuitem</value>
+      <webElementGuid>f4eb03d8-7148-446c-b52c-f7553db56861</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>target</name>
+      <name>tabindex</name>
       <type>Main</type>
-      <value>_blank</value>
-      <webElementGuid>0f8382a9-c14a-4c8b-a16e-9580a23b8418</webElementGuid>
+      <value>0</value>
+      <webElementGuid>b3250598-939c-45c9-89fc-1a873138a209</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Admin Guide for Zendesk</value>
-      <webElementGuid>6a735326-e973-4041-a062-b516220caf38</webElementGuid>
+      <value>Business Essentials</value>
+      <webElementGuid>ea892a0d-f850-40f2-8dfc-75ea71a6c440</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;uehnrvazge&quot;)/div[@class=&quot;grid-x grid-padding-x&quot;]/div[@class=&quot;medium-12 cell&quot;]/div[@class=&quot;column-wrapper&quot;]/p[1]/a[@class=&quot;button primary&quot;]</value>
-      <webElementGuid>89f47086-8473-4ece-a712-694f83259303</webElementGuid>
+      <value>id(&quot;responsive-menu&quot;)/div[@class=&quot;is-drilldown&quot;]/ul[@class=&quot;vertical large-horizontal menu drilldown&quot;]/li[@class=&quot;navigation-list navigation-list__solutions is-drilldown-submenu-parent&quot;]/ul[@class=&quot;menu vertical submenu is-drilldown-submenu drilldown-submenu-cover-previous is-active&quot;]/li[@class=&quot;is-drilldown-submenu-parent is-submenu-item is-drilldown-submenu-item&quot;]/a[1]</value>
+      <webElementGuid>4cdaa96b-e7a7-457d-8450-f6a5eca27056</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='uehnrvazge']/div/div/div/p/a</value>
-      <webElementGuid>7e993d86-bce3-441d-ab0c-7353892fb351</webElementGuid>
+      <value>//div[@id='responsive-menu']/div/ul/li[2]/ul/li[2]/a</value>
+      <webElementGuid>d44fef02-a7a2-4b08-bc2f-e13e6a1ec1ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Admin Guide for Zendesk')]</value>
-      <webElementGuid>f006f151-98c6-4a75-a72a-390ea07323e4</webElementGuid>
+      <value>//a[contains(text(),'Business Essentials')]</value>
+      <webElementGuid>5bde94d9-e3a9-49dc-89e2-af643c2670eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Easy to use:'])[1]/following::a[1]</value>
-      <webElementGuid>743dccc8-78d4-4f3f-bbae-5d6ef29fe1fa</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[5]/following::a[1]</value>
+      <webElementGuid>3f02e76c-cca9-4ab8-a989-774173a1bd00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='End User Guide for Zendesk'])[1]/preceding::a[1]</value>
-      <webElementGuid>5a4e3e12-7d4c-4e00-a3b2-301acc1622d9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Solutions'])[1]/following::a[2]</value>
+      <webElementGuid>bf8dadaa-8a80-4f30-a20f-4328b7ba6f90</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Admin Guide for Zendesk']/parent::*</value>
-      <webElementGuid>94b33458-254b-4020-862c-99edbb8d2365</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[6]/preceding::a[1]</value>
+      <webElementGuid>3d3cc8db-174d-4ad5-b5ad-7ce51819a9ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'https://kb.univerge.blue/article/49319')]</value>
-      <webElementGuid>d40fd489-0594-4cae-86f9-99ba7da1977b</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Business Essentials']/parent::*</value>
+      <webElementGuid>fee0f490-672e-4398-8171-aa45ffb2c2d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//p/a</value>
-      <webElementGuid>b5e124d7-f7d0-4d54-9b55-e3057808083e</webElementGuid>
+      <value>//li[2]/ul/li[2]/a</value>
+      <webElementGuid>50dec4f8-2a1c-4b39-b659-356144ec4c21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = 'https://kb.univerge.blue/article/49319' and (text() = 'Admin Guide for Zendesk' or . = 'Admin Guide for Zendesk')]</value>
-      <webElementGuid>e0f613a3-b35f-448a-b359-9d4c75cbe7c3</webElementGuid>
+      <value>//a[(text() = 'Business Essentials' or . = 'Business Essentials')]</value>
+      <webElementGuid>2b7dd36b-d080-41fa-aa21-62090f904041</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

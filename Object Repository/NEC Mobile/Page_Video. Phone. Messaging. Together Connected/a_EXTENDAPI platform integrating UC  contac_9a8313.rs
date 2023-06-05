@@ -6,12 +6,11 @@
    <elementGuidId>9d1a1cbc-37af-4768-a8f6-854e47d3371c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='responsive-menu']/div/ul/li/ul/li[3]/ul/li[3]/a</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@id='responsive-menu']/div/ul/li/ul/li[3]/ul/li[3]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>6f4d596e-1bb2-49db-b178-5aa4fffb9162</webElementGuid>
+      <webElementGuid>006320d8-0872-4af5-8794-d8d7ce3cc24b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/cloud-services/extend/</value>
-      <webElementGuid>8e6c55bf-a797-4187-abcd-13c9d1d487f9</webElementGuid>
+      <webElementGuid>f89fcd8f-d978-4052-9dff-d8c33fd44c97</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +37,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>175eecd4-93b8-4351-8294-797e9b6c1f77</webElementGuid>
+      <webElementGuid>2a9ba5e8-26b2-4912-85c7-fb0350d90da1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>EXTENDAPI platform integrating UC &amp; contact center into everyday business apps</value>
-      <webElementGuid>16731fbe-1b42-4946-a287-dc320ae7f416</webElementGuid>
+      <webElementGuid>f9fd2de1-eb49-4f9f-9933-0d6f066addd9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;responsive-menu&quot;)/div[@class=&quot;is-drilldown&quot;]/ul[@class=&quot;vertical large-horizontal menu drilldown&quot;]/li[@class=&quot;navigation-list navigation-list__products is-drilldown-submenu-parent&quot;]/ul[@class=&quot;menu vertical submenu is-drilldown-submenu drilldown-submenu-cover-previous is-active&quot;]/li[@class=&quot;is-drilldown-submenu-parent is-submenu-item is-drilldown-submenu-item&quot;]/ul[@class=&quot;menu vertical submenu is-drilldown-submenu drilldown-submenu-cover-previous is-active&quot;]/li[@class=&quot;is-submenu-item is-drilldown-submenu-item&quot;]/a[1]</value>
-      <webElementGuid>88fe3062-6ba0-40b3-906b-98c6580dfd63</webElementGuid>
+      <webElementGuid>764db0c2-f057-409f-8210-adcedc9b3bcd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='responsive-menu']/div/ul/li/ul/li[3]/ul/li[3]/a</value>
-      <webElementGuid>3f926e84-e856-4b27-927c-c4ca2a11e3a4</webElementGuid>
+      <webElementGuid>f5ff03d9-de4c-48f2-a261-cc3bd47ad7b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Multi-channel cloud-based contact center communications &amp; oversight'])[1]/following::a[1]</value>
-      <webElementGuid>c1292891-efb1-41e1-abbf-d6066fe886df</webElementGuid>
+      <webElementGuid>9d935476-9ebe-48dd-81ef-8ffb4e77e0ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Workspace Management'])[1]/preceding::a[1]</value>
-      <webElementGuid>bd114326-feb8-42d1-b28e-9700a08ffa39</webElementGuid>
+      <webElementGuid>179402ca-5616-41b7-819d-fd29fe036e7f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '/cloud-services/extend/')])[2]</value>
-      <webElementGuid>cad51202-ca66-4075-b698-35241f9348b4</webElementGuid>
+      <webElementGuid>fdb3949a-5983-4b18-a703-1a9c97addde0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/ul/li[3]/a</value>
-      <webElementGuid>bd250c02-6987-47ec-a6ba-fb7624ce145c</webElementGuid>
+      <webElementGuid>35b4127d-dfc7-46d6-aa28-f89d9f8c55ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/cloud-services/extend/' and (text() = 'EXTENDAPI platform integrating UC &amp; contact center into everyday business apps' or . = 'EXTENDAPI platform integrating UC &amp; contact center into everyday business apps')]</value>
-      <webElementGuid>aee46ffa-f66c-41e9-bb4a-6d01d8528e11</webElementGuid>
+      <webElementGuid>0161d81a-73cc-453e-a8c4-7272ce341701</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

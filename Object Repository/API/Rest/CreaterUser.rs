@@ -11,7 +11,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;name\&quot;: \&quot;Morpheus\&quot;,\n    \&quot;job\&quot;: \&quot;Leader\&quot;,\n    \&quot;id\&quot;: \&quot;100\&quot;,\n    \&quot;createdAt\&quot;: \&quot;${time}\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;name\&quot;: \&quot;${name}\&quot;,\n    \&quot;job\&quot;: \&quot;Leader\&quot;,\n    \&quot;id\&quot;: \&quot;${id}\&quot;,\n    \&quot;createdAt\&quot;: \&quot;${time}\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -38,9 +38,23 @@
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>'2023-05-18T09:36:09.514Z'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>56809985-7afb-4b5b-aecd-1da2c45536d2</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1d2a0316-3290-43f9-900d-1d3efd99c313</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3097d4bd-1c42-48aa-a3cd-be95ba24ec47</id>
       <masked>false</masked>
       <name>time</name>
    </variables>
@@ -58,8 +72,6 @@ RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
-WS.verifyResponseStatusCode(response, 201)
-
-WS.verifyElementPropertyValue(response, 'name', 'Morpheus')</verificationScript>
+WS.verifyResponseStatusCode(response, 201)</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Thanks for your feedback</name>
+   <name>a_Solutions</name>
    <tag></tag>
-   <elementGuidId>1438c2b9-76d0-44df-9a78-f46262a6e246</elementGuidId>
+   <elementGuidId>6bb8230e-b5da-4428-9fc2-6773e0d5f9d6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#rn_AnswerFeedback_3_ThanksLabel</value>
+         <value>li.navigation-list.navigation-list__solutions.is-drilldown-submenu-parent > a</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='rn_AnswerFeedback_3_ThanksLabel']</value>
+         <value>//div[@id='responsive-menu']/div/ul/li[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,119 +21,111 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>d800f6c5-61a1-4f9c-a9cd-b4c032b4eb32</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>rn_AnswerFeedback_3_ThanksLabel</value>
-      <webElementGuid>97bb789b-77aa-4eea-9669-038ad73bdd29</webElementGuid>
+      <value>a</value>
+      <webElementGuid>475e9544-3ba6-4310-aa06-96d923fc77e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>data-target</name>
       <type>Main</type>
-      <value>rn_ThanksLabel</value>
-      <webElementGuid>9a410c6c-d9d4-4184-871e-b518355f853e</webElementGuid>
+      <value>#solutions-dropdown</value>
+      <webElementGuid>70156b0f-5ff9-477f-9d30-93faf3f7b3b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>menuitem</value>
+      <webElementGuid>553988df-238d-4da1-bc2c-3e80354c8590</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tabindex</name>
       <type>Main</type>
-      <value>-1</value>
-      <webElementGuid>90f09644-0f93-46e7-a802-c6144f3d0565</webElementGuid>
+      <value>0</value>
+      <webElementGuid>fe6516a6-7ce5-4570-b7a0-37cfeee4d94b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Thanks for your feedback.</value>
-      <webElementGuid>85b80d86-f4cc-4350-9f56-c31d10f2f8e1</webElementGuid>
+      <value>Solutions</value>
+      <webElementGuid>a9ab3748-32a2-45a4-ba3b-523810f3ddb9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;rn_AnswerFeedback_3_ThanksLabel&quot;)</value>
-      <webElementGuid>3cc227fc-da7a-4b53-b530-b5ae0d0bac2a</webElementGuid>
+      <value>id(&quot;responsive-menu&quot;)/div[@class=&quot;is-drilldown&quot;]/ul[@class=&quot;vertical large-horizontal menu drilldown&quot;]/li[@class=&quot;navigation-list navigation-list__solutions is-drilldown-submenu-parent&quot;]/a[1]</value>
+      <webElementGuid>0023213a-fe18-4489-8341-09cae957a367</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//div[@id='rn_AnswerFeedback_3_ThanksLabel']</value>
-      <webElementGuid>e2a6c719-24b6-42ce-8b44-7257bf16d000</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='rn_AnswerFeedback_3_AnswerFeedbackControl']/div</value>
-      <webElementGuid>8389765d-7916-4e81-b065-50c3b53ffd89</webElementGuid>
+      <value>//div[@id='responsive-menu']/div/ul/li[2]/a</value>
+      <webElementGuid>5b906edf-7ea4-4765-850d-9dc04011b801</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Solutions')]</value>
+      <webElementGuid>6d6b3e5f-4161-4416-8be5-5f65ed7cd592</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Is this answer helpful?'])[1]/following::div[1]</value>
-      <webElementGuid>a68ad51b-f1da-4162-9117-3dc25a92da3c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Design, manage and streamline workflows'])[1]/following::a[1]</value>
+      <webElementGuid>be8cdb4c-6e7a-49ac-aae5-7fa58f57e977</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change settings'])[1]/following::div[4]</value>
-      <webElementGuid>616cb4cf-a2e8-465c-9090-c46f77c123b7</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[5]/preceding::a[1]</value>
+      <webElementGuid>1261b4eb-88e8-44cc-a99b-4d14c0c07ab9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Print Article'])[1]/preceding::div[1]</value>
-      <webElementGuid>c46d4af7-b7e4-48ad-aaa2-8a3e42126f2e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Business Essentials'])[1]/preceding::a[2]</value>
+      <webElementGuid>55abaee6-d56e-4e43-aede-cec13c087a81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Article Information'])[1]/preceding::div[1]</value>
-      <webElementGuid>a0258f62-0f48-4a4b-a0e3-b7256db2e63d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Thanks for your feedback.']/parent::*</value>
-      <webElementGuid>c7941bc7-d929-4f7c-8186-d7b37fb7aaf2</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Solutions']/parent::*</value>
+      <webElementGuid>f034473f-38bd-411f-bc27-ec4a9740dd5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div[2]/div/div/div</value>
-      <webElementGuid>110641b2-5d46-4597-8444-527b55a9f718</webElementGuid>
+      <value>//li[2]/a</value>
+      <webElementGuid>ddd01f37-7ff9-4992-86ca-8dc947377f32</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id = 'rn_AnswerFeedback_3_ThanksLabel' and (text() = 'Thanks for your feedback.' or . = 'Thanks for your feedback.')]</value>
-      <webElementGuid>49899275-6004-4e79-9f44-e3fc7494c760</webElementGuid>
+      <value>//a[(text() = 'Solutions' or . = 'Solutions')]</value>
+      <webElementGuid>c9f8bf14-8660-475c-8f1e-acc25555c440</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

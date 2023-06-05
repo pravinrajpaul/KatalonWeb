@@ -6,12 +6,12 @@
    <elementGuidId>7f8e313e-5fa8-45b7-bfc5-4b6614718e8d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='acceptCookie']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#acceptCookie</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='acceptCookie']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>8b37b5d4-2c63-4c1b-965a-19326e65d322</webElementGuid>
+      <webElementGuid>754b79c8-ed29-4aee-a5ae-84f7f08bddc9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>acceptCookie</value>
-      <webElementGuid>306f4db8-6fec-4a6e-8f33-de011a4d05ee</webElementGuid>
+      <webElementGuid>76f2c29e-059b-4d73-9b50-890a00d2ff2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>e556d637-496d-4b28-82fa-6e07f0fa2745</webElementGuid>
+      <webElementGuid>6966dca1-044f-4d57-8e7f-a9bee98eb2fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button primary small</value>
-      <webElementGuid>e5ac3ac1-09b6-4b6f-818a-8c9e927d3f37</webElementGuid>
+      <webElementGuid>92b997c1-26e8-446d-a0ea-ca4e1d1e5991</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Accept</value>
-      <webElementGuid>ad6c96a8-ec52-4e72-9123-cc9fab71e813</webElementGuid>
+      <webElementGuid>ecd7a4af-e05c-4cd9-aab4-d49890dcf2f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;acceptCookie&quot;)</value>
-      <webElementGuid>d78cea4d-4444-42f5-a46b-b886686a5a10</webElementGuid>
+      <webElementGuid>3b5339cb-c5df-435e-a83c-1f56f01d9f76</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='acceptCookie']</value>
-      <webElementGuid>9c6a53ae-a245-4f3d-bead-4f13921f109a</webElementGuid>
+      <webElementGuid>ac87d5df-2ede-48c4-a3ab-63d24d85dd8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cookies']/div/div/div[2]/p/a[2]</value>
-      <webElementGuid>2c8f63fc-849f-4108-a403-57c09f7f9526</webElementGuid>
+      <webElementGuid>068def3e-e186-47d9-bb7e-5654243657f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Accept')]</value>
-      <webElementGuid>53191792-ba4b-4b6a-a74c-8a3f7c3a383d</webElementGuid>
+      <webElementGuid>5bd1e922-92aa-4ac9-b28a-23556c2cb478</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='More Information'])[1]/following::a[1]</value>
-      <webElementGuid>1d5c1488-000c-4234-a063-e99410aca427</webElementGuid>
+      <webElementGuid>670ff3ff-d968-4763-afe5-32067359a382</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Copyright © NEC Corporation of America 2023. All rights reserved.'])[1]/following::a[7]</value>
-      <webElementGuid>30c0eb7c-3ce6-4628-9f14-bec6e97671de</webElementGuid>
+      <webElementGuid>601d350c-47d3-4731-a877-125296449c5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose country or region'])[1]/preceding::a[1]</value>
-      <webElementGuid>12b588d3-e1e6-48db-884c-4a70afc0c114</webElementGuid>
+      <webElementGuid>928b673e-5d08-436a-939b-3dc6be6408e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='United States'])[1]/preceding::a[1]</value>
-      <webElementGuid>cff9c59c-c366-47cf-813a-51d6ee4ce3ff</webElementGuid>
+      <webElementGuid>4903892a-e70e-4800-b5e3-135154f47d84</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Accept']/parent::*</value>
-      <webElementGuid>85e33c41-3338-487e-91e7-3d071842277e</webElementGuid>
+      <webElementGuid>21468ce6-88da-49b5-b7ec-90688fa4d3fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[4]</value>
-      <webElementGuid>87b6f950-c586-4ca0-ab98-365746a25891</webElementGuid>
+      <webElementGuid>378bf4f7-bb7f-4d59-9a8e-bd89183bdfb3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +142,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div/div[2]/p/a[2]</value>
-      <webElementGuid>44cebbda-819f-4ecc-8b19-87ce415a7ced</webElementGuid>
+      <webElementGuid>5e7dfa38-8a5b-4cc2-935d-2b85c3550012</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,6 +150,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'acceptCookie' and @href = '#' and (text() = 'Accept' or . = 'Accept')]</value>
-      <webElementGuid>6f5820f4-6e9c-422c-ac7f-a3e77d8927df</webElementGuid>
+      <webElementGuid>3b866440-55fd-4ae3-8784-0ee9b1274a3f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

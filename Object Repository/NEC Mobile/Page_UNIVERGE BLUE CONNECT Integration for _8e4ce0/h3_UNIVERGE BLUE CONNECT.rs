@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Products</name>
+   <name>h3_UNIVERGE BLUE CONNECT</name>
    <tag></tag>
-   <elementGuidId>47b81590-4e20-4daa-ba69-4f904f570a3e</elementGuidId>
+   <elementGuidId>9d991ba8-b804-49d5-b240-f22795d2525c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>li.navigation-list.navigation-list__products.is-drilldown-submenu-parent > a</value>
+         <value>h3.ng-binding</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='responsive-menu']/div/ul/li/a</value>
+         <value>//body/div[3]/div/div/div[2]/h3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,103 +21,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>904952c2-d1d1-44a7-856c-77a27d9deb53</webElementGuid>
+      <value>h3</value>
+      <webElementGuid>0cd08b61-9d7d-4cde-bf92-68069dd27231</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-target</name>
+      <name>ng-bind-html</name>
       <type>Main</type>
-      <value>#products-dropdown</value>
-      <webElementGuid>2b94dc71-2178-4a61-bdab-541476b2e6b7</webElementGuid>
+      <value>answer.Summary</value>
+      <webElementGuid>d838365b-da43-4866-a32a-5c56c8a60d60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>role</name>
+      <name>class</name>
       <type>Main</type>
-      <value>menuitem</value>
-      <webElementGuid>3ed5cfed-222c-481a-a9cb-508f5b19bc23</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>0</value>
-      <webElementGuid>0842f707-44b1-4e5a-a973-781411ce87d0</webElementGuid>
+      <value>ng-binding</value>
+      <webElementGuid>f7c9a9e6-cd28-41a1-bfe5-e7619075cfcb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Products</value>
-      <webElementGuid>bfaf89b0-5725-4801-a318-9b2768dff313</webElementGuid>
+      <value>UNIVERGE BLUE® CONNECT Integration for Zendesk (Admin Guide)</value>
+      <webElementGuid>70e05014-980a-43cd-bdae-68021b6a14a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;responsive-menu&quot;)/div[@class=&quot;is-drilldown&quot;]/ul[@class=&quot;vertical large-horizontal menu drilldown&quot;]/li[@class=&quot;navigation-list navigation-list__products is-drilldown-submenu-parent&quot;]/a[1]</value>
-      <webElementGuid>50c99b8b-40b2-49c4-8e06-9f384e77f1e1</webElementGuid>
+      <value>id(&quot;yui_3_18_1_6_1685972582339_6&quot;)/div[@class=&quot;main&quot;]/div[@class=&quot;container my-4 article-detail&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-9 col-article-content&quot;]/h3[@class=&quot;ng-binding&quot;]</value>
+      <webElementGuid>fde498af-0ba0-4ac5-b9ee-9e341a4d819e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='responsive-menu']/div/ul/li/a</value>
-      <webElementGuid>c9e359da-5550-4633-a303-e846799a5c7a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Products')]</value>
-      <webElementGuid>75a1dbe2-3875-422e-9a24-5663c6a65e1d</webElementGuid>
+      <value>//body/div[3]/div/div/div[2]/h3</value>
+      <webElementGuid>789865a1-8988-424e-99bb-de3f2a4e6826</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/preceding::a[1]</value>
-      <webElementGuid>6b97e208-477d-4b07-86e9-baddaa8264a2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Learn more about Intermedia'])[1]/following::h3[1]</value>
+      <webElementGuid>721758c7-0df1-4fa3-ad03-3aff3813a853</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='BUSINESS COMMUNICATIONS'])[1]/preceding::a[2]</value>
-      <webElementGuid>28f1e4a1-248c-48d4-9708-1ccb729ff15f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='日本 (日本語)'])[1]/following::h3[1]</value>
+      <webElementGuid>2b28998c-5db8-42df-a386-10d12ca5e8b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Products']/parent::*</value>
-      <webElementGuid>f34230e9-c1ed-4ece-90ce-0af098718a4b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Installation'])[1]/preceding::h3[2]</value>
+      <webElementGuid>826d0a3b-33de-4acb-b3f4-4ee82ecd5476</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Updating Plugin And Settings'])[1]/preceding::h3[2]</value>
+      <webElementGuid>09681924-919e-444c-bbfe-b5bb33317fa7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li/a</value>
-      <webElementGuid>eaf1d4ec-4cf4-4b8a-948e-32b2bb37e14e</webElementGuid>
+      <value>//h3</value>
+      <webElementGuid>f0c054a8-8979-4d39-be8e-a274186a4fbc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[(text() = 'Products' or . = 'Products')]</value>
-      <webElementGuid>7c7331cd-e5f2-4569-a0a7-4feee06e7768</webElementGuid>
+      <value>//h3[(text() = 'UNIVERGE BLUE® CONNECT Integration for Zendesk (Admin Guide)' or . = 'UNIVERGE BLUE® CONNECT Integration for Zendesk (Admin Guide)')]</value>
+      <webElementGuid>ad7a2efe-875d-45e5-aa12-e8779645dcbd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

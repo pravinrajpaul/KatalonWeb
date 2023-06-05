@@ -5,6 +5,15 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>2b6481bd-faef-4e32-8d86-29047dc0d03b</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>41671769-401d-4300-92d0-85f03892297c</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/ContactDetails</testDataId>
+   </testDataLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
@@ -12,9 +21,9 @@
       <variableId>7576cb7e-d943-4520-8a25-9ad7f7ff1a6d</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>41671769-401d-4300-92d0-85f03892297c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>AddressLine1</value>
       <variableId>cafcde6b-d591-44ec-b914-9c7d8fce2d35</variableId>
    </variableLinks>
    <variable>
@@ -25,7 +34,7 @@
       <name>card</name>
    </variable>
    <variable>
-      <defaultValue>'test'</defaultValue>
+      <defaultValue>'Address Line 1'</defaultValue>
       <description></description>
       <id>cafcde6b-d591-44ec-b914-9c7d8fce2d35</id>
       <masked>false</masked>

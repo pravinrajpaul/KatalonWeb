@@ -16,6 +16,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.time.LocalDateTime as LocalDateTime
 
-WS.sendRequestAndVerify(findTestObject('API/Rest/CreaterUser', [('time') : '2023-05-18T09:36:09.514Z']))
+id = CustomKeywords.'mykeywords.CustomKeywords.randomNumber'(6)
 
+println(id)
+
+time = LocalDateTime.now()
+
+println(time)
+
+response = WS.sendRequest(findTestObject('API/Rest/CreaterUser', [('name') : name, ('id') : id, ('time') : time]))
+
+outname = WS.getElementPropertyValue(this.response, 'name')
+
+println(outname)

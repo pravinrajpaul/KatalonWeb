@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_US_toggle-navigation float-right</name>
+   <tag></tag>
+   <elementGuidId>a80638f4-bad7-49ec-8e0a-6545e3c81e09</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.toggle-navigation.float-right</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//header[@id='header']/div[2]/div/div/div/div/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a75ee64c-003d-4a39-b3a8-8d91a2718809</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>toggle-navigation float-right</value>
+      <webElementGuid>27f55993-96d4-4f97-a921-45f7174cd7bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-toggle</name>
+      <type>Main</type>
+      <value>solution-page-menu</value>
+      <webElementGuid>20dde675-f36f-49f2-87d7-953e7b627261</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;header&quot;)/div[@class=&quot;sticky-subnavigation has-scrolled&quot;]/div[@class=&quot;navigation-wrapper&quot;]/div[@class=&quot;grid-container&quot;]/div[@class=&quot;grid-x grid-padding-x align-middle small-padding-collapse&quot;]/div[@class=&quot;cell small-12 medium-auto extend-type&quot;]/div[1]/button[@class=&quot;toggle-navigation float-right&quot;]</value>
+      <webElementGuid>0bc74f19-31b1-4cde-b2d3-80f3d7c3da3c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//header[@id='header']/div[2]/div/div/div/div/div/button</value>
+      <webElementGuid>ec538aba-2dcb-403d-b57d-f599538428c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='US'])[1]/following::button[1]</value>
+      <webElementGuid>0b5f4d8c-fba1-4897-bb4c-4c1532e69191</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::button[1]</value>
+      <webElementGuid>54822be3-bf00-4513-ad18-03e392e1dc9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='API platform'])[1]/preceding::button[1]</value>
+      <webElementGuid>9501cb7e-b7c7-4444-8bfe-b5e08994f380</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CRM'])[1]/preceding::button[1]</value>
+      <webElementGuid>d9413378-bc1a-47b8-ad54-883eb327a8c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/button</value>
+      <webElementGuid>9000d33a-e0cc-4d0a-b9f0-b9df449f067b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

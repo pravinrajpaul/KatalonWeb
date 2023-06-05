@@ -21,6 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.univergeblue.com/')
 
+WebUI.maximizeWindow()
+
 WebUI.click(findTestObject('Object Repository/NEC/Page_Video. Phone. Messaging. Together Connected/a_Accept'))
 
 WebUI.click(findTestObject('Object Repository/NEC/Page_Video. Phone. Messaging. Together Connected/a_Accept_1'))

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Thanks for your feedback</name>
+   <name>a_Accept</name>
    <tag></tag>
-   <elementGuidId>1438c2b9-76d0-44df-9a78-f46262a6e246</elementGuidId>
+   <elementGuidId>6e93a38a-02d3-4440-b3e3-4cbd7394059f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#rn_AnswerFeedback_3_ThanksLabel</value>
+         <value>#hs-eu-confirmation-button</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='rn_AnswerFeedback_3_ThanksLabel']</value>
+         <value>//a[@id='hs-eu-confirmation-button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,119 +21,125 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>d800f6c5-61a1-4f9c-a9cd-b4c032b4eb32</webElementGuid>
+      <value>a</value>
+      <webElementGuid>bc09b351-7e08-4fc6-86a9-ed6e8032a6bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:void(0);</value>
+      <webElementGuid>e0a48423-b925-4584-8b3d-8da205c0cb2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>rn_AnswerFeedback_3_ThanksLabel</value>
-      <webElementGuid>97bb789b-77aa-4eea-9669-038ad73bdd29</webElementGuid>
+      <value>hs-eu-confirmation-button</value>
+      <webElementGuid>da9ba990-5ee5-4cea-b04c-d4773e67c7fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>role</name>
       <type>Main</type>
-      <value>rn_ThanksLabel</value>
-      <webElementGuid>9a410c6c-d9d4-4184-871e-b518355f853e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>-1</value>
-      <webElementGuid>90f09644-0f93-46e7-a802-c6144f3d0565</webElementGuid>
+      <value>button</value>
+      <webElementGuid>28d14343-926d-4427-a1f3-b3fd55328484</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Thanks for your feedback.</value>
-      <webElementGuid>85b80d86-f4cc-4350-9f56-c31d10f2f8e1</webElementGuid>
+      <value>
+    Accept
+  </value>
+      <webElementGuid>bd0d4d7a-4660-46a2-8427-9a514bf83a60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;rn_AnswerFeedback_3_ThanksLabel&quot;)</value>
-      <webElementGuid>3cc227fc-da7a-4b53-b530-b5ae0d0bac2a</webElementGuid>
+      <value>id(&quot;hs-eu-confirmation-button&quot;)</value>
+      <webElementGuid>faf858a4-5418-4e16-82ec-bd6ac9549a72</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='rn_AnswerFeedback_3_ThanksLabel']</value>
-      <webElementGuid>e2a6c719-24b6-42ce-8b44-7257bf16d000</webElementGuid>
+      <value>//a[@id='hs-eu-confirmation-button']</value>
+      <webElementGuid>0afcd88e-c40b-435d-adb6-773cd8c79fab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='rn_AnswerFeedback_3_AnswerFeedbackControl']/div</value>
-      <webElementGuid>8389765d-7916-4e81-b065-50c3b53ffd89</webElementGuid>
+      <value>//div[@id='hs-eu-cookie-confirmation-button-group']/a</value>
+      <webElementGuid>02c371f5-4154-4cfa-aec9-687f3eb65e0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Accept')]</value>
+      <webElementGuid>3f9c0a0f-274e-4b63-978f-bce707728995</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Is this answer helpful?'])[1]/following::div[1]</value>
-      <webElementGuid>a68ad51b-f1da-4162-9117-3dc25a92da3c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Decline'])[1]/preceding::a[1]</value>
+      <webElementGuid>b359ab20-56c5-4be2-ab45-856ba234ef8d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change settings'])[1]/following::div[4]</value>
-      <webElementGuid>616cb4cf-a2e8-465c-9090-c46f77c123b7</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Products'])[1]/preceding::a[3]</value>
+      <webElementGuid>b74960fc-da33-4bf4-8458-bea7b2a1d06d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Print Article'])[1]/preceding::div[1]</value>
-      <webElementGuid>c46d4af7-b7e4-48ad-aaa2-8a3e42126f2e</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Accept']/parent::*</value>
+      <webElementGuid>d7181016-df63-4f6e-bcfa-d075f1b9e81e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:href</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Article Information'])[1]/preceding::div[1]</value>
-      <webElementGuid>a0258f62-0f48-4a4b-a0e3-b7256db2e63d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Thanks for your feedback.']/parent::*</value>
-      <webElementGuid>c7941bc7-d929-4f7c-8186-d7b37fb7aaf2</webElementGuid>
+      <value>//a[contains(@href, 'javascript:void(0);')]</value>
+      <webElementGuid>8a5fbafa-3556-4568-b830-91333f006cfb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div[2]/div/div/div</value>
-      <webElementGuid>110641b2-5d46-4597-8444-527b55a9f718</webElementGuid>
+      <value>//a</value>
+      <webElementGuid>5f0dfbd2-86fc-4f93-b8a8-5e73f9fbdd30</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id = 'rn_AnswerFeedback_3_ThanksLabel' and (text() = 'Thanks for your feedback.' or . = 'Thanks for your feedback.')]</value>
-      <webElementGuid>49899275-6004-4e79-9f44-e3fc7494c760</webElementGuid>
+      <value>//a[@href = 'javascript:void(0);' and @id = 'hs-eu-confirmation-button' and (text() = '
+    Accept
+  ' or . = '
+    Accept
+  ')]</value>
+      <webElementGuid>eb3db257-0239-44b5-9234-6f2a230fbd73</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

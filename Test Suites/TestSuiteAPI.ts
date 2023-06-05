@@ -17,5 +17,23 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/APITests/REST/Rest</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>096a63e5-7534-4e8e-91bc-69439585cb7a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>db926443-b7ee-426d-9083-5d3bbf0c32fd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0cc7fd1a-f6f2-492c-a9af-1298b7e7fb89</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

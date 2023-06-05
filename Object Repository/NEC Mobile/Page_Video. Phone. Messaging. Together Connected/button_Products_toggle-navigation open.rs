@@ -6,12 +6,12 @@
    <elementGuidId>1f35485b-40f2-4790-97ba-52829120f7ef</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@type='button']</value>
+         <key>CSS</key>
+         <value>button.toggle-navigation</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>button.toggle-navigation.open</value>
+         <key>XPATH</key>
+         <value>//button[@type='button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>67de0055-26b9-4cf0-aba5-d44741bb12f6</webElementGuid>
+      <webElementGuid>6e8eea49-66fe-4b63-a5da-944fbcb148ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>toggle-navigation open</value>
-      <webElementGuid>138f4102-3ee5-44ea-bb56-766e301d5a7d</webElementGuid>
+      <value>toggle-navigation</value>
+      <webElementGuid>4b94257a-e2fd-4859-8c63-a0d053b08c70</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c0ba4f18-c31d-4186-ba70-09804e0b600f</webElementGuid>
+      <webElementGuid>a34cda13-a268-45ea-a410-5880fa0b113a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,15 +46,15 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>responsive-menu</value>
-      <webElementGuid>e7c8ac78-3877-47fc-a8af-4ceeae7918f4</webElementGuid>
+      <webElementGuid>e4df522d-ee11-4c63-b124-830234db81c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;header&quot;)/div[@class=&quot;top-bar top-bar__us&quot;]/div[@class=&quot;top-bar-left&quot;]/span[@class=&quot;toggle-menu&quot;]/button[@class=&quot;toggle-navigation open&quot;]</value>
-      <webElementGuid>ccc9391c-c914-4c26-8dfd-50a3ba155a00</webElementGuid>
+      <value>id(&quot;header&quot;)/div[@class=&quot;top-bar top-bar__us&quot;]/div[@class=&quot;top-bar-left&quot;]/span[@class=&quot;toggle-menu&quot;]/button[@class=&quot;toggle-navigation&quot;]</value>
+      <webElementGuid>98dccf34-7dd3-491e-a8b2-bee4fa90c4f5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='button']</value>
-      <webElementGuid>1e7a9977-a58d-4008-a579-42b9200be3ff</webElementGuid>
+      <webElementGuid>4c945e79-3fa9-48b5-8b81-fe8bdcf86a82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,23 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//header[@id='header']/div/div/span/button</value>
-      <webElementGuid>70f9cc78-1cb1-410e-8c58-3c39491378f8</webElementGuid>
+      <webElementGuid>99dc794f-97d9-42ea-833d-2d68e5fca883</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Decline'])[1]/following::button[1]</value>
+      <webElementGuid>1ee3fd27-0323-4811-8255-b04dcb74d94e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accept'])[1]/following::button[1]</value>
+      <webElementGuid>664de51a-2a6b-4dae-afdf-8b5cfde75c86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Products'])[1]/preceding::button[1]</value>
-      <webElementGuid>fe492a5f-97bc-4e47-9e03-52e229a2827b</webElementGuid>
+      <webElementGuid>ed52c311-26b7-4f2f-b616-3a43915b7cb0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/preceding::button[1]</value>
-      <webElementGuid>d524f7f4-272c-49ab-804a-eef788d8a2f0</webElementGuid>
+      <webElementGuid>7c46fe19-b8a9-4cc4-a684-ffe6154f0c09</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>c901f5c1-54c0-4317-8238-244c86a37298</webElementGuid>
+      <webElementGuid>079075f3-eab4-477c-83f8-774ec1e58494</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button']</value>
-      <webElementGuid>f901c953-e0fc-4df0-9900-d2cbf2a1bf11</webElementGuid>
+      <webElementGuid>05c24298-6b70-441b-b8b7-eb13466ce2b1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

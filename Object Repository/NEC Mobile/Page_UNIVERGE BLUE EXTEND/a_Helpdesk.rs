@@ -6,12 +6,11 @@
    <elementGuidId>52014560-10d2-4c56-a894-f61a0d427a6c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='solution-page-menu']/ul/li[3]/a</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@id='solution-page-menu']/ul/li[3]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>cba4f7a2-935d-482a-8396-805791fc2690</webElementGuid>
+      <webElementGuid>9961a6d0-d08c-41dd-8d40-b5109defb31c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/cloud-services/extend/helpdesk/</value>
-      <webElementGuid>80d2ba55-47a3-4766-a004-f5005d6ab39f</webElementGuid>
+      <webElementGuid>0e54f179-eb6c-4615-8f02-1bf9a51f6417</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Helpdesk</value>
-      <webElementGuid>e371295a-764c-4abe-82d0-2d71ea2d9171</webElementGuid>
+      <webElementGuid>69f61f0f-3ef9-4025-911e-debfd1432772</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;solution-page-menu&quot;)/ul[@class=&quot;menu vertical medium-horizontal&quot;]/li[3]/a[1]</value>
-      <webElementGuid>df16fcf4-4bf3-42a5-b615-a6c45a432a7c</webElementGuid>
+      <webElementGuid>46387b05-f99d-473b-9c0a-ad9941883179</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='solution-page-menu']/ul/li[3]/a</value>
-      <webElementGuid>031124c1-9ea4-4f01-886f-3342cf0ad56c</webElementGuid>
+      <webElementGuid>66d72e1d-363c-46b1-81a1-291e6786e64f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Helpdesk')]</value>
-      <webElementGuid>d1a0efef-2f5b-4563-8039-0535093be6a1</webElementGuid>
+      <webElementGuid>57992629-cbda-4a65-a827-83c389d5b96e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CRM'])[1]/following::a[1]</value>
-      <webElementGuid>8baf8d27-9a4b-40e8-b08b-07c5ba24dc65</webElementGuid>
+      <webElementGuid>8b05d18a-9c6f-443f-a028-76fdae717e5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='API platform'])[1]/following::a[2]</value>
-      <webElementGuid>07d564da-8aba-474e-ac2c-6579f8e7c9af</webElementGuid>
+      <webElementGuid>2307afed-5338-4eb5-8770-8762320099bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Productivity'])[1]/preceding::a[1]</value>
-      <webElementGuid>9cd2b8f9-837a-452e-8d4b-2b6264e50a0d</webElementGuid>
+      <webElementGuid>11e4a4f8-e1a0-49bf-a251-f16080c7b544</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact Center'])[1]/preceding::a[2]</value>
-      <webElementGuid>6d51b4c2-17ff-4bd5-95f5-38ee8cfba26a</webElementGuid>
+      <webElementGuid>7a3b6639-e1d9-47a6-8ce2-e9889c27007e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Helpdesk']/parent::*</value>
-      <webElementGuid>91fb46b4-b5e7-4d9e-a5a4-cecd59efe69e</webElementGuid>
+      <webElementGuid>a5edf8f8-38e3-42b1-ab2b-d1cb67915595</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/cloud-services/extend/helpdesk/')]</value>
-      <webElementGuid>26360dd8-0f91-469e-ab94-07834144f5d5</webElementGuid>
+      <webElementGuid>dc901845-f11d-4d57-832e-ab0a42129e8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/ul/li[3]/a</value>
-      <webElementGuid>8c5d04b0-4ac4-4cbd-85e9-1f4a6478bcc2</webElementGuid>
+      <webElementGuid>d4e71707-41dd-4894-889f-19919a39f209</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/cloud-services/extend/helpdesk/' and (text() = 'Helpdesk' or . = 'Helpdesk')]</value>
-      <webElementGuid>4908034d-b2c6-48e1-9b1f-9d5d13a55a30</webElementGuid>
+      <webElementGuid>16a0fed3-9ef8-40a1-97ff-24529eacc969</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
