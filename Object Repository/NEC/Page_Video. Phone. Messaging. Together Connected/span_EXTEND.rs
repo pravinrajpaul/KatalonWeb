@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_EXTEND</name>
+   <tag></tag>
+   <elementGuidId>7ebb3168-be23-4085-8169-df8605116ffd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='section-communications']/div/div/div/div[2]/ul/li[5]/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>07350d5c-99bb-41d3-8ad7-82c6da5ce233</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>link-text </value>
+      <webElementGuid>250ba120-3b82-4e00-a477-e1ac4f8a5881</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>EXTEND</value>
+      <webElementGuid>1612df64-dd63-40bd-be37-ccb5e120c40d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;section-communications&quot;)/div[@class=&quot;grid-x align-middle&quot;]/div[@class=&quot;cell small-12&quot;]/div[@class=&quot;grid-x grid-padding-x&quot;]/div[@class=&quot;cell small-12 medium-6&quot;]/ul[@class=&quot;vertical menu menu__pages&quot;]/li[5]/a[@class=&quot;link link__toplevel&quot;]/span[@class=&quot;link-text&quot;]</value>
+      <webElementGuid>4c5dddf0-be29-4502-b496-6af9e73cbe8f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='section-communications']/div/div/div/div[2]/ul/li[5]/a/span</value>
+      <webElementGuid>365cdd77-4bc5-4c2d-bd0a-801f3dc88f88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Large-scale virtual webinars wherever business take place'])[2]/following::span[1]</value>
+      <webElementGuid>6a56479a-0458-465a-8cc8-d86e10d52228</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MEET WEBINAR'])[1]/following::span[2]</value>
+      <webElementGuid>1fe67913-60db-4aaf-ae64-869660544153</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='API platform integrating UC &amp; contact center into everyday business apps'])[3]/preceding::span[1]</value>
+      <webElementGuid>07c0d889-e166-408d-aee7-54b210265265</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ENGAGE'])[2]/preceding::span[2]</value>
+      <webElementGuid>5763b202-bc84-464f-81fb-54966dc504fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/ul/li[5]/a/span</value>
+      <webElementGuid>0d6fe8cd-4b5b-468a-9771-2dad723ed44d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'EXTEND' or . = 'EXTEND')]</value>
+      <webElementGuid>a5c3c6ec-796c-4afb-817c-00b453e03fd1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

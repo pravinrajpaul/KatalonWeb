@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h3_UNIVERGE BLUE CONNECT Integration for Ze_6400b5</name>
+   <tag></tag>
+   <elementGuidId>41e357c7-141d-4513-b0a8-ab4d018407f0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[@id='yui_3_18_1_6_1685953598504_6']/div[3]/div/div/div[2]/h3</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h3.ng-binding</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>78c87812-8ddd-4b6d-be21-4d73b4910f21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-bind-html</name>
+      <type>Main</type>
+      <value>answer.Summary</value>
+      <webElementGuid>8e5bbab1-1133-48eb-814b-798b396426d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-binding</value>
+      <webElementGuid>68ff1309-a604-415c-b460-5f74b6f481c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>UNIVERGE BLUE® CONNECT Integration for Zendesk (Admin Guide)</value>
+      <webElementGuid>c6bc0b17-a9e2-40e2-8f6a-2f890afc0710</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;yui_3_18_1_6_1685953598504_6&quot;)/div[@class=&quot;main&quot;]/div[@class=&quot;container my-4 article-detail&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-9 col-article-content&quot;]/h3[@class=&quot;ng-binding&quot;]</value>
+      <webElementGuid>52bb81f8-8085-4f7d-b92d-ab29644ecdab</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//body[@id='yui_3_18_1_6_1685953598504_6']/div[3]/div/div/div[2]/h3</value>
+      <webElementGuid>9cd4b694-0bca-4673-9ce5-dd586a5d3ccc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Learn more about Intermedia'])[1]/following::h3[1]</value>
+      <webElementGuid>361a86dd-015b-4116-90be-7e59287add64</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='日本 (日本語)'])[1]/following::h3[1]</value>
+      <webElementGuid>090ffe79-da86-4505-aecb-597c5917a42f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Installation'])[1]/preceding::h3[2]</value>
+      <webElementGuid>eef55f44-e943-447d-afa1-d9c87cd3a652</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Updating Plugin And Settings'])[1]/preceding::h3[2]</value>
+      <webElementGuid>44185455-132a-45a8-961a-53ef194a09fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h3</value>
+      <webElementGuid>c443d145-ab81-4024-86f8-bb8451573073</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'UNIVERGE BLUE® CONNECT Integration for Zendesk (Admin Guide)' or . = 'UNIVERGE BLUE® CONNECT Integration for Zendesk (Admin Guide)')]</value>
+      <webElementGuid>22b21b7b-8f90-440b-921f-50280d176539</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

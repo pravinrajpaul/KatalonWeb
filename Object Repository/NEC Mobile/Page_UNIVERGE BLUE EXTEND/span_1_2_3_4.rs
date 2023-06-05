@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_1_2_3_4</name>
+   <tag></tag>
+   <elementGuidId>d6df00aa-5760-4435-8a50-eab694d84c28</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//header[@id='header']/div/div/span/button/span[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>57259dd1-a8e4-470c-bd87-1cb02a8d476c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;header&quot;)/div[@class=&quot;top-bar top-bar__us&quot;]/div[@class=&quot;top-bar-left&quot;]/span[@class=&quot;toggle-menu&quot;]/button[@class=&quot;toggle-navigation&quot;]/span[3]</value>
+      <webElementGuid>76b0f083-b87d-4cb4-9bb3-cc998c7f02ae</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//header[@id='header']/div/div/span/button/span[3]</value>
+      <webElementGuid>e1c3f2e1-ef7f-48f5-aa2e-7922fc36be2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[3]</value>
+      <webElementGuid>6104d9d7-8842-4bc7-bf72-b4878bd9a682</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

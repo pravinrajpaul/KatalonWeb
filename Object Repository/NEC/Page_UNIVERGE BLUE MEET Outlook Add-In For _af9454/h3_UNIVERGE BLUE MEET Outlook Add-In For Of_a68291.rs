@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h3_UNIVERGE BLUE MEET Outlook Add-In For Of_a68291</name>
+   <tag></tag>
+   <elementGuidId>36636cc9-29e3-4735-9067-7fb8e613d06d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[@id='yui_3_18_1_6_1685953325475_6']/div[3]/div/div/div[2]/h3</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h3.ng-binding</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>1d95db1d-dac3-4aa7-99e6-d69bd74aaccd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-bind-html</name>
+      <type>Main</type>
+      <value>answer.Summary</value>
+      <webElementGuid>4fb72ad8-999f-43d5-a96c-133028adc25c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-binding</value>
+      <webElementGuid>aa8745ea-fe88-4046-b48f-5e97b71c291b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>UNIVERGE BLUE® MEET: Outlook Add-In For Office 365 (Admin Guide)</value>
+      <webElementGuid>acb75d5e-97b1-49ef-82a2-6f8738ae0168</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;yui_3_18_1_6_1685953325475_6&quot;)/div[@class=&quot;main&quot;]/div[@class=&quot;container my-4 article-detail&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-9 col-article-content&quot;]/h3[@class=&quot;ng-binding&quot;]</value>
+      <webElementGuid>e27df6bc-be31-4ba5-9958-652ab3c08a38</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//body[@id='yui_3_18_1_6_1685953325475_6']/div[3]/div/div/div[2]/h3</value>
+      <webElementGuid>759bd034-1581-4e09-a176-e96819e1f9f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Learn more about Intermedia'])[1]/following::h3[1]</value>
+      <webElementGuid>e04d6d52-f1d2-40f4-b0ce-cbfe53199ec4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='日本 (日本語)'])[1]/following::h3[1]</value>
+      <webElementGuid>2d72428d-5d86-4013-828a-883c8b871016</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Important:'])[1]/preceding::h3[2]</value>
+      <webElementGuid>ada93c84-5e91-4fea-b72a-9087095de08a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h3</value>
+      <webElementGuid>a9f4bae1-792e-4345-9862-2035b27ea72f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'UNIVERGE BLUE® MEET: Outlook Add-In For Office 365 (Admin Guide)' or . = 'UNIVERGE BLUE® MEET: Outlook Add-In For Office 365 (Admin Guide)')]</value>
+      <webElementGuid>8a369ded-076f-4d4c-8d9f-c28ba3c92ef3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

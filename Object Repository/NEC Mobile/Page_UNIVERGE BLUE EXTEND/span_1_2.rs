@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_1_2</name>
+   <tag></tag>
+   <elementGuidId>8d98c00a-db51-4576-b3b1-52dbfe0eeb9f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//header[@id='header']/div[2]/div/div/div/div/div/button/span[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>b8b3112a-7cda-4c92-ad0e-30b8f95d3489</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;header&quot;)/div[@class=&quot;sticky-subnavigation has-scrolled&quot;]/div[@class=&quot;navigation-wrapper&quot;]/div[@class=&quot;grid-container&quot;]/div[@class=&quot;grid-x grid-padding-x align-middle small-padding-collapse&quot;]/div[@class=&quot;cell small-12 medium-auto extend-type&quot;]/div[1]/button[@class=&quot;toggle-navigation float-right&quot;]/span[4]</value>
+      <webElementGuid>9ef52d3a-3517-4250-a231-4e34f9989ad0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//header[@id='header']/div[2]/div/div/div/div/div/button/span[4]</value>
+      <webElementGuid>ee009237-0a34-433c-995d-af75e3940763</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/button/span[4]</value>
+      <webElementGuid>3310c5b8-6057-4adf-bc06-d7db00c86d6d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

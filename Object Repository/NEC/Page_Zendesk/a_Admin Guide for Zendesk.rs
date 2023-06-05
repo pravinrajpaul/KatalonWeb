@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Admin Guide for Zendesk</name>
+   <tag></tag>
+   <elementGuidId>97c1d575-63b9-4f8a-9b3b-5d34938086ca</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='uehnrvazge']/div/div/div/p/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.button.primary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>4544caa8-2a43-47a9-aeab-400ec2b57c9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button primary</value>
+      <webElementGuid>91949a2e-3f26-44ec-ac4f-05a02555ebff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://kb.univerge.blue/article/49319</value>
+      <webElementGuid>a02e52d3-6271-4f20-aa80-1a72bc98d104</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+      <webElementGuid>0319fc2f-92db-4e90-a912-c38142359991</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Admin Guide for Zendesk</value>
+      <webElementGuid>b6811d96-295a-4868-9c69-43bc15b8379c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;uehnrvazge&quot;)/div[@class=&quot;grid-x grid-padding-x&quot;]/div[@class=&quot;medium-12 cell&quot;]/div[@class=&quot;column-wrapper&quot;]/p[1]/a[@class=&quot;button primary&quot;]</value>
+      <webElementGuid>6e0388a6-74b3-4ef1-8c9f-34e2e346304e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='uehnrvazge']/div/div/div/p/a</value>
+      <webElementGuid>5f41828b-fa5d-4172-9470-11294b3c9636</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Admin Guide for Zendesk')]</value>
+      <webElementGuid>6bb6b180-297c-4860-adc0-caa6bc43d101</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Easy to use:'])[1]/following::a[1]</value>
+      <webElementGuid>c07beaaf-4a19-4005-8e06-72b5ded130d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='End User Guide for Zendesk'])[1]/preceding::a[1]</value>
+      <webElementGuid>dd6cf718-8121-441d-be52-c143813ef6c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Admin Guide for Zendesk']/parent::*</value>
+      <webElementGuid>0c843f85-8b35-4af4-badb-d85275ec04fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://kb.univerge.blue/article/49319')]</value>
+      <webElementGuid>71b5f93a-aaf6-4ee5-8151-5093d577a52a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p/a</value>
+      <webElementGuid>3f05b576-5ec9-4faa-ad32-efed05d36a7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://kb.univerge.blue/article/49319' and (text() = 'Admin Guide for Zendesk' or . = 'Admin Guide for Zendesk')]</value>
+      <webElementGuid>8333694a-6b63-495f-99a3-17ec1e002b26</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

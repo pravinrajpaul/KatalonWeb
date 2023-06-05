@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_1</name>
+   <tag></tag>
+   <elementGuidId>6243fb42-cbea-4ef3-9513-06c4e06ac92c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//header[@id='header']/div/div/span/button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.toggle-navigation > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4bd32170-3462-4c87-a43b-ab05cadb883a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;header&quot;)/div[@class=&quot;top-bar top-bar__us&quot;]/div[@class=&quot;top-bar-left&quot;]/span[@class=&quot;toggle-menu&quot;]/button[@class=&quot;toggle-navigation&quot;]/span[1]</value>
+      <webElementGuid>5ca45098-ee03-44f4-bef0-043c6af8449d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//header[@id='header']/div/div/span/button/span</value>
+      <webElementGuid>bbd2858e-5d96-435d-a8a7-95fc5c20f590</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/span</value>
+      <webElementGuid>c480fb23-ab4f-4788-8167-c21f9d29205e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

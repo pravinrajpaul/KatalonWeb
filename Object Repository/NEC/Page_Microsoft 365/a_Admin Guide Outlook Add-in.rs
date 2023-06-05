@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Admin Guide Outlook Add-in</name>
+   <tag></tag>
+   <elementGuidId>b649ba98-6387-4396-b4e3-fca905b2c60d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='qxthbwfpae']/div/div/div/p/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.button.primary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>e173e1d4-dcdf-451c-b6dc-526da1113d96</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button primary</value>
+      <webElementGuid>f3727836-6ea6-42e5-a577-4b9ef7618b99</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://kb.univerge.blue/article/48203</value>
+      <webElementGuid>bd0298f3-a2e6-4b6c-8f28-b6b5782a31cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+      <webElementGuid>e352346a-bfc9-453a-b9ef-dcd70f2ac0fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Admin Guide Outlook Add-in</value>
+      <webElementGuid>81c929af-cf69-4a8e-8db4-53f43bdbf644</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;qxthbwfpae&quot;)/div[@class=&quot;grid-x grid-padding-x&quot;]/div[@class=&quot;medium-12 cell&quot;]/div[@class=&quot;column-wrapper&quot;]/p[1]/a[@class=&quot;button primary&quot;]</value>
+      <webElementGuid>25691f43-56c0-4ecb-b04a-d96514c6d556</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='qxthbwfpae']/div/div/div/p/a</value>
+      <webElementGuid>375f2c15-4f7d-44a8-84a7-e8459ff0a793</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Admin Guide Outlook Add-in')]</value>
+      <webElementGuid>23cf5863-1a5a-4c9a-a182-664171d51f3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Streamline workflows:'])[1]/following::a[1]</value>
+      <webElementGuid>c53e8321-713c-4a8b-9be1-b862ce0aa8e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='End-user Guide Outlook Add-in'])[1]/preceding::a[1]</value>
+      <webElementGuid>1fe4b922-ef00-4a0c-a0df-e69cf3d0ee49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Admin Guide Outlook Add-in']/parent::*</value>
+      <webElementGuid>a408a085-4ed9-4456-923f-0126a758a946</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://kb.univerge.blue/article/48203')]</value>
+      <webElementGuid>f9a6a732-d5e2-4cb6-8e72-bc3c10cd9b1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p/a</value>
+      <webElementGuid>d28bb83e-8d25-4e93-be12-820446a70847</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://kb.univerge.blue/article/48203' and (text() = 'Admin Guide Outlook Add-in' or . = 'Admin Guide Outlook Add-in')]</value>
+      <webElementGuid>5c299732-6f77-479b-900a-183df47f10f8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
