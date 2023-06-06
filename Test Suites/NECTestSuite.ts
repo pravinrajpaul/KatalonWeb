@@ -4,7 +4,7 @@
    <name>NECTestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
+   <mailRecipient>pravin.raveendran@katalon.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
@@ -19,10 +19,28 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4a2348e4-89fb-4548-b24b-33919a75a3bc</guid>
+      <guid>b98b8a58-afaf-423d-935c-67312a548551</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/WebTestCases/WebMobileTestCase2NEC</testCaseId>
+      <testCaseId>Test Cases/APITests/REST/Rest</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>096a63e5-7534-4e8e-91bc-69439585cb7a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>db926443-b7ee-426d-9083-5d3bbf0c32fd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0cc7fd1a-f6f2-492c-a9af-1298b7e7fb89</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
