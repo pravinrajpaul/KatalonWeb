@@ -61,5 +61,7 @@ CustomKeywords.'robot.Keyboard.dragAndDropToElement'([findTestObject('WaveMaker/
 
 WebUI.delay(5)
 
+WebUI.takeFullPageScreenshot("Drag&Drop")
+
 WebUI.closeBrowser()
 
