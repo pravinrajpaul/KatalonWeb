@@ -19,8 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
-
 WebUI.navigateToUrl('https://www.wavemakeronline.com/login/login')
 
 WebUI.setText(findTestObject('Object Repository/WaveMaker/Page_WaveMaker/input_Login toWaveMaker_j_username'), 'pravin.raveendran@katalon.com')
@@ -33,6 +31,8 @@ WebUI.click(findTestObject('Object Repository/WaveMaker/Page_WaveMaker/button_Lo
 WebUI.click(findTestObject('Object Repository/WaveMaker/Page_WaveMaker Studio/a_Continue free trial'))
 
 WebUI.click(findTestObject('WaveMaker/Page_WaveMaker Studio/a_SKIP'))
+
+WebUI.waitForElementClickable(findTestObject('WaveMaker/Page_WaveMaker Studio/div_Got it'), 3)
 
 WebUI.click(findTestObject('Object Repository/WaveMaker/Page_WaveMaker Studio/div_Got it'))
 
@@ -56,9 +56,10 @@ WebUI.click(findTestObject('WaveMaker/Page_WaveMaker Studio/li_Button'))
 
 WebUI.delay(2)
 
-CustomKeywords.'robot.Keyboard.dragAndDropToElement10Offset'([findTestObject('WaveMaker/Page_WaveMaker Studio/li_Button')
-        , findTestObject('WaveMaker/Page_WaveMaker Studio/obj_Content')])
+CustomKeywords.'robot.Keyboard.dragAndDropToElement'([findTestObject('WaveMaker/Page_WaveMaker Studio/li_Button'), findTestObject(
+            'WaveMaker/Page_WaveMaker Studio/obj_Content')])
 
 WebUI.delay(5)
 
 WebUI.closeBrowser()
+

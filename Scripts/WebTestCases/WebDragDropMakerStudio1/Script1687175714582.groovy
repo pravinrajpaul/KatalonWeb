@@ -34,6 +34,8 @@ WebUI.click(findTestObject('Object Repository/WaveMaker/Page_WaveMaker Studio/a_
 
 WebUI.click(findTestObject('WaveMaker/Page_WaveMaker Studio/a_SKIP'))
 
+WebUI.waitForElementClickable(findTestObject('WaveMaker/Page_WaveMaker Studio/div_Got it'), 3)
+
 WebUI.click(findTestObject('Object Repository/WaveMaker/Page_WaveMaker Studio/div_Got it'))
 
 WebUI.click(findTestObject('Object Repository/WaveMaker/Page_WaveMaker Studio/div_Got it'))

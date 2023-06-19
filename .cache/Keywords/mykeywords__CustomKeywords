@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "0E7DAB35B52CE91511478122C1728D55",
+  "keywordFileContentHash": "480069B50E9A7409F870BF37BFEC6CEB",
   "keywordClasses": [
     {
       "name": "mykeywords.CustomKeywords",
@@ -82,17 +82,17 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Win app driver set installation path\n\t *\n\t */"
+          "javadoc": "/**\r\n\t * Win app driver set installation path\r\n\t *\r\n\t */"
         },
         {
           "name": "startDefaultWinAppDriver",
           "parameters": [],
-          "javadoc": "/**\n\t * Win app driver default installation\n\t *\n\t */"
+          "javadoc": "/**\r\n\t * Win app driver default installation\r\n\t *\r\n\t */"
         },
         {
           "name": "exitWinAppDriver",
           "parameters": [],
-          "javadoc": "/**\n\t * Win app driver default installation\n\t *\n\t */"
+          "javadoc": "/**\r\n\t * Win app driver default installation\r\n\t *\r\n\t */"
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "A8B01CCDC19AAAC222642329A1E4F708",
+  "keywordFileContentHash": "33C2656B68A8B5DA3FD192B960A2448E",
   "keywordClasses": [
     {
       "name": "robot.Keyboard",
@@ -20,8 +20,25 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
+        },
+        {
+          "name": "mouseAction",
+          "parameters": [
+            {
+              "name": "mouseClickType",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
         },
         {
           "name": "pressSpecialKey",
@@ -39,8 +56,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "dragAndDropToElement",
@@ -68,11 +84,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
-          "name": "dragAndDropToElement10Offset",
+          "name": "dragAndDropToElementWait",
           "parameters": [
             {
               "name": "tObj",
@@ -97,11 +112,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

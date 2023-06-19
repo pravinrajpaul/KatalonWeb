@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>obj_Content</name>
+   <name>obj_ContentOver</name>
    <tag></tag>
-   <elementGuidId>71748e18-b11e-48bd-a616-836221bbdd26</elementGuidId>
+   <elementGuidId>eec65544-9cf1-4c69-b6f3-27492ada7477</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[contains(@class,'app-ng-transclude')][contains(@data-droptarget-for, 'wm_page_content')]</value>
+         <value>//div[contains(@class,'app-ng-transclude')][contains(@data-droptarget-for, 'wm_page_content')][contains(@class, 'widget-drop-target')]</value>
       </entry>
       <entry>
          <key>BASIC</key>

@@ -5,9 +5,11 @@ import static java.awt.event.KeyEvent.*;
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import java.awt.AWTException;
-import java.awt.Robot
+import java.awt.Robot;
+import java.awt.event.InputEvent;
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
+import org.openqa.selenium.Point;
 import org.openqa.selenium.interactions.Action
 import org.openqa.selenium.interactions.Actions
 import com.kms.katalon.core.annotation.Keyword
@@ -37,6 +39,18 @@ public class Keyboard {
 		}
 	}
 
+	//mouseClickType : "Left Button Down/Up", "Right Button Down/Up"
+	@Keyword
+	public void mouseAction(String mouseClickType) {
+		switch (mouseClickType) {
+			case "Left Button Down" : robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);break;
+			case "Left Button Up" : robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);break;
+			case "Right Button Down" : robot.mousePress(InputEvent.BUTTON3_DOWN_MASK);break;
+			case "Right Button Up" : robot.mouseRelease(InputEvent.BUTTON3_DOWN_MASK);break;
+			default : robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+		}
+	}
+	
 	public void type(char character) {
 		switch (character) {
 			case 'a': doType(VK_A); break;
@@ -172,33 +186,36 @@ public class Keyboard {
 	@Keyword
 	public void dragAndDropToElement(List<TestObject> tObj) {
 		WebDriver wd = DriverFactory.getWebDriver();
+		wd.manage().window().fullscreen();
 		WebElement fromElement = WebUiCommonHelper.findWebElement(tObj[0], 30);
 		WebElement toElement = WebUiCommonHelper.findWebElement(tObj[1], 30);
+		Point pnt = toElement.getLocation();
+		robot.mouseMove(pnt.getX()+50, pnt.getY()+50);
 		Actions builder = new Actions(wd);
 		Action dragAndDrop = builder.clickAndHold(fromElement)
 				.moveToElement(toElement)
 				.release(toElement)
 				.build();
 		dragAndDrop.perform();
+		mouseAction("");
 	}
 
 	@Keyword
-	public void dragAndDropToElement10Offset(List<TestObject> tObj) {
+	public void dragAndDropToElementWait(List<TestObject> tObj) {
 		WebDriver wd = DriverFactory.getWebDriver();
 		WebElement fromElement = WebUiCommonHelper.findWebElement(tObj[0], 30);
 		WebElement toElement = WebUiCommonHelper.findWebElement(tObj[1], 30);
 		Actions builder = new Actions(wd);
 		Action dragAndDrop = builder.clickAndHold(fromElement)
-				.moveToElement(toElement, 10, 10)
-				.release(toElement)
+				.moveToElement(toElement)
 				.build();
 		dragAndDrop.perform();
-		println('Before Delay')
-		WebUI.delay(3);
-		println('After Delay')
+		WebElement overlayElement = WebUiCommonHelper.findWebElement(tObj[2], 30);
+		WebUI.waitForElementVisible(tObj[2], 1)
 		dragAndDrop = builder
-		.release(toElement)
-		.build();
+				.release(overlayElement)
+				.build();
 		dragAndDrop.perform();
 	}
+
 }
