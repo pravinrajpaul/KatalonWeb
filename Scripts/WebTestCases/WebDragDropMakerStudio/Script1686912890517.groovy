@@ -44,6 +44,8 @@ WebUI.mouseOver(findTestObject('WaveMaker/Page_WaveMaker Studio/card_Project'))
 
 WebUI.click(findTestObject('Object Repository/WaveMaker/Page_WaveMaker Studio/a_Sample            Open in Studio (11.3)'))
 
+WebUI.waitForElementClickable(findTestObject('WaveMaker/Page_WaveMaker Studio/div_NEXT_enjoyhint_close_btn'), 3)
+
 WebUI.click(findTestObject('WaveMaker/Page_WaveMaker Studio/div_NEXT_enjoyhint_close_btn'))
 
 WebUI.click(findTestObject('WaveMaker/Page_WaveMaker Studio/Obj_ContectInactive'))
@@ -61,7 +63,7 @@ CustomKeywords.'robot.Keyboard.dragAndDropToElement'([findTestObject('WaveMaker/
 
 WebUI.delay(5)
 
-WebUI.takeFullPageScreenshot("Drag&Drop")
+WebUI.takeFullPageScreenshot('Drag&Drop')
 
 WebUI.closeBrowser()
 
