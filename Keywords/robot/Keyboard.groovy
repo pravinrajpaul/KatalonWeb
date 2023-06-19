@@ -1,27 +1,19 @@
 package robot
 
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-
-import com.kms.katalon.core.annotation.Keyword
-import com.kms.katalon.core.checkpoint.Checkpoint
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.model.FailureHandling
-import com.kms.katalon.core.testcase.TestCase
-import com.kms.katalon.core.testdata.TestData
-import com.kms.katalon.core.testobject.TestObject
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import java.awt.Robot
 import static java.awt.event.KeyEvent.*;
-import java.awt.AWTException
 
-import internal.GlobalVariable
+import java.awt.AWTException;
+import java.awt.Robot
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.WebElement
+import org.openqa.selenium.interactions.Action
+import org.openqa.selenium.interactions.Actions
+import com.kms.katalon.core.annotation.Keyword
+import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.webui.driver.DriverFactory;
+import com.kms.katalon.core.webui.common.WebUiCommonHelper;
+
 
 public class Keyboard {
 
@@ -174,5 +166,31 @@ public class Keyboard {
 		robot.keyPress(keyCodes[offset]);
 		doType(keyCodes, offset + 1, length - 1);
 		robot.keyRelease(keyCodes[offset]);
+	}
+
+	@Keyword
+	public void dragAndDropToElement(List<TestObject> tObj) {
+		WebDriver wd = DriverFactory.getWebDriver();
+		WebElement fromElement = WebUiCommonHelper.findWebElement(tObj[0], 30);
+		WebElement toElement = WebUiCommonHelper.findWebElement(tObj[1], 30);
+		Actions builder = new Actions(wd);
+		Action dragAndDrop = builder.clickAndHold(fromElement)
+				.moveToElement(toElement)
+				.release(toElement)
+				.build();
+		dragAndDrop.perform();
+	}
+	
+	@Keyword
+	public void dragAndDropToElement(TestObject from, TestObject to) {
+		WebDriver wd = DriverFactory.getWebDriver();
+		WebElement fromElement = WebUiCommonHelper.findWebElement(from, 30);
+		WebElement toElement = WebUiCommonHelper.findWebElement(to, 30);
+		Actions builder = new Actions(wd);
+		Action dragAndDrop = builder.clickAndHold(fromElement)
+				.moveToElement(toElement)
+				.release(toElement)
+				.build();
+		dragAndDrop.perform();
 	}
 }

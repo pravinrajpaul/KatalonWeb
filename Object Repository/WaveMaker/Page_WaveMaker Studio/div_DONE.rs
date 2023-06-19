@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_DONE</name>
+   <tag></tag>
+   <elementGuidId>c03bfb67-cfa2-49e7-926a-7ca82bd7751e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'DONE' or . = 'DONE')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.enjoyhint_next_btn.btn-primary.btn.app-button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1c58a29d-e368-43c0-b33a-f029e3087150</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>enjoyhint_next_btn btn-primary btn app-button</value>
+      <webElementGuid>40d9577d-7f8d-4254-a531-4ef7a593c911</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>DONE</value>
+      <webElementGuid>248b6079-095d-4638-bf93-850b816319c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ng-app&quot;)/div[@class=&quot;enjoyhint enjoyhint-step-13&quot;]/div[@class=&quot;enjoyhint_next_btn btn-primary btn app-button&quot;]</value>
+      <webElementGuid>207d49fa-bb91-4bd1-bacb-f23c8a7e80ab</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//body[@id='ng-app']/div[6]/div[8]</value>
+      <webElementGuid>047ce61c-bee2-4886-b23f-a61c540e145c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Skip'])[1]/following::div[1]</value>
+      <webElementGuid>0f519cc7-d20e-4394-9695-1e9c43cbb36f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[2]/following::div[23]</value>
+      <webElementGuid>5fb360ed-7c89-4de9-914b-cc28e5695f75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='One click and deploy your app to cloud.'])[1]/preceding::div[2]</value>
+      <webElementGuid>154e59bc-6e56-4135-a8c1-32f41b3a47f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading items...'])[1]/preceding::div[3]</value>
+      <webElementGuid>9f42125c-ce5d-44ad-90f1-464a27678903</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='DONE']/parent::*</value>
+      <webElementGuid>16440756-2301-40ee-8d79-b26d1eed6bb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div[8]</value>
+      <webElementGuid>34da75c7-32ef-4677-b201-4317bc954bb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'DONE' or . = 'DONE')]</value>
+      <webElementGuid>cbc2bc01-32a1-4eee-ba51-cfc155b341cb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

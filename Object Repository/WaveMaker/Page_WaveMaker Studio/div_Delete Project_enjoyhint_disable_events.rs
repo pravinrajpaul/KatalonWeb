@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Delete Project_enjoyhint_disable_events</name>
+   <tag></tag>
+   <elementGuidId>e42bdad3-3cfd-423e-951f-157467ca2732</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[@id='ng-app']/div[7]/div[6]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>85bedd32-c12a-4f80-85e4-e6e2d324c714</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>enjoyhint_disable_events</value>
+      <webElementGuid>d9a71abe-4d50-4584-9b75-e928e4717545</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ng-app&quot;)/div[@class=&quot;enjoyhint enjoyhint_svg_transparent enjoyhint-step-1&quot;]/div[@class=&quot;enjoyhint_disable_events&quot;]</value>
+      <webElementGuid>ebb69791-e9d5-4c6f-9119-fd9b1d854c11</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//body[@id='ng-app']/div[7]/div[6]</value>
+      <webElementGuid>0d698939-e2ea-46e3-bfe2-12346c2b5777</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div[6]</value>
+      <webElementGuid>6b49e36f-ad0d-40a0-9c10-c525e57a884e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

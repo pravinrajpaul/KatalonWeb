@@ -47,7 +47,7 @@ class CustomKeywords {
 		list.add(tobeadded)
 		return list;
 	}
-	
+
 	@Keyword
 	def Long randomNumber(int digits) {
 		return Math.random() * (10)**digits;

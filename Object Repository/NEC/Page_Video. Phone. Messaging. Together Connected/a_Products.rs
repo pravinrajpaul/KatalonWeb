@@ -6,12 +6,12 @@
    <elementGuidId>a3f77e38-8566-4b3b-be2d-91b7b2ace498</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='responsive-menu']/ul/li/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>li.navigation-list.navigation-list__products.is-dropdown-submenu-parent.opens-left.is-active > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Products')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='tpc-checkout']/main/div[2]/div/div/div</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Terms and Conditions'])[1]/following::div[12]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

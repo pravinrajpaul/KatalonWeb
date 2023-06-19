@@ -1,0 +1,39 @@
+{
+  "keywordFileContentHash": "50BBE381558528E41DA8F83CC2D8897F",
+  "keywordClasses": [
+    {
+      "name": "anyPackage.myCustomKeywords",
+      "keywordMethods": [
+        {
+          "name": "dragAndDropToElement",
+          "parameters": [
+            {
+              "name": "tObj",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.util.List",
+                "unresolvedClassName": "List",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [
+                  {
+                    "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                    "unresolvedClassName": "TestObject",
+                    "isArray": false,
+                    "isGnericsPlaceHolder": false,
+                    "hasImmutableClassName": false,
+                    "genericsTypes": [],
+                    "errorOnParsing": false
+                  }
+                ],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

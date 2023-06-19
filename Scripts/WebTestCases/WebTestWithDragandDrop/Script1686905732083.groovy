@@ -19,12 +19,16 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://blueimp.github.io/jQuery-File-Upload/')
+WebUI.navigateToUrl('https://www.globalsqa.com/demo-site/draganddrop/')
 
-WebUI.click(findTestObject('Object Repository/FileUpload/Page_jQuery File Upload Demo/span_Start upload'))
+WebUI.click(findTestObject('Object Repository/DragAndDrop/Page_Drag and Drop Demo Sites  Testing Site_664cc5/li_High TatrasView largerDelete image'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/FileUpload/Page_jQuery File Upload Demo/p_File Upload widget with multiple file sel_d79188'), 
-    'File Upload widget with multiple file selection, drag&drop\n support, progress bars, validation and preview images, audio and video\n for jQuery.\n Supports cross-domain, chunked and resumable file uploads and\n client-side image resizing.\n Works with any server-side platform (PHP, Python, Ruby on Rails, Java,\n Node.js, Go etc.) that supports standard HTML form file uploads.')
+WebUI.click(findTestObject('Object Repository/DragAndDrop/Page_Drag and Drop Demo Sites  Testing Site_664cc5/div_Trash Trash'))
+
+WebUI.dragAndDropToObject(findTestObject('DragAndDrop/Page_Drag and Drop Demo Sites  Testing Site_664cc5/li_High TatrasView largerDelete image'), 
+    findTestObject('DragAndDrop/Page_Drag and Drop Demo Sites  Testing Site_664cc5/div_Trash Trash'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 
