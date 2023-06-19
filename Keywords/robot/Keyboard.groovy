@@ -2,6 +2,7 @@ package robot
 
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static java.awt.event.KeyEvent.*;
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import java.awt.AWTException;
 import java.awt.Robot
@@ -180,17 +181,24 @@ public class Keyboard {
 				.build();
 		dragAndDrop.perform();
 	}
-	
+
 	@Keyword
-	public void dragAndDropToElement(TestObject from, TestObject to) {
+	public void dragAndDropToElement10Offset(List<TestObject> tObj) {
 		WebDriver wd = DriverFactory.getWebDriver();
-		WebElement fromElement = WebUiCommonHelper.findWebElement(from, 30);
-		WebElement toElement = WebUiCommonHelper.findWebElement(to, 30);
+		WebElement fromElement = WebUiCommonHelper.findWebElement(tObj[0], 30);
+		WebElement toElement = WebUiCommonHelper.findWebElement(tObj[1], 30);
 		Actions builder = new Actions(wd);
 		Action dragAndDrop = builder.clickAndHold(fromElement)
-				.moveToElement(toElement)
+				.moveToElement(toElement, 10, 10)
 				.release(toElement)
 				.build();
+		dragAndDrop.perform();
+		println('Before Delay')
+		WebUI.delay(3);
+		println('After Delay')
+		dragAndDrop = builder
+		.release(toElement)
+		.build();
 		dragAndDrop.perform();
 	}
 }

@@ -56,9 +56,10 @@ WebUI.click(findTestObject('WaveMaker/Page_WaveMaker Studio/li_Button'))
 
 WebUI.delay(2)
 
-CustomKeywords.'robot.Keyboard.dragAndDropToElement10Offset'([findTestObject('WaveMaker/Page_WaveMaker Studio/li_Button')
-        , findTestObject('WaveMaker/Page_WaveMaker Studio/obj_Content')])
+CustomKeywords.'robot.Keyboard.dragAndDropToElement'([findTestObject('WaveMaker/Page_WaveMaker Studio/li_Button'), findTestObject(
+            'WaveMaker/Page_WaveMaker Studio/obj_Content')])
 
 WebUI.delay(5)
 
 WebUI.closeBrowser()
+

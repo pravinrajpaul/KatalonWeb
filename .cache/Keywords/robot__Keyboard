@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "6B0883629CE90336645CA4508EDCCC4E",
+  "keywordFileContentHash": "A8B01CCDC19AAAC222642329A1E4F708",
   "keywordClasses": [
     {
       "name": "robot.Keyboard",
@@ -72,31 +72,28 @@
           "javadoc": ""
         },
         {
-          "name": "dragAndDropToElement",
+          "name": "dragAndDropToElement10Offset",
           "parameters": [
             {
-              "name": "from",
+              "name": "tObj",
               "initialExpression": "",
               "type": {
-                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
-                "unresolvedClassName": "TestObject",
+                "fullClassName": "java.util.List",
+                "unresolvedClassName": "List",
                 "isArray": false,
                 "isGnericsPlaceHolder": false,
                 "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            },
-            {
-              "name": "to",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
-                "unresolvedClassName": "TestObject",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
+                "genericsTypes": [
+                  {
+                    "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                    "unresolvedClassName": "TestObject",
+                    "isArray": false,
+                    "isGnericsPlaceHolder": false,
+                    "hasImmutableClassName": false,
+                    "genericsTypes": [],
+                    "errorOnParsing": false
+                  }
+                ],
                 "errorOnParsing": false
               }
             }
