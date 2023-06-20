@@ -1,8 +1,8 @@
 {
-  "keywordFileContentHash": "4F54B5AC8F3029FACFE731F9BF08FA97",
+  "keywordFileContentHash": "49635267FBDC18D0AE6975B047ABBB4D",
   "keywordClasses": [
     {
-      "name": "robot.Keyboard",
+      "name": "robot.Keywords",
       "keywordMethods": [
         {
           "name": "typeString",

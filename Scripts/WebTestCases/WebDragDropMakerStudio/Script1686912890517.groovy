@@ -58,7 +58,7 @@ WebUI.click(findTestObject('WaveMaker/Page_WaveMaker Studio/li_Button'))
 
 WebUI.delay(2)
 
-CustomKeywords.'robot.Keyboard.dragAndDropToElement'([findTestObject('WaveMaker/Page_WaveMaker Studio/li_Button'), findTestObject(
+CustomKeywords.'robot.Keywords.dragAndDropToElementWait'([findTestObject('WaveMaker/Page_WaveMaker Studio/li_Button'), findTestObject(
             'WaveMaker/Page_WaveMaker Studio/obj_Content')])
 
 WebUI.delay(5)

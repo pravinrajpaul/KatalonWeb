@@ -9,6 +9,7 @@ import java.awt.Robot;
 import java.awt.event.InputEvent;
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
+import org.openqa.selenium.JavascriptExecutor
 import org.openqa.selenium.Point;
 import org.openqa.selenium.interactions.Action
 import org.openqa.selenium.interactions.Actions
@@ -16,17 +17,18 @@ import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webui.driver.DriverFactory;
 import com.kms.katalon.core.webui.common.WebUiCommonHelper;
+import com.kms.katalon.core.testobject.TestObjectProperty
 
 
-public class Keyboard {
+public class Keywords {
 
 	private Robot robot;
 
-	public Keyboard() throws AWTException {
+	public Keywords() throws AWTException {
 		this.robot = new Robot();
 	}
 
-	public Keyboard(Robot robot) {
+	public Keywords(Robot robot) {
 		this.robot = robot;
 	}
 
@@ -50,7 +52,7 @@ public class Keyboard {
 			default : robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 		}
 	}
-	
+
 	public void type(char character) {
 		switch (character) {
 			case 'a': doType(VK_A); break;
@@ -206,16 +208,96 @@ public class Keyboard {
 		WebElement fromElement = WebUiCommonHelper.findWebElement(tObj[0], 30);
 		WebElement toElement = WebUiCommonHelper.findWebElement(tObj[1], 30);
 		Actions builder = new Actions(wd);
-		Action dragAndDrop = builder.clickAndHold(fromElement)
+		Action dragAndDrop = builder
+				.moveToElement(fromElement)
+				.pause(Duration.ofSeconds(1))
+				.clickAndHold(fromElement)
+				.pause(Duration.ofSeconds(3))
+				.moveByOffset(10, 10)
 				.moveToElement(toElement)
-				.build();
-		dragAndDrop.perform();
-		WebElement overlayElement = WebUiCommonHelper.findWebElement(tObj[2], 30);
-		WebUI.waitForElementVisible(tObj[2], 1)
-		dragAndDrop = builder
-				.release(overlayElement)
+				.moveByOffset(10, 10)
+				.pause(Duration.ofSeconds(3))
+				.release(toElement)
 				.build();
 		dragAndDrop.perform();
 	}
 
+	@Keyword
+	public void dragAndDrop(List<TestObject> tObj) {
+
+
+		String jsScript = '''(function( $ ) {
+        $.fn.simulateDragDrop = function(options) {
+                return this.each(function() {
+                        new $.simulateDragDrop(this, options);
+                });
+        };
+        $.simulateDragDrop = function(elem, options) {
+                this.options = options;
+                this.simulateEvent(elem, options);
+        };
+        $.extend($.simulateDragDrop.prototype, {
+                simulateEvent: function(elem, options) {
+                        /*Simulating drag start*/
+                        var type = 'dragstart';
+                        var event = this.createEvent(type);
+                        this.dispatchEvent(elem, type, event);
+
+                        /*Simulating drop*/
+                        type = 'drop';
+                        var dropEvent = this.createEvent(type, {});
+                        dropEvent.dataTransfer = event.dataTransfer;
+                        this.dispatchEvent($(options.dropTarget)[0], type, dropEvent);
+
+                        /*Simulating drag end*/
+                        type = 'dragend';
+                        var dragEndEvent = this.createEvent(type, {});
+                        dragEndEvent.dataTransfer = event.dataTransfer;
+                        this.dispatchEvent(elem, type, dragEndEvent);
+                },
+                createEvent: function(type) {
+                        var event = document.createEvent("CustomEvent");
+                        event.initCustomEvent(type, true, true, null);
+                        event.dataTransfer = {
+                                data: {
+                                },
+                                setData: function(type, val){
+                                        this.data[type] = val;
+                                },
+                                getData: function(type){
+                                        return this.data[type];
+                                }
+                        };
+                        return event;
+                },
+                dispatchEvent: function(elem, type, event) {
+                        if(elem.dispatchEvent) {
+                                elem.dispatchEvent(event);
+                        }else if( elem.fireEvent ) {
+                                elem.fireEvent("on"+type, event);
+                        }
+                }
+        	});
+		})(jQuery);
+					
+		''';
+
+		WebDriver wd = DriverFactory.getWebDriver();
+		WebElement fromElement = WebUiCommonHelper.findWebElement(tObj[0], 30);
+
+		WebElement toElement = WebUiCommonHelper.findWebElement(tObj[1], 30);
+		((JavascriptExecutor) wd).executeScript(jsScript+"simulateDragDrop(arguments[0], arguments[1]);", fromElement, toElement);
+	}
+
+	private String getLocator(TestObject tobj) {
+		TestObjectProperty[] properties = tobj.getActiveProperties();
+		String defaultLocator = "";
+		for (TestObjectProperty property : properties) {
+			if (property.isDefault()) {
+				defaultLocator = property.getValue();
+				break; 
+			}
+		}
+		return defaultLocator;
+	}
 }

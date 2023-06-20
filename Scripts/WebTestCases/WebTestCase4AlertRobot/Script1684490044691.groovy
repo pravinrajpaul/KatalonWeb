@@ -26,13 +26,13 @@ WebUI.click(findTestObject('Object Repository/WebTestCase4/Page_The Internet/a_B
 
 WebUI.delay(3)
 
-CustomKeywords.'robot.Keyboard.typeString'('admin')
+CustomKeywords.'robot.Keywords.typeString'('admin')
 
-CustomKeywords.'robot.Keyboard.pressSpecialKey'('TAB')
+CustomKeywords.'robot.Keywords.pressSpecialKey'('TAB')
 
-CustomKeywords.'robot.Keyboard.typeString'('admin')
+CustomKeywords.'robot.Keywords.typeString'('admin')
 
-CustomKeywords.'robot.Keyboard.pressSpecialKey'('ENTER')
+CustomKeywords.'robot.Keywords.pressSpecialKey'('ENTER')
 
 WebUI.verifyElementText(findTestObject('Object Repository/WebTestCase4/Page_The Internet/p_Congratulations You must have the proper _36d9a2'), 
     'Congratulations! You must have the proper credentials.')
