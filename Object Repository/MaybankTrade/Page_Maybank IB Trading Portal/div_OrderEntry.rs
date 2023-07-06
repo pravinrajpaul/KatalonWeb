@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_OrderEntry</name>
+   <tag></tag>
+   <elementGuidId>59bf525d-02a6-4bdd-b440-b9f45cdd598a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ui-om-ordent-b</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/MaybankTrade/Page_Maybank IB Trading Portal/iframeifrm</value>
+      <webElementGuid>1bd2f07c-6850-415d-9b41-36e5aa5bc205</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

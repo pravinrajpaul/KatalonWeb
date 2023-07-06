@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>JiraTestSuite</name>
+   <name>MobileToWeb</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>pravin.raveendran@katalon.com;</mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>75813252-bcab-474c-be2c-47f2f2043f0e</testSuiteGuid>
+   <testSuiteGuid>3e5a121d-7d8c-4cd0-953c-682567d678c9</testSuiteGuid>
    <testCaseLink>
-      <guid>a37f26fd-95b4-49b7-8ab1-235b4f4c79e3</guid>
+      <guid>2005a07e-c60b-48d8-a98a-b0b14f2e583b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JiraTests/IN-4 Story12</testCaseId>
+      <testCaseId>Test Cases/MobileTests/MobileTestProactiv</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -56,5 +56,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/Mobile/android.widget
 
 Mobile.tap(findTestObject('Object Repository/Mobile/android.widget.TextView - OK (1)'), 0)
 
+GlobalVariable.mobileToWeb = "Hello";
+
 Mobile.closeApplication()
 

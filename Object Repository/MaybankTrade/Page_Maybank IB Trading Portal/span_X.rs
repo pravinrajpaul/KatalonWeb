@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_X</name>
+   <tag></tag>
+   <elementGuidId>ed3b03fd-d086-44ce-9f40-7f0fed5218e0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='divStkQteWnd']/div[5]/div/div/span[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.ui-btn-cl > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>09ffb09e-c4f0-470f-ab92-bc0b1784b7c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>X</value>
+      <webElementGuid>b272ed98-203a-4c96-952b-10166b257d03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;divStkQteWnd&quot;)/div[@class=&quot;ui-om-ordent ui-draggable ui-draggable-handle&quot;]/div[@class=&quot;ui-om-ordent-t&quot;]/div[@class=&quot;ui-om-ordent_tit&quot;]/span[@class=&quot;ui-btn-cl&quot;]/span[1]</value>
+      <webElementGuid>b2fb0e81-92e2-42a6-8ca9-9bf2abe379d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/MaybankTrade/Page_Maybank IB Trading Portal/iframeifrm</value>
+      <webElementGuid>796c29b3-ce6a-4b5a-a450-1c7a346ea572</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='divStkQteWnd']/div[5]/div/div/span[2]/span</value>
+      <webElementGuid>bffa619d-aaf9-4d72-bd47-6a25e9c2cae6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order Entry - Normal Order'])[1]/following::span[2]</value>
+      <webElementGuid>49b7a054-008a-4451-9183-35035ca782d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Normal Order (Odd Lots)'])[2]/following::span[3]</value>
+      <webElementGuid>7482a3bd-053e-4a09-bc50-a4e9101234f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-, -'])[1]/preceding::span[2]</value>
+      <webElementGuid>fb13f5da-c5b7-48ed-ac49-8840ae52405a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='X']/parent::*</value>
+      <webElementGuid>4e444cdd-4fd6-451c-81c8-9b96a2a8bb59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/span[2]/span</value>
+      <webElementGuid>0a80aeff-93fd-4957-9645-34523c0e1e1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'X' or . = 'X')]</value>
+      <webElementGuid>f63f9c04-488b-4bf7-b348-d1730730a271</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

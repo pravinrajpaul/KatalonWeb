@@ -4,22 +4,20 @@
    <name>div_NEXT_enjoyhint_close_btn</name>
    <tag></tag>
    <elementGuidId>261585c3-3496-4801-a5fa-94f642dcd483</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//body[@id='ng-app']/div[6]/div[9]</value>
-      </entry>
-      <entry>
          <key>IMAGE</key>
-         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.enjoyhint_close_btn</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[9]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

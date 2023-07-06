@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_- HEE LEE CHAN</name>
+   <tag></tag>
+   <elementGuidId>82648474-8215-4b30-b961-02126831e01e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.ui-ordent-clnt-clntNm</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '- HEE LEE CHAN' or . = '- HEE LEE CHAN') and @ref_element = 'Object Repository/MaybankTrade/Page_Maybank IB Trading Portal/iframeifrm']</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='ADD00044'])[1]/following::div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b023612f-18bb-4ac5-b99e-80097ccf6418</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-ordent-clnt-clntNm</value>
+      <webElementGuid>6250d179-249f-423b-8cad-da130dab40e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>- HEE LEE CHAN</value>
+      <webElementGuid>0d454188-35c8-44b3-98fd-c5a0ae10d9d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;divClntOpt&quot;)/div[@class=&quot;selected&quot;]/div[@class=&quot;ui-ordent-clnt-clntNm&quot;]</value>
+      <webElementGuid>081fb4bf-abe4-4d03-be5d-20749c9cda5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/MaybankTrade/Page_Maybank IB Trading Portal/iframeifrm</value>
+      <webElementGuid>e3efa8af-0391-4f27-bdcd-0a38f1645446</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='divClntOpt']/div/div[3]</value>
+      <webElementGuid>ded769f8-f5a7-4a6b-9009-dcc14ee65076</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ADD00044'])[1]/following::div[1]</value>
+      <webElementGuid>f1d93618-443f-47ca-ae62-bbde32232742</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='The transaction cost are estimated amount ONLY.'])[1]/following::div[6]</value>
+      <webElementGuid>d2677217-59e8-4ef0-b223-26fb23be86fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ADD31738'])[1]/preceding::div[2]</value>
+      <webElementGuid>1cfe9db1-efa0-4244-82f2-5ceb264e20d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='- MOHD HASHIR BIN ABDULLAH HAJI'])[1]/preceding::div[3]</value>
+      <webElementGuid>88ae7e9b-d779-439c-bfa4-efa9300e86ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='- HEE LEE CHAN']/parent::*</value>
+      <webElementGuid>2964b1cc-2233-4981-ba87-c31ca1f0faaf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div[3]/div/div/div[3]</value>
+      <webElementGuid>ba27003d-708c-4161-bd85-e94e21cb3133</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '- HEE LEE CHAN' or . = '- HEE LEE CHAN')]</value>
+      <webElementGuid>07f48df5-e37b-4a69-885f-e88d53d4d314</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

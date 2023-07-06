@@ -295,7 +295,7 @@ public class Keywords {
 		for (TestObjectProperty property : properties) {
 			if (property.isDefault()) {
 				defaultLocator = property.getValue();
-				break; 
+				break;
 			}
 		}
 		return defaultLocator;

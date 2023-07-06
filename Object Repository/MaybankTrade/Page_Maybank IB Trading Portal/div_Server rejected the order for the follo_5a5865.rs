@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Server rejected the order for the follo_5a5865</name>
+   <tag></tag>
+   <elementGuidId>cd331e1d-ec2d-4649-8b77-8e7e37a908e1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ui-id-4']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#ui-id-4</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3bad92fa-717a-429f-8a59-cc966257f96b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ui-id-4</value>
+      <webElementGuid>2a300c5b-9ed6-4fec-8ae9-304108fe6b7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-dialog-content ui-widget-content om</value>
+      <webElementGuid>8af04abf-5fdb-486e-abb0-cfb0fe6119f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Server rejected the order for the following reason(s): You have entered an invalid trading pin. Please try again. Please Call Helpdesk.</value>
+      <webElementGuid>2e4b1ee3-cd70-4bed-976f-b0478f5a9ccf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ui-id-4&quot;)</value>
+      <webElementGuid>898c2956-34bc-49a9-94e1-b356c74f246d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/MaybankTrade/Page_Maybank IB Trading Portal/iframeifrm</value>
+      <webElementGuid>9ae7bd87-53da-46a9-8ce2-670bc50b3bb4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='ui-id-4']</value>
+      <webElementGuid>247dd797-9601-4e85-8b92-71c437a46bc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/following::div[1]</value>
+      <webElementGuid>142f8bff-057a-4bab-90a9-ff9019472d74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alert'])[1]/following::div[1]</value>
+      <webElementGuid>713c3827-10f3-4688-ab0c-c5297d7fd98a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ok'])[1]/preceding::div[1]</value>
+      <webElementGuid>ddafb486-7557-4f1f-bc81-3979639ae15f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Server rejected the order for the following reason(s):']/parent::*</value>
+      <webElementGuid>8154751d-1b3c-41a0-8235-8b0c60083339</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[11]/div[2]</value>
+      <webElementGuid>6d6b3fc7-51d5-43f7-b1bb-387fc599d4e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'ui-id-4' and (text() = 'Server rejected the order for the following reason(s): You have entered an invalid trading pin. Please try again. Please Call Helpdesk.' or . = 'Server rejected the order for the following reason(s): You have entered an invalid trading pin. Please try again. Please Call Helpdesk.')]</value>
+      <webElementGuid>eeda154f-0f8e-405e-a0f9-475fd27ab3ec</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "480069B50E9A7409F870BF37BFEC6CEB",
+  "keywordFileContentHash": "2581AFDDC0C30CD2565F2CEFCA139773",
   "keywordClasses": [
     {
       "name": "mykeywords.CustomKeywords",
@@ -58,6 +58,25 @@
                 "isArray": false,
                 "isGnericsPlaceHolder": false,
                 "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "clickJavaScript",
+          "parameters": [
+            {
+              "name": "tobj",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
                 "genericsTypes": [],
                 "errorOnParsing": false
               }

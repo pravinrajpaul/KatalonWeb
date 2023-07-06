@@ -12,6 +12,14 @@
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
    <httpBodyType></httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Hea</name>
+      <type>Main</type>
+      <value>${id}</value>
+      <webElementGuid>ff9116fe-3a29-475b-ad53-4d69192d57b3</webElementGuid>
+   </httpHeaderProperties>
    <katalonVersion>8.6.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
@@ -26,7 +34,7 @@
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>'1'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>b0199a16-0665-4e46-ab62-b18a62f3f631</id>
       <masked>false</masked>

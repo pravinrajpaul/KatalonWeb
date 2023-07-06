@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Most Active (Volume)My FavouritesShift1a_3d921f</name>
+   <tag></tag>
+   <elementGuidId>4f43158c-e78e-4b7b-a823-a1c08fb326d5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//nav[@id='nav-stkgrp']/ul/li</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#nav-stkgrp > ul > li.ui-sm</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>e16ea4ed-06ff-453c-bfd4-77e5605bea42</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-sm</value>
+      <webElementGuid>7ea175af-4665-4b00-8035-cdba9036d034</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Most Active (Volume)My FavouritesShift+1abcShift+2NBIShift+3All StocksCtrl+ZAll Stocks (Odd Lot)Ctrl+CMost Active (Volume)Ctrl+ATop GainersCtrl+DTop Gainers (%)Ctrl+PTop LosersCtrl+QTop Losers (%)Ctrl+OSyariah StocksCtrl+RMore Rankinga.Most Active (Value)b.Most Active (Trans)c.Most Swingd.Most Swing (%)e.Top Counters (Mkt Cap)f.Most Expensiveg.Least Expensiveh.IPO/New Listingsi.Direct Business Transactionj.Buying Ink.Odd Lot Most Activel.Top Warrants (Premium)m.Top Warrants (Gearing)n.Top ICULS (Premium)o.Top ICULS (Gearing)p.Buying On Weakness (Money Flow)q.Selling On Strength (Money Flow)r.Theoretical Most ActiveSearch by SectorSearch by Indices</value>
+      <webElementGuid>243fe3dd-dffd-4f23-88b6-05ba16e0ce35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;nav-stkgrp&quot;)/ul[1]/li[@class=&quot;ui-sm&quot;]</value>
+      <webElementGuid>7a6e8611-8a17-4561-8482-b267154430a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/MaybankTrade/Page_Maybank IB Trading Portal/iframeifrm</value>
+      <webElementGuid>2132e6c0-750f-4d2b-9d1f-0cd3b9911492</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//nav[@id='nav-stkgrp']/ul/li</value>
+      <webElementGuid>2c3a3b01-0345-4d5d-88b1-b724c0be4512</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No records to view'])[1]/following::li[1]</value>
+      <webElementGuid>48af366c-c84a-4957-a0e2-4a9dda8668ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/following::li[1]</value>
+      <webElementGuid>1dfe4883-d82a-4ab8-9781-93e86c93db92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/div/nav/ul/li</value>
+      <webElementGuid>1df57d40-7311-45f0-bb93-fa7f24f697d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Most Active (Volume)My FavouritesShift+1abcShift+2NBIShift+3All StocksCtrl+ZAll Stocks (Odd Lot)Ctrl+CMost Active (Volume)Ctrl+ATop GainersCtrl+DTop Gainers (%)Ctrl+PTop LosersCtrl+QTop Losers (%)Ctrl+OSyariah StocksCtrl+RMore Rankinga.Most Active (Value)b.Most Active (Trans)c.Most Swingd.Most Swing (%)e.Top Counters (Mkt Cap)f.Most Expensiveg.Least Expensiveh.IPO/New Listingsi.Direct Business Transactionj.Buying Ink.Odd Lot Most Activel.Top Warrants (Premium)m.Top Warrants (Gearing)n.Top ICULS (Premium)o.Top ICULS (Gearing)p.Buying On Weakness (Money Flow)q.Selling On Strength (Money Flow)r.Theoretical Most ActiveSearch by SectorSearch by Indices' or . = 'Most Active (Volume)My FavouritesShift+1abcShift+2NBIShift+3All StocksCtrl+ZAll Stocks (Odd Lot)Ctrl+CMost Active (Volume)Ctrl+ATop GainersCtrl+DTop Gainers (%)Ctrl+PTop LosersCtrl+QTop Losers (%)Ctrl+OSyariah StocksCtrl+RMore Rankinga.Most Active (Value)b.Most Active (Trans)c.Most Swingd.Most Swing (%)e.Top Counters (Mkt Cap)f.Most Expensiveg.Least Expensiveh.IPO/New Listingsi.Direct Business Transactionj.Buying Ink.Odd Lot Most Activel.Top Warrants (Premium)m.Top Warrants (Gearing)n.Top ICULS (Premium)o.Top ICULS (Gearing)p.Buying On Weakness (Money Flow)q.Selling On Strength (Money Flow)r.Theoretical Most ActiveSearch by SectorSearch by Indices')]</value>
+      <webElementGuid>15592dd1-4db0-40e3-a773-8dcc9550529d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
