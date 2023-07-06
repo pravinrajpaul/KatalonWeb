@@ -19,8 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
-
 WebUI.navigateToUrl('https://onlinetradeb1na.powerbroking2u.com.my/webcms/')
 
 WebUI.click(findTestObject('Object Repository/MaybankTrade/Page_Maybank Investment Bank/Trade Now'))

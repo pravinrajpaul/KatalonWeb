@@ -4,7 +4,7 @@
    <name>MaybankSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>shahiman.sharom@maybank.com;</mailRecipient>
+   <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
