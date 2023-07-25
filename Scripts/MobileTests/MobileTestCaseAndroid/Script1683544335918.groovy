@@ -59,4 +59,3 @@ Mobile.tap(findTestObject('Object Repository/Mobile/android.widget.TextView - OK
 GlobalVariable.mobileToWeb = "Hello";
 
 Mobile.closeApplication()
-
