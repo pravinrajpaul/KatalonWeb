@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='Catalog']/table/tbody/tr[3]/td/a</value>
+         <value>//div[@id='Catalog1']/table/tbody/tr[3]/td/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>7050d03f-8ddd-4126-a1a5-4d198553373b</webElementGuid>
+      <webElementGuid>a1b0fed1-3c39-42fa-87a1-219a6de09061</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/actions/Catalog.action?viewProduct=&amp;productId=RP-LI-02</value>
-      <webElementGuid>b31cdd6e-5b91-4332-b878-8748b33a74ad</webElementGuid>
+      <webElementGuid>ec8304a6-8519-417d-a2f8-0baa9e8be93f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>RP-LI-02</value>
-      <webElementGuid>f8291486-f2db-4feb-94e8-58026c74bc22</webElementGuid>
+      <webElementGuid>be806444-9647-4894-bfe7-7dbd0dd1e7bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Catalog&quot;)/table[1]/tbody[1]/tr[3]/td[1]/a[1]</value>
-      <webElementGuid>1b9bfd36-aa50-4908-bad6-10a69a080984</webElementGuid>
+      <webElementGuid>ba497934-953b-46fe-8ad5-b31ddf1928bd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Catalog']/table/tbody/tr[3]/td/a</value>
-      <webElementGuid>09fab733-86e1-4a7f-b878-3e6f2d59fb11</webElementGuid>
+      <webElementGuid>a7698069-c80d-4f52-a0bc-def4fde6ea03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'RP-LI-02')]</value>
-      <webElementGuid>db6c31a3-0693-4cc3-a551-891f44c8c919</webElementGuid>
+      <webElementGuid>16d7463c-638f-497b-b00e-c405311fb480</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rattlesnake'])[1]/following::a[1]</value>
-      <webElementGuid>f43e1390-0dea-4a28-bdf7-c2b2fa61d545</webElementGuid>
+      <webElementGuid>957bb0a4-c960-4f9f-beb2-0a07501ca6c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='RP-SN-01'])[1]/following::a[1]</value>
-      <webElementGuid>d38ad266-2ff6-45b4-840a-bf5a8adb7d5d</webElementGuid>
+      <webElementGuid>ec43a893-548c-49b8-94fd-280b16bb3694</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Iguana'])[1]/preceding::a[1]</value>
-      <webElementGuid>c0d4ff92-a478-459e-a76b-0a6d9723cb34</webElementGuid>
+      <webElementGuid>a4022ba4-0cd8-4211-a891-3470ca7074fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='www.mybatis.org'])[1]/preceding::a[1]</value>
-      <webElementGuid>a418acd2-917c-463f-8792-2149d7811d69</webElementGuid>
+      <webElementGuid>1b3910ae-951e-44fb-ae83-3d6d8b2bb173</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='RP-LI-02']/parent::*</value>
-      <webElementGuid>a08b1e98-a0f2-401b-a537-ed7b0ee6fee1</webElementGuid>
+      <webElementGuid>69cac941-08fc-4110-974f-9d8ff9e397dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/actions/Catalog.action?viewProduct=&amp;productId=RP-LI-02')]</value>
-      <webElementGuid>fa5d7e1e-8a51-4b5a-8b56-1c6546e132e7</webElementGuid>
+      <webElementGuid>1c074468-73ab-455d-a45e-d1b13b8ee7c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[3]/td/a</value>
-      <webElementGuid>3371c20f-09f5-419c-9185-5bf5d5498e3d</webElementGuid>
+      <webElementGuid>0dec1081-0487-4710-b86f-aec9a1681c80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/actions/Catalog.action?viewProduct=&amp;productId=RP-LI-02' and (text() = 'RP-LI-02' or . = 'RP-LI-02')]</value>
-      <webElementGuid>d4ccf218-f6f2-4fd7-809c-b576a362f3c8</webElementGuid>
+      <webElementGuid>fc2c8b2f-1f52-4d4e-9cd8-4b354189159a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

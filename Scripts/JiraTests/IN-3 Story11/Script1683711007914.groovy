@@ -18,7 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import org.apache.commons.lang3.RandomStringUtils as Random
 
-
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
@@ -80,8 +79,6 @@ WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/a_Proceed to C
 WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/input_Ship to different address_newOrder'))
 
 WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/a_Confirm'))
-
-WebUI.takeScreenshotAsCheckpoint('Screens/SummaryScreenPetStore.png')
 
 WebUI.closeBrowser()
 
