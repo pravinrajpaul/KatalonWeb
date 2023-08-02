@@ -18,6 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import org.apache.commons.lang3.RandomStringUtils as Random
 
+
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
