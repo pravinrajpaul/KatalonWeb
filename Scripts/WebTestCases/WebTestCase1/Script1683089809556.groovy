@@ -18,7 +18,13 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import org.apache.commons.lang3.RandomStringUtils as Random
 
+/**
+1. Open the webportal
 
+2. Enter valid username and password
+
+3. Click on the login button
+*/
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
