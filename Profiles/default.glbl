@@ -6,7 +6,17 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
-      <name>mobileToWeb</name>
+      <initValue>'pravinrajpaul'</initValue>
+      <name>gmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'klfjcbqgcunnpdmq'</initValue>
+      <name>gmailPass</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'DeleteTest'</initValue>
+      <name>gmailFolder</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

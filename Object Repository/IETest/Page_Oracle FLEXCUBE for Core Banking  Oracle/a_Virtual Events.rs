@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Virtual Events</name>
+   <tag></tag>
+   <elementGuidId>15e468f7-9390-4173-aa29-52906e3acb69</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.o-hf</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='ct12-submenu-3']/ul/li[2]/span/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>bead3ebc-24d7-4e20-9c0a-402bf05c73cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/financial-services/webcasts-virtual-events/</value>
+      <webElementGuid>4374c3e0-7e7b-46d8-beed-f5e9661d034c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-hf</value>
+      <webElementGuid>5290eeb1-2395-4020-8160-79d30cccb00f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Virtual Events</value>
+      <webElementGuid>bbdbc521-0164-4fbe-996a-f49d91e060e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ct12-submenu-3&quot;)/ul[1]/li[2]/span[1]/a[@class=&quot;o-hf&quot;]</value>
+      <webElementGuid>5d19906f-0fa9-49cc-9e90-165258bc724e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='ct12-submenu-3']/ul/li[2]/span/a</value>
+      <webElementGuid>6d50cb16-12d6-4561-8ecb-912cd7478eab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Virtual Events')]</value>
+      <webElementGuid>6aff935a-0d74-4ab7-96ab-2ccf36813985</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='News and Opinion'])[1]/following::a[1]</value>
+      <webElementGuid>ac6d0fa5-b312-4f03-93c9-3bb0397af238</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Resources'])[2]/following::a[2]</value>
+      <webElementGuid>411c9d03-88f7-4ca6-ae84-b00ccd1df7e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Analyst Recognition'])[1]/preceding::a[1]</value>
+      <webElementGuid>4a2814bd-c6d5-4e82-8e2b-a1b56e55fa88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Financial Services Products'])[1]/preceding::a[2]</value>
+      <webElementGuid>217fb8a2-b215-44f6-8741-c26eb54f727d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Virtual Events']/parent::*</value>
+      <webElementGuid>0418b34f-03f8-46be-bd33-8ba4f5d92038</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/financial-services/webcasts-virtual-events/')]</value>
+      <webElementGuid>d96b2106-59ff-410e-b41f-843aadf7d039</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/div/span[2]/ul/li[2]/span/a</value>
+      <webElementGuid>a7219fe1-d2f6-4532-bdf8-a5565a22bc3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/financial-services/webcasts-virtual-events/' and (text() = 'Virtual Events' or . = 'Virtual Events')]</value>
+      <webElementGuid>3b32cf08-cdab-4ae4-8fb6-f2a056f1fad3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

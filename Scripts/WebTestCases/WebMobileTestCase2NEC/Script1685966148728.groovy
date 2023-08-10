@@ -35,6 +35,10 @@ WebUI.click(findTestObject('Object Repository/NEC Mobile/Page_Video. Phone. Mess
 
 WebUI.scrollToElement(findTestObject('NEC Mobile/Page_UNIVERGE BLUE EXTEND/contactus'), 5)
 
+WebUI.takeScreenshotAsCheckpoint('Mobile_TakeScreenShotCheckpoint')
+
+WebUI.takeFullPageScreenshotAsCheckpoint('Mobile_TakeFullPageScreenShotCheckpoint', [])
+
 WebUI.click(findTestObject('Object Repository/NEC Mobile/Page_UNIVERGE BLUE EXTEND/button_US_toggle-navigation float-right'))
 
 WebUI.click(findTestObject('Object Repository/NEC Mobile/Page_UNIVERGE BLUE EXTEND/a_Helpdesk'))

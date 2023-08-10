@@ -23,7 +23,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://t30707-s51297.stg1.mozu.com/')
 
-GlobalVariable.mobileToWeb = "Hello!!!!"
+GlobalVariable.gmail = "Hello!!!!"
 
 //WebUI.click(findTestObject('Proactive/Page_For All Skin Types  Acne  Skincare Treatment  Proactiv/div_Zits Happen'))
 //

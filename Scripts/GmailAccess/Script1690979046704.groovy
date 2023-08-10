@@ -16,7 +16,54 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import javax.mail.internet.MimeMultipart
+import javax.mail.internet.MimeMultipart as MimeMultipart
 
-String email = CustomKeywords.'com.testwithhari.katalon.plugins.Gmail.readLatestEMailBodyContent'('pravinrajpaul@gmail.com', 'klfjcbqgcunnpdmq', 'Inbox')
-printf (email)
+Map email = CustomKeywords.'com.katalon.plugin.keyword.email.EmailAccessKeywords.getLatestGmail'(GlobalVariable.gmail, GlobalVariable.gmailPass, 
+    GlobalVariable.gmailFolder)
+
+println(email.subject)
+
+println(email.body)
+
+email = CustomKeywords.'com.katalon.plugin.keyword.email.EmailAccessKeywords.getNthGmail'(GlobalVariable.gmail, GlobalVariable.gmailPass, 
+    GlobalVariable.gmailFolder, 3)
+
+println(email.subject)
+
+println(email.body)
+
+int count = CustomKeywords.'com.katalon.plugin.keyword.email.EmailAccessKeywords.getMailCountGmail'(GlobalVariable.gmail, 
+    GlobalVariable.gmailPass, GlobalVariable.gmailFolder)
+
+println(count)
+
+CustomKeywords.'com.katalon.plugin.keyword.email.EmailAccessKeywords.deleteLatestGmail'(GlobalVariable.gmail,
+	GlobalVariable.gmailPass, GlobalVariable.gmailFolder)
+
+count = CustomKeywords.'com.katalon.plugin.keyword.email.EmailAccessKeywords.getMailCountGmail'(GlobalVariable.gmail,
+	GlobalVariable.gmailPass, GlobalVariable.gmailFolder)
+
+println(count)
+
+CustomKeywords.'com.katalon.plugin.keyword.email.EmailAccessKeywords.deleteNthGmail'(GlobalVariable.gmail,
+	GlobalVariable.gmailPass, GlobalVariable.gmailFolder, 2)
+
+email = CustomKeywords.'com.katalon.plugin.keyword.email.EmailAccessKeywords.getNthGmail'(GlobalVariable.gmail, GlobalVariable.gmailPass,
+	GlobalVariable.gmailFolder, 2)
+
+println(email.subject)
+
+println(email.body)
+
+count = CustomKeywords.'com.katalon.plugin.keyword.email.EmailAccessKeywords.getMailCountGmail'(GlobalVariable.gmail,
+	GlobalVariable.gmailPass, GlobalVariable.gmailFolder)
+
+println(count)
+
+CustomKeywords.'com.katalon.plugin.keyword.email.EmailAccessKeywords.deleteAllGmail'(GlobalVariable.gmail,
+	GlobalVariable.gmailPass, GlobalVariable.gmailFolder)
+
+count = CustomKeywords.'com.katalon.plugin.keyword.email.EmailAccessKeywords.getMailCountGmail'(GlobalVariable.gmail,
+	GlobalVariable.gmailPass, GlobalVariable.gmailFolder)
+
+println(count)

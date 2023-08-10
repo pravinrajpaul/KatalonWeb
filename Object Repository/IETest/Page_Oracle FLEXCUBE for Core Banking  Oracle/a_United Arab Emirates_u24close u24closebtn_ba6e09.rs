@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_United Arab Emirates_u24close u24closebtn_ba6e09</name>
+   <tag></tag>
+   <elementGuidId>28687228-98ed-4a78-9c06-5dc22189ac82</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.u24close.u24closebtn.icn-close.o-hf</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[contains(@href, '#')])[7]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>e8deba68-d3d7-4cb6-b297-833831a4f11e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>12c85d4c-49eb-4411-a175-0a142daf5352</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-lbl</name>
+      <type>Main</type>
+      <value>close</value>
+      <webElementGuid>d40156cd-8788-458e-933f-e9446b0d103c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>u24close u24closebtn icn-close o-hf</value>
+      <webElementGuid>c7337c2f-a738-46ab-8ac2-fe36003155bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;js ishttps w11ready&quot;]/body[@class=&quot;f20 f20v0 rwtheme-ocean u24under ready u24show u24vis u10hide&quot;]/div[@class=&quot;f20w1&quot;]/div[@class=&quot;u24 u24v0 darktheme&quot;]/div[@class=&quot;u24w1 cwidth rw-globe&quot;]/a[@class=&quot;u24close u24closebtn icn-close o-hf&quot;]</value>
+      <webElementGuid>6dfef720-4562-4e83-8f94-9f01faedda8e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[7]</value>
+      <webElementGuid>0be1770e-79df-42dd-8bd8-afca716b4f8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/a</value>
+      <webElementGuid>137cec44-62e4-45bf-86e7-7912b322b339</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#']</value>
+      <webElementGuid>f94cee2a-b01d-4980-8131-b612f49fcf0b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
