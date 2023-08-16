@@ -17,13 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://www.oracle.com/financial-services/banking/flexcube/')
-
-WebUI.click(findTestObject('Object Repository/IETest/Page_Oracle FLEXCUBE for Core Banking  Oracle/a_No thanks, Ill stay here'))
-
-WebUI.click(findTestObject('Object Repository/IETest/Page_Oracle FLEXCUBE for Core Banking  Oracle/a_Virtual Events'))
-
-WebUI.closeBrowser()
-
+CucumberKW.runFeatureFile('Include/features/IN-2 Epic2.feature')

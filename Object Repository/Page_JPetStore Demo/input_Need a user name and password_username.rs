@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Username_username</name>
+   <name>input_Need a user name and password_username</name>
    <tag></tag>
-   <elementGuidId>717718c0-4099-407f-94e6-00609c1efc5f</elementGuidId>
+   <elementGuidId>41785242-6570-4982-8028-8364067c9997</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='username']</value>
+         <value>//input[@id='stripes-740966538']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;username&quot;]</value>
+         <value>#stripes-740966538</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ba4413c0-6dd9-4ce1-ae93-cff542805236</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>oxd-input oxd-input--focus</value>
-      <webElementGuid>a2f24ccf-ab15-4c48-9450-526eafc71c65</webElementGuid>
+      <webElementGuid>9cd96e3f-bbde-43dd-92ae-7ce1d6ab60bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,54 +30,62 @@
       <name>name</name>
       <type>Main</type>
       <value>username</value>
-      <webElementGuid>a3d3fa6b-1f37-41ae-9192-fbd5bfe0567b</webElementGuid>
+      <webElementGuid>d6da95d8-4961-4271-bac4-a06a78016b6e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>id</name>
       <type>Main</type>
-      <value>Username</value>
-      <webElementGuid>7ec1ef92-a792-474c-a89f-e32df32fec61</webElementGuid>
+      <value>stripes-740966538</value>
+      <webElementGuid>a15df0ad-51e1-4211-a6c9-762ac8f2ff03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>d50e5547-8da7-4d1b-b680-1c50961a3e97</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;orangehrm-login-layout&quot;]/div[@class=&quot;orangehrm-login-layout-blob&quot;]/div[@class=&quot;orangehrm-login-container&quot;]/div[@class=&quot;orangehrm-login-slot-wrapper&quot;]/div[@class=&quot;orangehrm-login-slot&quot;]/div[@class=&quot;orangehrm-login-form&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/input[@class=&quot;oxd-input oxd-input--focus&quot;]</value>
-      <webElementGuid>ba9be9d1-c5fe-4e52-8da1-3ca5aa1d9b8a</webElementGuid>
+      <value>id(&quot;stripes-740966538&quot;)</value>
+      <webElementGuid>7558739d-c5b1-453d-ad79-caccd01f7c0a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='username']</value>
-      <webElementGuid>95a7cf82-32af-42cf-bbfd-512f95b06f42</webElementGuid>
+      <value>//input[@id='stripes-740966538']</value>
+      <webElementGuid>c5bc804b-3f60-44f4-a0a3-e46d426a4ed5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div/div[2]/div[2]/form/div/div/div[2]/input</value>
-      <webElementGuid>58eb0530-e5bf-4f2d-99bd-cc69e8050ac9</webElementGuid>
+      <value>//div[@id='Catalog']/form/p[2]/input</value>
+      <webElementGuid>6aa179ac-d5cf-4ab7-8c8e-0959be17e11a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/input</value>
-      <webElementGuid>4d95d015-216c-486c-b525-6b88c3ca2e96</webElementGuid>
+      <value>//p[2]/input</value>
+      <webElementGuid>4a689947-650c-436d-b84f-5f2c26f1ec94</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@name = 'username' and @placeholder = 'Username']</value>
-      <webElementGuid>b6a6345e-3869-440f-abd4-06c430e85351</webElementGuid>
+      <value>//input[@name = 'username' and @id = 'stripes-740966538' and @type = 'text']</value>
+      <webElementGuid>b947b394-170c-494e-971c-667338b47b5a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

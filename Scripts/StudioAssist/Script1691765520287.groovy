@@ -10,35 +10,35 @@ import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import com.kms.katalon.core.testobject.ResponseObject as ResponseObject
 import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.testobject.TestObjectProperty as TestObjectProperty
-import com.kms.katalon.core.testobject.RequestObject as RequestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import java.time.LocalDateTime as LocalDateTime
 
-//id = CustomKeywords.'mykeywords.CustomKeywords.randomNumber'(6)
-time = LocalDateTime.now()
+/**
+Login to google.com
+Perform a search for "Hello"
+Navigate to the first search result
+*/
+// Open browser and navigate to google.com
+WebUI.openBrowser('')
 
-response = WS.sendRequest(findTestObject('API/Rest/CreaterUser', [('name') : name, ('id') : id, ('time') : time]))
+WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-outname = WS.getElementPropertyValue(this.response, 'name')
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
 
-assert name == outname
+WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'asdfdf')
 
-RequestObject listUser = findTestObject('API/Rest/ListUsers', [('id') : id])
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'))
 
-ResponseObject response1 = WS.sendRequest(listUser)
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'WeSAhXbbJlA=')
 
-List<TestObjectProperty> top = listUser.getHttpHeaderProperties()
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
 
-for (TestObjectProperty t : top) {
-    println((t.getName() + ';') + t.getValue())
-}
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'), 
+    0)
 
-println(response1.getResponseBodyContent())
+WebUI.closeBrowser()
 

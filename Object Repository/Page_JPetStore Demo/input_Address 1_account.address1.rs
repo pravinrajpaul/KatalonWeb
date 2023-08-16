@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='account.address1']</value>
+         <value>//input[@name='signon']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;account.address1&quot;]</value>
+         <value>input[name=&quot;signon&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>10d99dec-13d2-473b-99eb-05905b848bf2</webElementGuid>
+      <webElementGuid>bc2c4456-7b42-487d-afc8-3fe4401aaeeb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,27 +37,67 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>account.address1</value>
-      <webElementGuid>4fd271c3-46dd-4d52-9b5f-4dd8ac4e7182</webElementGuid>
+      <value>signon</value>
+      <webElementGuid>7eccbe9e-9cdb-4a50-abb9-cd495c3887c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-      <webElementGuid>8638cb84-604d-47e2-ba67-9d3d8e93c342</webElementGuid>
+      <value>submit</value>
+      <webElementGuid>346b196e-ddb7-4a7c-bf85-b2b3394e5123</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Catalog&quot;)/form[1]/table[2]/tbody[1]/tr[5]/td[2]/input[1]</value>
-      <webElementGuid>1a3c7c25-4f9d-4f7c-80f5-dbb6ea2c14ba</webElementGuid>
+      <value>id(&quot;Catalog&quot;)/form[1]/input[1]</value>
+      <webElementGuid>d39b28e3-ed2a-4c22-8043-91fc697f0b8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Login</value>
+      <webElementGuid>2b8893c1-1473-46fd-8ee0-f1f341a410ce</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='signon']</value>
+      <webElementGuid>0ee275ad-205c-4b09-9c65-9afc56dabf05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='Catalog']/form/input</value>
+      <webElementGuid>e6edf48d-3d55-4bd8-bf36-b5cfa456054c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/form/input</value>
+      <webElementGuid>39eedb9d-77a4-4d25-b8c4-952164346351</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'signon' and @type = 'submit']</value>
+      <webElementGuid>ffeeeba1-de06-4706-9d90-824a1ed1d865</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>

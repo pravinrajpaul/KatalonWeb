@@ -10,35 +10,31 @@ import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import com.kms.katalon.core.testobject.ResponseObject as ResponseObject
 import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.testobject.TestObjectProperty as TestObjectProperty
-import com.kms.katalon.core.testobject.RequestObject as RequestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import java.time.LocalDateTime as LocalDateTime
 
-//id = CustomKeywords.'mykeywords.CustomKeywords.randomNumber'(6)
-time = LocalDateTime.now()
+WebUI.openBrowser('')
 
-response = WS.sendRequest(findTestObject('API/Rest/CreaterUser', [('name') : name, ('id') : id, ('time') : time]))
+WebUI.navigateToUrl('https://petstore.octoperf.com/actions/Catalog.action')
 
-outname = WS.getElementPropertyValue(this.response, 'name')
+WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/img'))
 
-assert name == outname
+WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/a_K9-BD-01'))
 
-RequestObject listUser = findTestObject('API/Rest/ListUsers', [('id') : id])
+WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/a_EST-6'))
 
-ResponseObject response1 = WS.sendRequest(listUser)
+WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/a_Add to Cart'))
 
-List<TestObjectProperty> top = listUser.getHttpHeaderProperties()
+WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/a_Proceed to Checkout'))
 
-for (TestObjectProperty t : top) {
-    println((t.getName() + ';') + t.getValue())
-}
+WebUI.rightClick(findTestObject('Object Repository/Page_JPetStore Demo/div_Please enter your username and password_a3c923'))
 
-println(response1.getResponseBodyContent())
+WebUI.verifyElementText(findTestObject('Object Repository/Page_JPetStore Demo/div_Please enter your username and password_a3c923'), 
+    'Please enter your username and password.\n\tUsername:setTimeout(function(){try{var z=document.getElementById(\'stripes-1933500542\');z.focus();z.select();}catch(e){}},1); \n\tPassword:\n\t\n\n Need a user name and password? Register Now!')
+
+WebUI.closeBrowser()
 
