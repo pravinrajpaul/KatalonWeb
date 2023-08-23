@@ -12,73 +12,10 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>ec3f61a3-67f0-4b3a-8d5c-3ce11dcaa5bd</testSuiteGuid>
    <testCaseLink>
-      <guid>4a27df78-254c-4b94-be3f-31bde6e91236</guid>
+      <guid>66a8fac5-3e36-4b50-b810-401f09f0da82</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/WebTestCases/WebTestCase1</testCaseId>
-      <testDataLink>
-         <combinationType>MANY</combinationType>
-         <id>e91e1c07-ae93-45b7-92c7-d3eaddff24ee</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/ContactDetails</testDataId>
-      </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>7358eba2-52e4-44f1-8293-c97632b51dae</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>684bd2fd-81ea-4f1c-8036-4585f044e4e4</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>e91e1c07-ae93-45b7-92c7-d3eaddff24ee</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>AddressLine1</value>
-         <variableId>9cdb582e-94b7-4d9c-8e0e-0df12dea4c6b</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>e91e1c07-ae93-45b7-92c7-d3eaddff24ee</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>AddressLine2</value>
-         <variableId>9a1f995d-26a8-4862-8479-adca1209ec3c</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>e91e1c07-ae93-45b7-92c7-d3eaddff24ee</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Phone</value>
-         <variableId>4e92aeb2-3761-4aed-9a3d-4e19f3c54a47</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>e91e1c07-ae93-45b7-92c7-d3eaddff24ee</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>City</value>
-         <variableId>28735b0c-f9bb-4aef-8abf-a4b8b4ab7132</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>e91e1c07-ae93-45b7-92c7-d3eaddff24ee</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>State</value>
-         <variableId>b3cc3327-fb89-4e81-b48d-59928206944b</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>e91e1c07-ae93-45b7-92c7-d3eaddff24ee</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Postcode</value>
-         <variableId>08e8a612-98ec-426f-af1b-85de55c80215</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>e91e1c07-ae93-45b7-92c7-d3eaddff24ee</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Country</value>
-         <variableId>e9502dfb-495e-4465-93bd-82135ede5aba</variableId>
-      </variableLink>
+      <testCaseId>Test Cases/WebTestCases/WebTestCase2</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

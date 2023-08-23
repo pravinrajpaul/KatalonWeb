@@ -23,6 +23,8 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://petstore.octoperf.com/actions/Catalog.action')
 
+println(WebUI.getViewportWidth())
+
 WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/area'))
 
 WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/a_RP-LI-02'))

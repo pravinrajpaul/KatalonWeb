@@ -17,12 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+CustomKeywords.'mykeywords.CustomKeywords.startDefaultWinAppDriver'()
+
 Windows.startApplicationWithTitle('D:\\PortableSoft\\Autoit\\Aut2exe\\Aut2exe.exe', 'Autoit')
 
 Windows.setText(findWindowsObject('Object Repository/Demo/Edit'), hello)
 
 Windows.click(findWindowsObject('Object Repository/Demo/RadioButton'))
-
 
 Windows.closeApplication()
 

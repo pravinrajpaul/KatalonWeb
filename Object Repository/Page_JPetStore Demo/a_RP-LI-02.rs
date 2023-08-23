@@ -6,12 +6,12 @@
    <elementGuidId>1cef3a72-fb86-453b-9cc6-84f30654c554</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='Catalog1']/table/tbody/tr[3]/td/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>tr:nth-of-type(3) > td > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='Catalog']/table/tbody/tr[3]/td/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>a1b0fed1-3c39-42fa-87a1-219a6de09061</webElementGuid>
+      <webElementGuid>0475bd0f-a723-4153-8089-693a00ba3e5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/actions/Catalog.action?viewProduct=&amp;productId=RP-LI-02</value>
-      <webElementGuid>ec8304a6-8519-417d-a2f8-0baa9e8be93f</webElementGuid>
+      <webElementGuid>c4f99f5f-42da-4748-929b-5ec07d3a4735</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>RP-LI-02</value>
-      <webElementGuid>be806444-9647-4894-bfe7-7dbd0dd1e7bd</webElementGuid>
+      <webElementGuid>44beda72-61fe-4024-9bc0-96b964998b96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Catalog&quot;)/table[1]/tbody[1]/tr[3]/td[1]/a[1]</value>
-      <webElementGuid>ba497934-953b-46fe-8ad5-b31ddf1928bd</webElementGuid>
+      <webElementGuid>fb129ac0-2ae5-4572-99b3-54e55f1e0f3f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Catalog']/table/tbody/tr[3]/td/a</value>
-      <webElementGuid>a7698069-c80d-4f52-a0bc-def4fde6ea03</webElementGuid>
+      <webElementGuid>e836854c-e7cc-4b6b-98c8-bfc5b7b0a95d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'RP-LI-02')]</value>
-      <webElementGuid>16d7463c-638f-497b-b00e-c405311fb480</webElementGuid>
+      <webElementGuid>3743ce20-4bbe-4b00-9611-2ae3ca7793fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rattlesnake'])[1]/following::a[1]</value>
-      <webElementGuid>957bb0a4-c960-4f9f-beb2-0a07501ca6c3</webElementGuid>
+      <webElementGuid>eeab4e77-9e7d-4a0a-b2c9-429bf72ce877</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='RP-SN-01'])[1]/following::a[1]</value>
-      <webElementGuid>ec43a893-548c-49b8-94fd-280b16bb3694</webElementGuid>
+      <webElementGuid>a6bc410f-3e73-4ac8-9e02-b0021263139c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Iguana'])[1]/preceding::a[1]</value>
-      <webElementGuid>a4022ba4-0cd8-4211-a891-3470ca7074fe</webElementGuid>
+      <webElementGuid>1c26cc7c-83bf-467a-9aaa-6de092c2fb2e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='www.mybatis.org'])[1]/preceding::a[1]</value>
-      <webElementGuid>1b3910ae-951e-44fb-ae83-3d6d8b2bb173</webElementGuid>
+      <webElementGuid>9004384a-fb84-405d-9018-b5db6678c51d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='RP-LI-02']/parent::*</value>
-      <webElementGuid>69cac941-08fc-4110-974f-9d8ff9e397dd</webElementGuid>
+      <webElementGuid>62b268db-ffd4-43d5-958d-2a9df71b9575</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/actions/Catalog.action?viewProduct=&amp;productId=RP-LI-02')]</value>
-      <webElementGuid>1c074468-73ab-455d-a45e-d1b13b8ee7c0</webElementGuid>
+      <webElementGuid>94726b52-30cc-4493-a21b-a0ad68ac983f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[3]/td/a</value>
-      <webElementGuid>0dec1081-0487-4710-b86f-aec9a1681c80</webElementGuid>
+      <webElementGuid>623f39f4-19d6-499c-89f1-0fa901c71771</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/actions/Catalog.action?viewProduct=&amp;productId=RP-LI-02' and (text() = 'RP-LI-02' or . = 'RP-LI-02')]</value>
-      <webElementGuid>fc2c8b2f-1f52-4d4e-9cd8-4b354189159a</webElementGuid>
+      <webElementGuid>cf8008c8-2909-4a6b-ba82-63af794068b4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
