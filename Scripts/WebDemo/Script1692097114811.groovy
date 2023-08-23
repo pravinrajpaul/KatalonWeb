@@ -19,22 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://petstore.octoperf.com/actions/Catalog.action')
+WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/img'))
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
 
-WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/a_K9-BD-01'))
+WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'asdfdf')
 
-WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/a_EST-6'))
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'))
 
-WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/a_Add to Cart'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'WeSAhXbbJlA=')
 
-WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/a_Proceed to Checkout'))
-
-WebUI.rightClick(findTestObject('Object Repository/Page_JPetStore Demo/div_Please enter your username and password_a3c923'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_JPetStore Demo/div_Please enter your username and password_a3c923'), 
-    'Please enter your username and password.\n\tUsername:setTimeout(function(){try{var z=document.getElementById(\'stripes-1933500542\');z.focus();z.select();}catch(e){}},1); \n\tPassword:\n\t\n\n Need a user name and password? Register Now!')
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
 
 WebUI.closeBrowser()
 

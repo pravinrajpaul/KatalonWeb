@@ -22,23 +22,20 @@ Login to google.com
 Perform a search for "Hello"
 Navigate to the first search result
 */
-// Open browser and navigate to google.com
+
+
+
+/**
 WebUI.openBrowser('')
+WebUI.maximizeWindow()
+WebUI.waitForPageLoad(10)
+WebUI.navigateToUrl('https://www.google.com')
+WebUI.waitForElementVisible(findTestObject('input_search'), 10)
+WebUI.setText(findTestObject('input_search'), 'Hello')
+WebUI.sendKeys(findTestObject('input_search'), Keys.chord(Keys.ENTER))
+WebUI.waitForElementVisible(findTestObject('search_results'), 10)
+WebUI.click(findTestObject('first_search_result'))
+*/
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
-
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'asdfdf')
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'WeSAhXbbJlA=')
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
-
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'), 
-    0)
-
-WebUI.closeBrowser()
 
