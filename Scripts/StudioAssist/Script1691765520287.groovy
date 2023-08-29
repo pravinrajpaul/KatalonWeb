@@ -17,25 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-/**
-Login to google.com
-Perform a search for "Hello"
-Navigate to the first search result
-*/
-
-
-
-/**
-WebUI.openBrowser('')
-WebUI.maximizeWindow()
-WebUI.waitForPageLoad(10)
-WebUI.navigateToUrl('https://www.google.com')
-WebUI.waitForElementVisible(findTestObject('input_search'), 10)
-WebUI.setText(findTestObject('input_search'), 'Hello')
-WebUI.sendKeys(findTestObject('input_search'), Keys.chord(Keys.ENTER))
-WebUI.waitForElementVisible(findTestObject('search_results'), 10)
-WebUI.click(findTestObject('first_search_result'))
-*/
-
-
+CustomKeywords.'com.katalon.plugin.keyword.angularjs.DropdownKeywords.selectAllOption'(findTestObject(null))
 

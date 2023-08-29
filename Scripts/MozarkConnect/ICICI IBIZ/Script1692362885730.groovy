@@ -54,11 +54,6 @@ Mobile.scrollToText('On Maturity')
 
 Mobile.tap(findTestObject('Object Repository/ICICI Mobile/android.widget.Button - Open FD (1)'), 0)
 
-//tapheight = ((Mobile.getDeviceHeight() * 95) / 100)
-//
-//tapwidth = ((Mobile.getDeviceWidth() * 50) / 100)
-//
-//Mobile.tapAtPosition(tapwidth, tapheight)
 Mobile.tap(findTestObject('ICICI Mobile/android.widget.Button - Confirm Details'), 0)
 
 thread.sleep(10000)

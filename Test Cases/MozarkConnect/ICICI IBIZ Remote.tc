@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>WindowsApplication</name>
+   <name>ICICI IBIZ Remote</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>275537c1-6bb2-4bd0-af3d-f17c94a90367</testCaseGuid>
+   <testCaseGuid>3e358008-1407-42ea-904b-791280fa0883</testCaseGuid>
 </TestCaseEntity>
