@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "89B58B3D838BF35FC452553B2F1956E6",
+  "keywordFileContentHash": "030C4CFDA31C960AD4DDAC0C032CBB8F",
   "keywordClasses": [
     {
       "name": "robot.Keywords",
@@ -24,10 +24,61 @@
           "javadoc": ""
         },
         {
-          "name": "mouseAction",
+          "name": "mouseClick",
           "parameters": [
             {
               "name": "mouseClickType",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "mouseMove",
+          "parameters": [
+            {
+              "name": "x",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "y",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "mouseWheelRoll",
+          "parameters": [
+            {
+              "name": "mouseRollType",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",

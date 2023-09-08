@@ -47,7 +47,7 @@ import com.kms.katalon.core.webservice.verification.WSResponseManager
 import groovy.json.JsonSlurper
 import internal.GlobalVariable as GlobalVariable
 
-RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
+RequestObject request = WSResponseManagerger.getInstance().getCurrentRequest()
 
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 

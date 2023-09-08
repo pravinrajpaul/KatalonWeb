@@ -16,6 +16,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.WebDriver as WebDriver
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-CustomKeywords.'com.katalon.plugin.keyword.angularjs.DropdownKeywords.selectAllOption'(findTestObject(null))
+CustomKeywords.'com.katalon.plugin.keyword.windows.StartAppAsUser.openAppAsUser'('C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe', 
+    'pravi', 'Jbjbjatwowf@8081')
+
+CustomKeywords.'com.katalon.plugin.keyword.windows.StartAppAsUser.associateLatestActiveBrowser'('EdgeChromium')
 

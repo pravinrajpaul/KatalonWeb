@@ -41,16 +41,29 @@ public class Keywords {
 		}
 	}
 
-	//mouseClickType : "Left Button Down/Up", "Right Button Down/Up"
+	//mouseClickType : "Left Button Down/Up", "Right Button Down/Up", "Left Click", "Right Click", "Double Click"
 	@Keyword
-	public void mouseAction(String mouseClickType) {
+	public void mouseClick(String mouseClickType) {
 		switch (mouseClickType) {
 			case "Left Button Down" : robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);break;
 			case "Left Button Up" : robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);break;
+			case "Double Click" : robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+			case "Left Click" : robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);break;
 			case "Right Button Down" : robot.mousePress(InputEvent.BUTTON3_DOWN_MASK);break;
 			case "Right Button Up" : robot.mouseRelease(InputEvent.BUTTON3_DOWN_MASK);break;
+			case "Right Click" : robot.mousePress(InputEvent.BUTTON3_DOWN_MASK);robot.mouseRelease(InputEvent.BUTTON3_DOWN_MASK);break;
 			default : robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 		}
+	}
+
+	@Keyword
+	public void mouseMove(int x, int y) {
+		robot.mouseMove(x, y)
+	}
+
+	@Keyword
+	public void mouseWheelRoll(String mouseRollType) {
+		robot.mouseWheel(InputEvent.MOUSE_WHEEL_EVENT_MASK)
 	}
 
 	public void type(char character) {

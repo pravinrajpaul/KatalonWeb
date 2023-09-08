@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>DemoTest</name>
-   <tag></tag>
+   <tag>Day1</tag>
    <comment></comment>
    <testCaseGuid>ceff4bdf-a13f-4a78-8254-7e4a84cb9418</testCaseGuid>
    <variableLinks>
