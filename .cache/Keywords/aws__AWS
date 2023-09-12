@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "AB4381A2EDB01E5078EFBEA618AB3B5E",
+  "keywordClasses": [
+    {
+      "name": "aws.AWS",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

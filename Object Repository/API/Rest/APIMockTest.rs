@@ -57,6 +57,7 @@ WS.verifyResponseStatusCode(response, 200)
 
 assertThat(response.getStatusCode()).isEqualTo(200)
 
-WS.verifyElementPropertyValue(response, 'status', 'User Found')</verificationScript>
+WS.verifyElementPropertyValue(response, 'status', 'User Found')
+</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

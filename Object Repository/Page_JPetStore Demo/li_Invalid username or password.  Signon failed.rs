@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>7947cf79-b227-4cc6-b44b-5e42d58c51ca</webElementGuid>
+      <webElementGuid>7158dbcc-a4b6-45bb-9cf9-38c73998f990</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Invalid username or password.  Signon failed.</value>
-      <webElementGuid>2b5308d6-2360-47d8-b819-f8295356f73d</webElementGuid>
+      <webElementGuid>7a195b22-db74-4dc4-8271-3835b9f90b74</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Content&quot;)/ul[@class=&quot;messages&quot;]/li[1]</value>
-      <webElementGuid>e1a0980b-3d29-4eab-972a-6794f36acadb</webElementGuid>
+      <webElementGuid>814c6f2f-9891-4d43-ab19-19b9cf571667</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Content']/ul/li</value>
-      <webElementGuid>7e290982-9c07-462b-a7c5-5deb62e07950</webElementGuid>
+      <webElementGuid>9f43aa9f-c6b4-4636-a82a-0f5afc21ca83</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='?'])[1]/following::li[1]</value>
-      <webElementGuid>a9d5c317-5fc0-4372-a72f-d4bec55148a6</webElementGuid>
+      <webElementGuid>cbf0b26f-e82f-4b5b-94d3-cb6263746eac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign In'])[1]/following::li[1]</value>
-      <webElementGuid>f8c6ccdf-8c83-4e74-bff8-326e07b9c4cf</webElementGuid>
+      <webElementGuid>b0c2f0b4-df0f-4b3d-a392-26f76a02bb26</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Register Now!'])[1]/preceding::li[1]</value>
-      <webElementGuid>4b305405-7199-414d-be49-f927efe5de3b</webElementGuid>
+      <webElementGuid>d51cd0f9-9f7d-4c05-995f-9cad1117e5fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li</value>
-      <webElementGuid>fa425916-8591-40a7-8b48-8a4995959420</webElementGuid>
+      <webElementGuid>d3f4e805-e44d-4ac8-aa88-b54d4803d660</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'Invalid username or password.  Signon failed.' or . = 'Invalid username or password.  Signon failed.')]</value>
-      <webElementGuid>6abfba6b-3504-4299-8563-b42bd82764be</webElementGuid>
+      <webElementGuid>ce923f04-a36d-4a71-926d-c5f1e4d0b8e1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

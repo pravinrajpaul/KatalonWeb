@@ -1,14 +1,14 @@
 {
-  "keywordFileContentHash": "4C823598F7A1C37D1CF27A7A0B3539F5",
+  "keywordFileContentHash": "99C96D3070C2DF29309783687CB20583",
   "keywordClasses": [
     {
-      "name": "mobile.mobilekeywords",
+      "name": "Sss",
       "keywordMethods": [
         {
-          "name": "downloadFileToLocal",
+          "name": "putObjectToS3ViaApiGateWay",
           "parameters": [
             {
-              "name": "fromFilePath",
+              "name": "apiGateWayEndpoint",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",
@@ -21,64 +21,7 @@
               }
             },
             {
-              "name": "toFilePath",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            }
-          ],
-          "javadoc": "/**\n\t */"
-        },
-        {
-          "name": "deleteFilesInFolder",
-          "parameters": [
-            {
-              "name": "folderPath",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            }
-          ],
-          "javadoc": ""
-        },
-        {
-          "name": "transcribeWavFile",
-          "parameters": [
-            {
-              "name": "wavFilePath",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            }
-          ],
-          "javadoc": ""
-        },
-        {
-          "name": "convertAudio",
-          "parameters": [
-            {
-              "name": "fromFilePath",
+              "name": "bucket",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",
@@ -91,7 +34,20 @@
               }
             },
             {
-              "name": "toFilePath",
+              "name": "filePath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "destinationFileName",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",

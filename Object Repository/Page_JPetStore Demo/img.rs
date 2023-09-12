@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='SidebarContent']/a[2]/img</value>
+         <value>//div[@id='SidebarContent']/a/img</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#SidebarContent > a:nth-of-type(2) > img</value>
+         <value>#SidebarContent > a > img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,26 +22,50 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>3b8f7891-76d0-44c5-bde9-b61915aa97f4</webElementGuid>
+      <webElementGuid>58452c49-5c76-460f-9652-f8210c6d17c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>../images/dogs_icon.gif</value>
-      <webElementGuid>90013bf6-a351-413a-88a5-663c4343abd7</webElementGuid>
+      <value>../images/fish_icon.gif</value>
+      <webElementGuid>b27c8fdd-0c41-4227-8805-106b59fe6209</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;SidebarContent&quot;)/a[2]/img[1]</value>
-      <webElementGuid>251dab22-b6d0-475c-a7d7-99402934326d</webElementGuid>
+      <value>id(&quot;SidebarContent&quot;)/a[1]/img[1]</value>
+      <webElementGuid>cda7a0e2-393a-4d28-ac52-96f6ee11311a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='SidebarContent']/a/img</value>
+      <webElementGuid>ff9d5a07-8466-43c7-a44c-a01c1af80e5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/a/img</value>
+      <webElementGuid>ee89cd9d-d24a-4157-afd8-337868354109</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '../images/fish_icon.gif']</value>
+      <webElementGuid>2f1e7d32-9620-45c9-a88b-e88d68ac12aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>

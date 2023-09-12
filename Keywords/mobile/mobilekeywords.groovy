@@ -27,22 +27,22 @@ class mobilekeywords {
 		byteArrayToFile(fileArr, toFilePath)
 	}
 
-	
+
 	@Keyword
 	def deleteFilesInFolder(String folderPath){
 		AppiumDriver<?> driver = MobileDriverFactory.getDriver()
 		if (!folderPath.endsWith("/")) folderPath = folderPath + "/"
 		List<String> removeFilesArgs = Arrays.asList(
-			"-rf",
-			folderPath + "*.*"
-		);
+				"-rf",
+				folderPath + "*.*"
+				);
 		Map<String, Object> removeFilesCmd = ImmutableMap.of(
-			"command", "rm",
-			"args", removeFilesArgs
-		);
+				"command", "rm",
+				"args", removeFilesArgs
+				);
 		driver.executeScript("mobile: shell", removeFilesCmd);
 	}
-	
+
 
 	@Keyword
 	def transcribeWavFile(String wavFilePath) {
@@ -70,7 +70,7 @@ class mobilekeywords {
 
 	@Keyword
 	def convertAudio(String fromFilePath, String toFilePath) {
-		String cmdStr = "cmd /c ffmpeg -i \""+fromFilePath +"\" \"" + toFilePath + "\""
+		String cmdStr = "cmd /c ffmpeg -y -i \""+fromFilePath +"\" \"" + toFilePath + "\""
 		println(cmdStr)
 		try {
 			Process proc = cmdStr.execute()

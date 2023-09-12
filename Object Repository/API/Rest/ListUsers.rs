@@ -54,9 +54,38 @@ RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
-
 WS.verifyResponseStatusCode(response, 200)
 
-assertThat(response.getStatusCode()).isEqualTo(200)</verificationScript>
+assertThat(response.getStatusCode()).isEqualTo(200)
+
+
+
+
+
+String jsonPass =
+&quot;&quot;&quot;
+{
+  &quot;\$id&quot;: &quot;https://example.com/person.schema.json&quot;,
+  &quot;\$schema&quot;: &quot;https://json-schema.org/draft/2020-12/schema&quot;,
+  &quot;title&quot;: &quot;Person&quot;,
+  &quot;type&quot;: &quot;object&quot;,
+  &quot;properties&quot;: {
+    &quot;firstName&quot;: {
+      &quot;type&quot;: &quot;string&quot;,
+      &quot;description&quot;: &quot;The person's first name.&quot;
+    },
+    &quot;lastName&quot;: {
+      &quot;type&quot;: &quot;string&quot;,
+      &quot;description&quot;: &quot;The person's last name.&quot;
+    },
+    &quot;age&quot;: {
+      &quot;description&quot;: &quot;Age in years which must be equal to or greater than zero.&quot;,
+      &quot;type&quot;: &quot;integer&quot;,
+      &quot;minimum&quot;: 0
+    }
+  }
+}
+&quot;&quot;&quot;
+boolean successful = WS.validateJsonAgainstSchema(response,jsonPass)</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
