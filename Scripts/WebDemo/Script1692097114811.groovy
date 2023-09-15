@@ -19,6 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+CustomKeywords.'com.katalon.plugin.keyword.web.WebAdditives.navigateToSecureURL'('http://the-internet.herokuapp.com/basic_auth', 
+    'admin', 'admin')
+
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
