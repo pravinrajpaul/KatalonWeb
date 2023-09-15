@@ -63,6 +63,8 @@ WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_Addres
 
 WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_Address 2_account.address2'), addressline2)
 
+Mobile.checkElement(findTestObject(null), 0)
+
 WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_City_account.city'), city)
 
 WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input_State_account.state'), state)

@@ -35,3 +35,5 @@ WebUI.closeBrowser()
 
 WebUI.scrollToElement(findTestObject(null), 0)
 
+CustomKeywords.'com.katalon.plugin.keyword.email.EmailAccessKeywords.getLatestMail'('', '', false, '', '', '')
+

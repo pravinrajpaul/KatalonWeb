@@ -21,8 +21,25 @@ import org.openqa.selenium.WebDriver as WebDriver
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-CustomKeywords.'com.katalon.plugin.keyword.windows.StartAppAsUser.openAppAsUser'('C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe', 
-    'pravi', 'Jbjbjatwowf@8081')
+/**
+Navigate to google.com
+Type "today's news" in the search box
+Click the search button
+Navigate to the first result
+*/
 
-CustomKeywords.'com.katalon.plugin.keyword.windows.StartAppAsUser.associateLatestActiveBrowser'('EdgeChromium')
 
+WebUI.navigateToUrl('https://www.google.com')
+
+
+WebUI.setText(findTestObject('Page_Google/input_q'), "today's news")
+
+
+WebUI.click(findTestObject('Page_Google/input_btnK'))
+
+
+WebUI.click(findTestObject('Page_Google/a_firstResult'))
+
+/*
+ * The code navigates to the Google homepage, enters "today's news" into the search bar, clicks the search button, and clicks on the first search result.
+ */
