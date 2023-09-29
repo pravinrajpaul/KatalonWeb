@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "FCD8BB8FBD2D635205CD8E70AACC0D45",
+  "keywordFileContentHash": "90326C041C77B6F0B54DFE68D2FC24DF",
   "keywordClasses": [
     {
       "name": "aws.S3",
@@ -48,6 +48,25 @@
             },
             {
               "name": "destinationFileName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "fileToBase64String",
+          "parameters": [
+            {
+              "name": "filePath",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Gokul S_symbolFont Delete-symbol pa-jz</name>
+   <tag></tag>
+   <elementGuidId>caa7097c-8379-4242-944f-77968760aeff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='tlr_header_command_buttonDelete-7a19edb8-f476-4332-8e92-2375678b0dc1notescontrol']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>0d2017e5-da88-47a3-8b52-a01a7a174950</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>symbolFont Delete-symbol pa-jz </value>
+      <webElementGuid>b666c41e-10fb-4928-a9cd-0122a16f86c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tlr_header_command_buttonDelete-7a19edb8-f476-4332-8e92-2375678b0dc1notescontrol&quot;)/span[@class=&quot;symbolFont Delete-symbol pa-jz&quot;]</value>
+      <webElementGuid>af67a37e-fafa-4666-9111-fb36b7044d8c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='tlr_header_command_buttonDelete-7a19edb8-f476-4332-8e92-2375678b0dc1notescontrol']/span</value>
+      <webElementGuid>521fe03c-3f32-4364-8727-450f9fb00cc2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/button[3]/span</value>
+      <webElementGuid>6c9c6cd8-6b88-4267-8908-df6eb853fc1a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

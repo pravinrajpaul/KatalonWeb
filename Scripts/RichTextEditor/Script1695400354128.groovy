@@ -19,24 +19,14 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-CustomKeywords.'com.katalon.plugin.keyword.web.WebAdditives.navigateToSecureURL'('http://the-internet.herokuapp.com/basic_auth', 
-    'admin', 'admin')
+WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.navigateToUrl('https://richtexteditor.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
+WebUI.click(findTestObject('Object Repository/RichTextEditor/Page_WYSIWYG HTML Editor  Javascript Rich T_2f3e19/p_Rich Text Editor is a full-featured Javas_334e5c'))
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'asdfdf')
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'WeSAhXbbJlA=')
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
+WebUI.setText(findTestObject('Object Repository/RichTextEditor/Page_WYSIWYG HTML Editor  Javascript Rich T_2f3e19/p_Rich Text Editor is a full-featured Javas_334e5c'), 
+    'Hello')
 
 WebUI.closeBrowser()
-
-WebUI.scrollToElement(findTestObject(null), 0)
-
-CustomKeywords.'com.katalon.plugin.keyword.email.EmailAccessKeywords.getLatestMail'('', '', false, '', '', '')
 

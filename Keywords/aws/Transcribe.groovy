@@ -159,7 +159,7 @@ public class Transcribe {
 		def noTrans = jsonResponse.results.transcripts.size()
 		String finalTranscription = "";
 		for(int i=0;i<noTrans;i++) finalTranscription = finalTranscription + jsonResponse.results.transcripts[i].transcript
-		
+
 		return finalTranscription
 	}
 

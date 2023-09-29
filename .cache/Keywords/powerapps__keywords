@@ -1,14 +1,14 @@
 {
-  "keywordFileContentHash": "1D256B56B0CFC283E9A821CC39B139F0",
+  "keywordFileContentHash": "9937314642DF87D9F2B4579963955F22",
   "keywordClasses": [
     {
-      "name": "aws.Transcribe",
+      "name": "powerapps.keywords",
       "keywordMethods": [
         {
-          "name": "startTranscribe",
+          "name": "setTextTextBox",
           "parameters": [
             {
-              "name": "s3UriTranscribeFile",
+              "name": "label",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",
@@ -21,7 +21,7 @@
               }
             },
             {
-              "name": "languageCode",
+              "name": "text",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",
@@ -34,50 +34,11 @@
               }
             },
             {
-              "name": "region",
+              "name": "xTimeOutSeconds",
               "initialExpression": "",
               "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            },
-            {
-              "name": "accessKey",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            },
-            {
-              "name": "secretKey",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            },
-            {
-              "name": "timeOutSeconds",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.lang.Integer",
-                "unresolvedClassName": "Integer",
+                "fullClassName": "java.lang.Number",
+                "unresolvedClassName": "Number",
                 "isArray": false,
                 "isGnericsPlaceHolder": false,
                 "hasImmutableClassName": false,
@@ -85,11 +46,54 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
+        },
+        {
+          "name": "setTextRichTextBox",
+          "parameters": [
+            {
+              "name": "label",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "text",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "xTimeOutSeconds",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Number",
+                "unresolvedClassName": "Number",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

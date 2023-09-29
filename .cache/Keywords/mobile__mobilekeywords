@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "4C823598F7A1C37D1CF27A7A0B3539F5",
+  "keywordFileContentHash": "83110D55589C4B0C791BE2CA63FA494C",
   "keywordClasses": [
     {
       "name": "mobile.mobilekeywords",
@@ -92,6 +92,25 @@
             },
             {
               "name": "toFilePath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "getDuration",
+          "parameters": [
+            {
+              "name": "mediaFilePath",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",

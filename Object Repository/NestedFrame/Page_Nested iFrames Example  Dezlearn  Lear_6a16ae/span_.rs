@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_</name>
+   <tag></tag>
+   <elementGuidId>5cb4296b-e164-4f10-a35e-5da1fc9f264b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Learn It Easy'])[1]/preceding::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>97453d09-de59-45d9-ac8e-cfa5015ea55f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>078df49c-2053-49a1-aeb3-20ea1e5525ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>×</value>
+      <webElementGuid>9ec3162f-9b2a-433b-acd7-df974359f5c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[1]/div[@class=&quot;ml-dialog row min-vh-100 justify-content-center d-flex align-items-center popup right mailerlite-trigger-sendHeightToParent&quot;]/div[@class=&quot;mailerlite-popup&quot;]/div[@class=&quot;ml-popup w-100 row-form&quot;]/button[@class=&quot;close&quot;]/span[1]</value>
+      <webElementGuid>b33458bc-57ac-4488-9b48-1755f24e8286</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/NestedFrame/Page_Nested iFrames Example  Dezlearn  Lear_6a16ae/iframe_Terms and Conditions_ml-webforms-pop_d1c6fc</value>
+      <webElementGuid>7d7f6c3a-7b30-408a-b006-194557c51cba</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Learn It Easy'])[1]/preceding::span[1]</value>
+      <webElementGuid>4d5d861e-d44b-45c1-8711-d28efc03d483</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Together!'])[1]/preceding::span[1]</value>
+      <webElementGuid>1fc66085-8839-40ec-b380-16f2978ae172</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='×']/parent::*</value>
+      <webElementGuid>836b9cf4-5be1-42f6-9f30-c7dcc87f3340</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>44af7536-c132-4b67-8931-fa5a7056bb6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '×' or . = '×')]</value>
+      <webElementGuid>66313fe7-55bf-449c-af4c-0e997f2b920e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

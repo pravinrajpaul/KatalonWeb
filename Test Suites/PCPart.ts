@@ -15,7 +15,7 @@
       <guid>a471fdec-ebde-4827-85f5-e9306a164cdf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/IVR Tests/PCPart</testCaseId>
+      <testCaseId>Test Cases/IVR Tests/PCPartAWS</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

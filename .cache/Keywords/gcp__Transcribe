@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "C7956030A5F51B443436A792DCD58533",
+  "keywordClasses": [
+    {
+      "name": "gcp.Transcribe",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

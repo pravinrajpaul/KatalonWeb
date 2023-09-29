@@ -1,14 +1,14 @@
 {
-  "keywordFileContentHash": "1D256B56B0CFC283E9A821CC39B139F0",
+  "keywordFileContentHash": "7301705A79B211FCB1CF6D1E95C2B5CE",
   "keywordClasses": [
     {
-      "name": "aws.Transcribe",
+      "name": "gcp.Token",
       "keywordMethods": [
         {
           "name": "startTranscribe",
           "parameters": [
             {
-              "name": "s3UriTranscribeFile",
+              "name": "inputAudioFile",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",
@@ -34,7 +34,7 @@
               }
             },
             {
-              "name": "region",
+              "name": "googleProjectID",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",
@@ -47,37 +47,11 @@
               }
             },
             {
-              "name": "accessKey",
+              "name": "jsonServiceAccountKeyPath",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",
                 "unresolvedClassName": "String",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            },
-            {
-              "name": "secretKey",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            },
-            {
-              "name": "timeOutSeconds",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.lang.Integer",
-                "unresolvedClassName": "Integer",
                 "isArray": false,
                 "isGnericsPlaceHolder": false,
                 "hasImmutableClassName": false,

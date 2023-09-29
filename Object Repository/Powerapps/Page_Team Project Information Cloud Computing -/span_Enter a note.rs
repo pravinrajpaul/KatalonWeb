@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Enter a note</name>
+   <tag></tag>
+   <elementGuidId>a7bc0750-c6a9-40a7-8883-e87cdbc6507f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='create_module_placeholdernotescontrol']/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>2c4a3c99-581b-45d9-ac06-bc37144afc83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pa-lb </value>
+      <webElementGuid>eff27277-8bb2-456a-a9f1-77d59254783f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Enter a note...</value>
+      <webElementGuid>142e8e14-5387-44b9-81c2-75beac70028e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;create_module_placeholdernotescontrol&quot;)/span[@class=&quot;pa-lb&quot;]</value>
+      <webElementGuid>470f0b5a-9688-477e-bd35-d203357321d4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='create_module_placeholdernotescontrol']/span[2]</value>
+      <webElementGuid>8652c7bf-5964-4152-bafa-2d3c1132c1e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Timeline'])[1]/following::span[8]</value>
+      <webElementGuid>baa964ee-001f-4a2f-993d-091019e16d3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sprint cadence'])[1]/following::span[9]</value>
+      <webElementGuid>af2ac51e-0bcf-44c7-a69f-4b846dc4d573</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get started'])[1]/preceding::span[2]</value>
+      <webElementGuid>74f78c31-6ed1-4c2f-879c-7cbfcf0bf84c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture and manage all records in your timeline.'])[1]/preceding::span[2]</value>
+      <webElementGuid>55f12141-39a7-4a60-ad9a-36ac53f70d0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Enter a note...']/parent::*</value>
+      <webElementGuid>d2a3fb1c-9ee5-4a98-acd7-cb464d4cd909</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button/span[2]</value>
+      <webElementGuid>675fdc17-82b3-46dd-a041-0f19ea718b28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Enter a note...' or . = 'Enter a note...')]</value>
+      <webElementGuid>20e3859f-2690-4198-8cf4-809ecd3b0af4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

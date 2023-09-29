@@ -71,7 +71,6 @@ class mobilekeywords {
 	@Keyword
 	def convertAudio(String fromFilePath, String toFilePath) {
 		String cmdStr = "cmd /c ffmpeg -y -i \""+fromFilePath +"\" \"" + toFilePath + "\""
-		println(cmdStr)
 		try {
 			Process proc = cmdStr.execute()
 			proc.waitFor()
@@ -80,6 +79,30 @@ class mobilekeywords {
 			KeywordUtil.markWarning("Some issue while converting file ")
 		}
 	}
+
+
+	@Keyword
+	def String getDuration(String mediaFilePath) {
+		String cmdStr = "cmd /c ffprobe -i \""+mediaFilePath+"\" -show_entries format=duration -v quiet -of csv=\"p=0\""
+		try {
+			Process proc = cmdStr.execute()
+			proc.waitFor()
+			BufferedReader reader = new BufferedReader(new InputStreamReader(proc.getInputStream()));
+			String line = ""
+			def loop = 0
+			while ((line = reader.readLine()) != null) {
+				if (loop==0) line += line
+				else line += (line+"\n")
+				loop++
+			}
+			reader.close();
+			return line
+		}
+		catch (Exception e) {
+			KeywordUtil.markWarning("Some issue while reading media file")
+		}
+	}
+
 
 	def byte[] aacToWav() {
 		Decoder dec = new Decoder(decoderSpecificinfo);

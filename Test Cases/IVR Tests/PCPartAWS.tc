@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>WebDemo</name>
+   <name>PCPartAWS</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a20176a6-544e-4c2f-b81f-e7f682948e05</testCaseGuid>
+   <testCaseGuid>a2f51687-0a72-44bd-a815-193a1fffb684</testCaseGuid>
 </TestCaseEntity>

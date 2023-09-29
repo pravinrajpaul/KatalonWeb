@@ -6,6 +6,8 @@ import java.text.SimpleDateFormat
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
 
+import org.apache.commons.codec.binary.Base64
+import org.apache.commons.io.FileUtils
 import org.apache.hc.client5.http.classic.HttpClient
 import org.apache.hc.client5.http.classic.methods.HttpPut
 import org.apache.hc.client5.http.classic.methods.HttpUriRequest
@@ -79,6 +81,19 @@ public class S3 {
 	}
 
 
+	@Keyword
+	def String fileToBase64String(String filePath) {
+		try {
+			File file = new File(filePath);
+			byte[] bytes = FileUtils.readFileToByteArray(file);
+			return Base64.encodeBase64String(bytes)
+		}
+		catch(Exception e) {
+			e.printStackTrace()
+		}
+	}
+
+
 	def putObjectToS3(String bucket, String filePath, String destinationFileName, String accessKey, String secretKey, String region) {
 
 		URL endpointUrl;
@@ -99,6 +114,8 @@ public class S3 {
 	}
 
 
+
+
 	def byte[] fileToByteArray(File file) {
 		try {
 			FileInputStream fis = new FileInputStream(file);
@@ -110,6 +127,8 @@ public class S3 {
 			KeywordUtil.markWarning("Some issue with the file path " + file.getAbsolutePath())
 		}
 	}
+
+
 
 	def String computeSignature(URL endPointUrl, String httpMethod, String serviceName, String regionName, Map<String, String> headers,
 			Map<String, String> queryParameters,
