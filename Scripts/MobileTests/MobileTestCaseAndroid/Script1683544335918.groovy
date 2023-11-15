@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('Resources/Mobile/Apk/Telegram.apk', true)
+Mobile.startExistingApplication('Resources/Mobile/Apk/Telegram.apk', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/android.widget.TextView - Start Messaging (4)'), 0)
 
@@ -54,10 +54,9 @@ Mobile.tap(findTestObject('Object Repository/Mobile/android.view.View (11)'), 0)
 Mobile.verifyElementText(findTestObject('Object Repository/Mobile/android.widget.TextView - Invalid phone number. Please check the number and try again (1)'), 
     'Invalid phone number. Please check the number and try again.')
 
-Mobile.takeScreenshotAsCheckpoint("Mobile Telegram")
+Mobile.takeScreenshotAsCheckpoint('Mobile Telegram')
 
 Mobile.tap(findTestObject('Object Repository/Mobile/android.widget.TextView - OK (1)'), 0)
-
 
 Mobile.closeApplication()
 

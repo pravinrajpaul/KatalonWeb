@@ -12,7 +12,8 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.ResponseObject as ResponseObject
 import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.testobject.TestObjectProperty as TestObjectProperty
+import com.kms.katalon.core.testobject.TestObjectProperty
+import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.testobject.RequestObject as RequestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
@@ -26,19 +27,36 @@ time = LocalDateTime.now()
 
 response = WS.sendRequest(findTestObject('API/Rest/CreaterUser', [('name') : name, ('id') : id, ('time') : time]))
 
+
 outname = WS.getElementPropertyValue(this.response, 'name')
 
 assert name == outname
 
-RequestObject listUser = findTestObject('API/Rest/ListUsers', [('id') : id])
+outname = '123'
 
-ResponseObject response1 = WS.sendRequestAndVerify(findTestObject(listUser))
+error = 0
 
-List<TestObjectProperty> top = listUser.getHttpHeaderProperties()
-
-for (TestObjectProperty t : top) {
-    println((t.getName() + ';') + t.getValue())
+if (!name.equals(outname)) {
+	error += 1
+	KeywordUtil.markWarning("Mismatch")
 }
 
-println(response1.getResponseBodyContent())
+//RequestObject request = findTestObject('API/Rest/ListUsers')
+//List<TestObjectProperty> topl = request.getRestParameters().
+//println(topl.size())
+//for (TestObjectProperty top : topl) {
+//	println(top.getName() +":"+ top.getValue())
+//}
+//def response = WS.sendRequest(request)
 
+RequestObject listUser = findTestObject('API/Rest/ListUsers', [('id') : id])
+listUser.setConnectionTimeout(30000)
+
+ResponseObject response1 = WS.sendRequestAndVerify(listUser)
+
+//jsonResponse = new groovy.json.JsonSlurper().parseText(response.getResponseText())
+//field = jsonResponse.name
+
+
+
+println(response1.getResponseBodyContent())

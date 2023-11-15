@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Summary: Story23
+   <description>Summary: Story23&#xd;
 Description: </description>
    <name>IN-9 Story23</name>
    <tag>jira-integration</tag>

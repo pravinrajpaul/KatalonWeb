@@ -33,13 +33,13 @@ WebUI.navigateToUrl('https://petstore.octoperf.com/actions/Catalog.action')
 
 WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/area'))
 
-WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/a_RP-SN-01'))
+WebUI.click(findTestObject('Page_JPetStore Demo/a_RP-SN-01'))
 
 WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/a_Add to Cart'))
 
 WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/a_Proceed to Checkout'))
 
-WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/a_Register Now'))
+WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/a_Register Now'), FailureHandling.STOP_ON_FAILURE)
 
 n = Random.randomAlphanumeric(6)
 
@@ -92,4 +92,6 @@ WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/a_Confirm'))
 WebUI.takeScreenshotAsCheckpoint('Visual_test2')
 
 WebUI.closeBrowser()
+
+WebUI.setEncryptedText(findTestObject(null), '')
 

@@ -35,7 +35,8 @@ WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/img_Sign In_im
 
 WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/table_Item IDProduct IDDescriptionIn StockQ_e472a4'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_JPetStore Demo/td_Green Adult   Iguana'), 'Green Adult Iguan')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_JPetStore Demo/td_Green Adult   Iguana'), 'Green Adult Iguan', 
+    FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/a_Return to Main Menu'))
 

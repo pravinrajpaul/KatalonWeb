@@ -31,7 +31,7 @@ public class Keywords {
 	public Keywords(Robot robot) {
 		this.robot = robot;
 	}
-
+	
 	@Keyword
 	public void typeString(CharSequence characters) {
 		int length = characters.length();

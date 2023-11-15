@@ -1,9 +1,75 @@
 {
-  "keywordFileContentHash": "2581AFDDC0C30CD2565F2CEFCA139773",
+  "keywordFileContentHash": "BB000DC759B4CBC0BCFEB8B685B506A7",
   "keywordClasses": [
     {
       "name": "mykeywords.CustomKeywords",
       "keywordMethods": [
+        {
+          "name": "automateExistingOpenWindow",
+          "parameters": []
+        },
+        {
+          "name": "selectBoxGetOptionLabels",
+          "parameters": [
+            {
+              "name": "to",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "timeout",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "selectBoxGetOptionValues",
+          "parameters": [
+            {
+              "name": "to",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "timeout",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        },
         {
           "name": "addToList",
           "parameters": [
@@ -43,8 +109,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "randomNumber",
@@ -62,8 +127,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "clickJavaScript",
@@ -81,8 +145,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "startWinAppDriver",
@@ -100,21 +163,18 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": "/**\r\n\t * Win app driver set installation path\r\n\t *\r\n\t */"
+          ]
         },
         {
           "name": "startDefaultWinAppDriver",
-          "parameters": [],
-          "javadoc": "/**\r\n\t * Win app driver default installation\r\n\t *\r\n\t */"
+          "parameters": []
         },
         {
           "name": "exitWinAppDriver",
-          "parameters": [],
-          "javadoc": "/**\r\n\t * Win app driver default installation\r\n\t *\r\n\t */"
+          "parameters": []
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

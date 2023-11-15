@@ -24,8 +24,8 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 Connection connection = null
 
-connection = CustomKeywords.'com.katalon.plugin.keyword.connection.DatabaseKeywords.createConnection'(DBType.postgresql, 
-    '192.168.1.133', '5432', 'rental', 'rentaladmin', 'cmVudGFsYWRtaW4=')
+connection = CustomKeywords.'com.katalon.plugin.keyword.connection.DatabaseKeywords.createConnection'(DBType.postgresql, '192.168.1.133', 
+    '5432', 'rental', 'rentaladmin', 'cmVudGFsYWRtaW4=')
 
 actorDataS = CustomKeywords.'com.katalon.plugin.keyword.connection.DatabaseKeywords.executeQuery'(connection, 'select * from rentalsch.address order by address_id asc;')
 
@@ -42,8 +42,10 @@ actorDataTColumnCount = CustomKeywords.'com.katalon.plugin.keyword.connection.Re
 fail = []
 
 if ((actorDataSRowCount == actorDataTRowCount) && (actorDataSColumnCount == actorDataTColumnCount)) {
-    for (int i = 1; i <= 5; i++) { //actorDataSRowCount
-        for (int j = 1; j <= 5; j++) { //actorDataSColumnCount
+    for (int i = 1; i <= 5; i++) {
+        //actorDataSRowCount
+        for (int j = 1; j <= 5; j++) {
+            //actorDataSColumnCount
             sValue = CustomKeywords.'com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue'(actorDataS, 
                 i, j)
 

@@ -21,9 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://orgdc85b499.crm8.dynamics.com/main.aspx?appid=79496bbe-d159-ee11-8df0-000d3af0631f&pagetype=entityrecord&etn=sample_teamproject&id=cd9596ae-5118-e811-a832-000d3a37c848')
+WebUI.navigateToUrl('https://orgdc85b499.crm8.dynamics.com/main.aspx?appid=79496bbe-d159-ee11-8df0-000d3af0631f&pagetype=entitylist&etn=sample_teamproject&viewid=29eda4a4-3759-4621-a265-f51241a1ad3c&viewType=1039')
 
 WebUI.setText(findTestObject('Object Repository/Powerapps/Page_Sign in to your account/input_Sign in_loginfmt'), 'gokul@gokulsystems.co.site')
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Powerapps/Page_Sign in to your account/input_concat_Stay signed in'))
 
@@ -34,22 +36,61 @@ WebUI.click(findTestObject('Powerapps/Page_Sign in to your account/input_concat_
 
 WebUI.click(findTestObject('Powerapps/Page_Sign in to your account/input_You have 14 days Ask Later'))
 
-WebUI.click(findTestObject('Powerapps/Page_Sign in to your account/input_Do this to reduce the number of times_edee07'))
+CustomKeywords.'powerapps.keywords.leftNavigationNavigateToLink'('Innovation', 'Team Projects', 0)
 
-WebUI.click(findTestObject('Powerapps/Page_Sign in to your account/input_concat_Stay signed in'))
+tr = CustomKeywords.'powerapps.keywords.workListGetTotalRecords'(0)
 
-CustomKeywords.'com.katalon.plugin.keyword.powerapps.ObjectInteractions.setTextTextBox'('Name', 'Hi!!!', 10)
+println(tr)
 
-CustomKeywords.'com.katalon.plugin.keyword.powerapps.ObjectInteractions.setTextRichTextBox'('Description', 'Hello', 10)
+r = CustomKeywords.'powerapps.keywords.workListGetRecordsOnPage'(0)
 
-CustomKeywords.'com.katalon.plugin.keyword.powerapps.ObjectInteractions.setTextTextBox'('Name', 'Hi!!!', 10)
+println(r)
 
-//WebUI.click(findTestObject('Object Repository/Powerapps/Page_Sign in to your account/input_Do this to reduce the number of times_edee07'))
-//WebUI.click(findTestObject('Object Repository/Powerapps/Page_Sign in to your account/input_Sign in_idSIButton9'))
-//WebUI.click(findTestObject('Object Repository/Powerapps/Page_Team Project Information Cloud Computing -/html_Description rich text editor'))
-//WebUI.setText(findTestObject('Object Repository/Powerapps/Page_Team Project Information Cloud Computing -/div'), 'Hello')
-//CustomKeywords.'powerapps.keywords.setTextRichTextBox'('Hello', findTestObject('Powerapps/Page_Team Project Information Cloud Computing -/div'))
-Thread.sleep(10000)
+CustomKeywords.'powerapps.keywords.worklistFilterOptionsColumn'('Budget status', 'Contains data', ['On'], 0)
+
+WebUI.delay(5)
+
+CustomKeywords.'powerapps.keywords.worklistNavigateToFirstRecord'(0)
+
+//WebUI.click(findTestObject('Powerapps/Page_Sign in to your account/input_Do this to reduce the number of times_edee07'))
+//WebUI.click(findTestObject('Powerapps/Page_Sign in to your account/input_concat_Stay signed in'))
+CustomKeywords.'powerapps.keywords.verifyTextBoxMandatory'('Name', 0)
+
+name = CustomKeywords.'powerapps.keywords.getTextTextBox'('Name', 0)
+
+println(name)
+
+CustomKeywords.'powerapps.keywords.clearTextBoxContent'('Name', 0)
+
+CustomKeywords.'powerapps.keywords.clickTextBox'('Name', 0)
+
+CustomKeywords.'powerapps.keywords.focusOutTextBox'('Name', 0)
+
+CustomKeywords.'powerapps.keywords.verifyTextBoxErrorText'('Name', 'Name: Required fields must be filled in.', 0)
+
+CustomKeywords.'powerapps.keywords.setTextTextBox'('Name', 'Hi', 0)
+
+CustomKeywords.'powerapps.keywords.setTextRichTextBox'('Description', 'Hello', 10)
+
+txt = CustomKeywords.'powerapps.keywords.getTextRichTextBox'('Description', 10)
+
+println(txt)
+
+CustomKeywords.'powerapps.keywords.clearTextRichTextBox'('Description', 0)
+
+CustomKeywords.'powerapps.keywords.verifyRichTextBoxMandatory'('Description', 0)
+
+CustomKeywords.'powerapps.keywords.getValueLookUpTextBox'('Project lead', 0)
+
+CustomKeywords.'powerapps.keywords.setValueLookUpTextBox'('Project lead', 'Gokul S', 0)
+
+CustomKeywords.'powerapps.keywords.setValueLookUpTextBox'('Project lead', '# BizQA', 0)
+
+CustomKeywords.'powerapps.keywords.clearTextRichTextBox'('Project lead', 0)
+
+CustomKeywords.'powerapps.keywords.setValueLookUpTextBox'('Project lead', '# BizQA', 0)
+
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 
