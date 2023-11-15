@@ -1,0 +1,40 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. openBrowser("")
+
+2
+00:00:00,000 --> 00:00:00,110
+5. maximizeWindow()
+
+3
+00:00:00,111 --> 00:00:00,986
+9. navigateToUrl("https://petstore.octoperf.com/actions/Catalog.action")
+
+4
+00:00:00,987 --> 00:00:01,634
+13. click(findTestObject("Object Repository/Page_JPetStore Demo/area"))
+
+5
+00:00:01,634 --> 00:00:03,452
+17. click(findTestObject("Object Repository/Page_JPetStore Demo/a_RP-LI-02"))
+
+6
+00:00:03,452 --> 00:00:04,018
+21. click(findTestObject("Object Repository/Page_JPetStore Demo/a_Add to Cart"))
+
+7
+00:00:04,018 --> 00:00:04,552
+25. click(findTestObject("Object Repository/Page_JPetStore Demo/a_Proceed to Checkout"))
+
+8
+00:00:04,552 --> 00:00:05,102
+29. click(findTestObject("Object Repository/Page_JPetStore Demo/img_Sign In_img_cart"))
+
+9
+00:00:05,102 --> 00:00:05,461
+33. click(findTestObject("Object Repository/Page_JPetStore Demo/table_Item IDProduct IDDescriptionIn StockQ_e472a4"))
+
+10
+00:00:05,461 --> 00:00:06,049
+37. verifyElementText(findTestObject("Object Repository/Page_JPetStore Demo/td_Green Adult   Iguana"), "Green Adult Iguan")
+

@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "06723DFF090E24382E7AD4D817ECC8E1",
+  "keywordClasses": [
+    {
+      "name": "mykeywords.Demo",
+      "keywordMethods": [
+        {
+          "name": "automateExistingOpenWindow",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

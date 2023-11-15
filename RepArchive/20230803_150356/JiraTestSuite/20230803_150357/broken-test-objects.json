@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_JPetStore Demo/a_RP-LI-02",
+      "brokenLocator": "//div[@id\u003d\u0027Catalog1\u0027]/table/tbody/tr[3]/td/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027Catalog\u0027]/table/tbody/tr[3]/td/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230803_150356/JiraTestSuite/20230803_150357/Object Repository/Page_JPetStore Demo/a_RP-LI-02_idRelative.png"
+    }
+  ]
+}

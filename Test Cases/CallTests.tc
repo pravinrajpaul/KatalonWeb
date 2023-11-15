@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CallTests</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d1b40d24-6a8a-4f02-980a-4f436aa78528</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a16c7d37-4834-45b1-a8ff-d3b5aee01fc1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Default'</defaultValue>
+      <description></description>
+      <id>a16c7d37-4834-45b1-a8ff-d3b5aee01fc1</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

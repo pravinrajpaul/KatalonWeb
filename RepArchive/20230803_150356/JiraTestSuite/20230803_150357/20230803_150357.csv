@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+JiraTestSuite,Chrome 115.0.0.0,,,2023-08-03 15:04:05,2023-08-03 15:04:27,22.051s,FAILED
+,,,,,,,
+Test Cases/JiraTests/IN-4 Story12,Chrome 115.0.0.0,"Summary: Story12
+Description: ",jira-integration,2023-08-03 15:04:05,2023-08-03 15:04:18,12.367s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-03 15:04:06,2023-08-03 15:04:09,3.376s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-03 15:04:09,2023-08-03 15:04:09,0.172s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action"")",Chrome 115.0.0.0,,,2023-08-03 15:04:09,2023-08-03 15:04:10,0.874s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/area""))",Chrome 115.0.0.0,,,2023-08-03 15:04:10,2023-08-03 15:04:11,0.608s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_RP-LI-02""))",Chrome 115.0.0.0,,,2023-08-03 15:04:11,2023-08-03 15:04:12,1.748s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Add to Cart""))",Chrome 115.0.0.0,,,2023-08-03 15:04:12,2023-08-03 15:04:13,0.656s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Proceed to Checkout""))",Chrome 115.0.0.0,,,2023-08-03 15:04:13,2023-08-03 15:04:14,0.598s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/img_Sign In_img_cart""))",Chrome 115.0.0.0,,,2023-08-03 15:04:14,2023-08-03 15:04:14,0.575s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/table_Item IDProduct IDDescriptionIn StockQ_e472a4""))",Chrome 115.0.0.0,,,2023-08-03 15:04:14,2023-08-03 15:04:15,0.420s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_JPetStore Demo/td_Green Adult   Iguana""), ""Green Adult Iguana"")",Chrome 115.0.0.0,,,2023-08-03 15:04:15,2023-08-03 15:04:15,0.351s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Return to Main Menu""))",Chrome 115.0.0.0,,,2023-08-03 15:04:15,2023-08-03 15:04:16,0.518s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-03 15:04:16,2023-08-03 15:04:16,0.673s,PASSED
+Video,Chrome 115.0.0.0,,,2023-08-03 15:04:18,2023-08-03 15:04:18,0.001s,PASSED
+,,,,,,,
+Test Cases/JiraTests/IN-9 Story23,Chrome 115.0.0.0,"Summary: Story23
+Description: ",jira-integration,2023-08-03 15:04:18,2023-08-03 15:04:27,9.289s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-03 15:04:18,2023-08-03 15:04:19,1.191s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-03 15:04:19,2023-08-03 15:04:19,0.139s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action"")",Chrome 115.0.0.0,,,2023-08-03 15:04:19,2023-08-03 15:04:20,0.877s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/area""))",Chrome 115.0.0.0,,,2023-08-03 15:04:20,2023-08-03 15:04:21,0.647s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_RP-LI-02""))",Chrome 115.0.0.0,,,2023-08-03 15:04:21,2023-08-03 15:04:23,1.817s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Add to Cart""))",Chrome 115.0.0.0,,,2023-08-03 15:04:23,2023-08-03 15:04:23,0.564s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Proceed to Checkout""))",Chrome 115.0.0.0,,,2023-08-03 15:04:23,2023-08-03 15:04:24,0.534s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/img_Sign In_img_cart""))",Chrome 115.0.0.0,,,2023-08-03 15:04:24,2023-08-03 15:04:24,0.548s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/table_Item IDProduct IDDescriptionIn StockQ_e472a4""))",Chrome 115.0.0.0,,,2023-08-03 15:04:24,2023-08-03 15:04:25,0.358s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_JPetStore Demo/td_Green Adult   Iguana""), ""Green Adult Iguan"")",Chrome 115.0.0.0,,,2023-08-03 15:04:25,2023-08-03 15:04:25,0.586s,FAILED
+Video,Chrome 115.0.0.0,,,2023-08-03 15:04:27,2023-08-03 15:04:27,0.001s,PASSED
