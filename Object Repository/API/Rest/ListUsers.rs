@@ -86,6 +86,14 @@ String jsonPass =
   }
 }
 &quot;&quot;&quot;
-boolean successful = WS.validateJsonAgainstSchema(response,jsonPass)</verificationScript>
+boolean successful = WS.validateJsonAgainstSchema(response,jsonPass)
+
+
+WS.verifyElementPropertyValue(response, 'issues[0].fields.project.key', 'KTP')
+
+
+def jsonSlurper = new JsonSlurper()
+
+def jsonResponse = jsonSlurper.parseText(response.getResponseText())</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
