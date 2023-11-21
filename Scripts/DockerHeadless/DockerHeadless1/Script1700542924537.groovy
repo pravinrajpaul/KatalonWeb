@@ -16,20 +16,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-import org.openqa.selenium.WebDriver as WebDriver
-import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
-import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-/**
-Requirement description
+WebUI.openBrowser('')
 
-Open browser
-Maximize browser window
-Navigate to google.com
-Type "today's news" in the search box
-Click the search button
-Navigate to the first result
-*/
+WebUI.navigateToUrl('http://192.168.1.15:8800/')
 
+WebUI.verifyElementText(findTestObject('Object Repository/DockerHeadless/Page_/h1_It works'), 'It works!')
+
+WebUI.closeBrowser()
 

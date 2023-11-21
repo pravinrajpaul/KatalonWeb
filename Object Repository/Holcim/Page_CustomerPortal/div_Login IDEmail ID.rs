@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Login IDEmail ID</name>
+   <tag></tag>
+   <elementGuidId>16702ef6-4e7f-4dbf-8cf6-1223f8d9094e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/div/ion-row/ion-col/mat-form-field/div/div/div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-form-field-infix.ng-tns-c164-3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9d47a9b3-e8f0-47e3-bce6-5117027b1253</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-form-field-infix ng-tns-c164-3</value>
+      <webElementGuid>f33d4f02-0354-4926-9b64-4ac443dc7c24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Login ID/Email ID</value>
+      <webElementGuid>40dee097-6e11-417d-b421-35fd367c7712</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-0-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c433-7 ng-trigger ng-trigger-translateTab&quot;]/div[@class=&quot;formHeight ng-star-inserted&quot;]/ion-row[@class=&quot;md hydrated&quot;]/ion-col[@class=&quot;md hydrated&quot;]/mat-form-field[@class=&quot;mat-form-field cp-width-100 m-t ng-tns-c164-3 mat-primary mat-form-field-type-mat-input mat-form-field-appearance-outline mat-form-field-can-float mat-form-field-has-label mat-form-field-hide-placeholder ng-untouched ng-pristine ng-invalid _mat-animation-noopable ng-star-inserted&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c164-3&quot;]/div[@class=&quot;mat-form-field-flex ng-tns-c164-3&quot;]/div[@class=&quot;mat-form-field-infix ng-tns-c164-3&quot;]</value>
+      <webElementGuid>5b282312-0cee-402e-991e-5e15cba4a7e7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/div/ion-row/ion-col/mat-form-field/div/div/div[3]</value>
+      <webElementGuid>b8384c47-97cd-4030-984c-eaa370321d02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[3]</value>
+      <webElementGuid>342cacba-fb71-4a93-9371-773c992542ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Login ID/Email ID' or . = 'Login ID/Email ID')]</value>
+      <webElementGuid>7f7c317a-82d4-4915-9e2a-c064fb4eebad</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

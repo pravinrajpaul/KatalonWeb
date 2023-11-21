@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "DC66133DFFEB6396F22F53A6EEB05735",
+  "keywordFileContentHash": "CD68F64C9A9A599EC1D1162583B156AA",
   "keywordClasses": [
     {
       "name": "mykeywords.StudioAssist",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

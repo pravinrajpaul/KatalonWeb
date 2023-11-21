@@ -1,12 +1,13 @@
 {
-  "keywordFileContentHash": "BB000DC759B4CBC0BCFEB8B685B506A7",
+  "keywordFileContentHash": "32E1447B02ADEA74ACB95175DBA0427A",
   "keywordClasses": [
     {
       "name": "mykeywords.CustomKeywords",
       "keywordMethods": [
         {
           "name": "automateExistingOpenWindow",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "selectBoxGetOptionLabels",
@@ -37,7 +38,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "selectBoxGetOptionValues",
@@ -68,7 +70,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "addToList",
@@ -109,7 +112,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "randomNumber",
@@ -127,7 +131,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "clickJavaScript",
@@ -145,7 +150,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "startWinAppDriver",
@@ -163,18 +169,21 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": "/**\r\n\t * Win app driver set installation path\r\n\t *\r\n\t */"
         },
         {
           "name": "startDefaultWinAppDriver",
-          "parameters": []
+          "parameters": [],
+          "javadoc": "/**\r\n\t * Win app driver default installation\r\n\t *\r\n\t */"
         },
         {
           "name": "exitWinAppDriver",
-          "parameters": []
+          "parameters": [],
+          "javadoc": "/**\r\n\t * Win app driver default installation\r\n\t *\r\n\t */"
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

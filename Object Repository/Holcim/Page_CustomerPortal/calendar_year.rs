@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>calendar_year</name>
+   <tag></tag>
+   <elementGuidId>606b832f-6db9-4570-8f2c-62e135184bd1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-calendar-body-cell-content.mat-focus-indicator.mat-calendar-body-selected.mat-calendar-body-today</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[(text() = '${calendaryear}' or . = '${calendaryear}' )]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = ' 2023 ' or . = ' 2023 ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f4bf9cfd-4e4c-4835-afa1-b5f4e05dacd7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-calendar-body-cell-content mat-focus-indicator mat-calendar-body-selected mat-calendar-body-today</value>
+      <webElementGuid>f4b997d5-df09-43eb-bd60-8b1af438e441</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> 2023 </value>
+      <webElementGuid>1a2bd9a9-053f-4769-91eb-dc96f3827b64</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-datepicker-1&quot;)/div[@class=&quot;mat-calendar-content cdk-focused cdk-program-focused&quot;]/mat-multi-year-view[@class=&quot;ng-star-inserted&quot;]/table[@class=&quot;mat-calendar-table&quot;]/tbody[@class=&quot;mat-calendar-body&quot;]/tr[@class=&quot;ng-star-inserted&quot;]/td[@class=&quot;mat-calendar-body-cell mat-calendar-body-active ng-star-inserted&quot;]/div[@class=&quot;mat-calendar-body-cell-content mat-focus-indicator mat-calendar-body-selected mat-calendar-body-today&quot;]</value>
+      <webElementGuid>a660f4ad-7f56-4a98-9675-5b4d2aba481f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-calendar[@id='mat-datepicker-1']/div/mat-multi-year-view/table/tbody/tr[6]/td[4]/div</value>
+      <webElementGuid>a5a1c9f9-6c20-4e47-890d-b40cbe0f24d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[6]/td[4]/div</value>
+      <webElementGuid>7e5291e0-ff83-4df8-b0aa-92f5e79ddb40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' 2023 ' or . = ' 2023 ')]</value>
+      <webElementGuid>f83d9da1-405e-4c56-aa56-d19c5b2475b1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

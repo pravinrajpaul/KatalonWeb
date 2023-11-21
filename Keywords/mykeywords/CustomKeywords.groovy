@@ -33,7 +33,7 @@ class CustomKeywords {
 		WebDriver driver = new ChromeDriver(options)
 		DriverFactory.changeWebDriver(driver)
 	}
-	
+
 	@Keyword
 	def List<String> selectBoxGetOptionLabels(TestObject to, int timeout) {
 		try {

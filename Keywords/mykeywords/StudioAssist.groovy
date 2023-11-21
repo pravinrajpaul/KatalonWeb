@@ -28,10 +28,8 @@ import internal.GlobalVariable
 
 public class StudioAssist {
 
-/*Generate a Katalon keyword to connect to a sqlserver database then query with sql query and finally return the first row as a map object*/
+	/*Generate a Katalon keyword to connect to a sqlserver database then query with sql query and finally return the first row as a map object*/
 
-	
-/*Genarate a Katalon keyword using apache poi to fetch data from specified cell in a xlsx file*/
+	/*Genarate a Katalon keyword using apache poi to fetch data from specified cell in a xlsx file*/
 
-	
 }

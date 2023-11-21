@@ -1,26 +1,10 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
-import com.kms.katalon.core.testcase.TestCase as TestCase
-import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import com.kms.katalon.core.testobject.ResponseObject as ResponseObject
-import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.testobject.TestObjectProperty
-import com.kms.katalon.core.util.KeywordUtil
-import com.kms.katalon.core.testobject.RequestObject as RequestObject
+
+import java.time.LocalDateTime
+
+import com.kms.katalon.core.testobject.RequestObject
+import com.kms.katalon.core.testobject.ResponseObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
-import java.time.LocalDateTime as LocalDateTime
 
 //id = CustomKeywords.'mykeywords.CustomKeywords.randomNumber'(6)
 time = LocalDateTime.now()
@@ -30,16 +14,16 @@ response = WS.sendRequest(findTestObject('API/Rest/CreaterUser', [('name') : nam
 
 outname = WS.getElementPropertyValue(this.response, 'name')
 
-assert name == outname
-
-outname = '123'
-
-error = 0
-
-if (!name.equals(outname)) {
-	error += 1
-	KeywordUtil.markWarning("Mismatch")
-}
+//assert name == outname
+//
+//outname = '123'
+//
+//error = 0
+//
+//if (!name.equals(outname)) {
+//	error += 1
+//	KeywordUtil.markWarning("Mismatch")
+//}
 
 //RequestObject request = findTestObject('API/Rest/ListUsers')
 //List<TestObjectProperty> topl = request.getRestParameters().
@@ -56,7 +40,5 @@ ResponseObject response1 = WS.sendRequestAndVerify(listUser)
 
 //jsonResponse = new groovy.json.JsonSlurper().parseText(response.getResponseText())
 //field = jsonResponse.name
-
-
 
 println(response1.getResponseBodyContent())
