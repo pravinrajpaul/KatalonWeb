@@ -23,7 +23,7 @@ WebUI.navigateToUrl('http://192.168.1.15:8080/')
 
 WebUI.verifyElementText(findTestObject('Object Repository/DockerHeadless/Page_App/h2_Resources'), 'Resources')
 
-WebUI.takeScreenshot('AppScreen.png')
+WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/DockerHeadless/Page_App/a_CLI Documentation'))
 
@@ -31,10 +31,9 @@ WebUI.switchToWindowTitle('Angular - CLI Overview and Command Reference')
 
 WebUI.delay(2)
 
-WebUI.takeScreenshot('CLIGuideScreen.png')
+WebUI.takeScreenshot()
 
 WebUI.verifyElementText(findTestObject('Object Repository/DockerHeadless/Page_Angular - CLI Overview and Command Reference/h1_CLI Overview and Command Referencelink'), 
     'CLI Overview and Command Reference')
 
 WebUI.closeBrowser()
-
