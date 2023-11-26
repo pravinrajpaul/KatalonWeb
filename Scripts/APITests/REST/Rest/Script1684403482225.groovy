@@ -48,9 +48,6 @@ listUser.setConnectionTimeout(30000)
 
 ResponseObject response1 = WS.sendRequestAndVerify(listUser)
 
-println(id)
-
 //jsonResponse = new groovy.json.JsonSlurper().parseText(response.getResponseText())
 //field = jsonResponse.name
 println(response1.getResponseBodyContent())
-

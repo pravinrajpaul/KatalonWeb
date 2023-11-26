@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "344D0A80CEACDE9A2A51766F68BA2FC3",
+  "keywordFileContentHash": "704FF9446C20252BFCC0E7050EEB81DE",
   "keywordClasses": [
     {
       "name": "powerapps.keywords",
@@ -46,8 +46,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "worklistCreateNewRecord",
@@ -65,8 +64,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "worklistDeleteSelectedRecords",
@@ -84,8 +82,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "worklistRefreshWorkListPage",
@@ -103,8 +100,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "worklistKeywordFilter",
@@ -135,8 +131,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "worklistCancelKeywordFilter",
@@ -154,8 +149,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "worklistNavigateToFirstRecord",
@@ -173,8 +167,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "worklistFilterTextColumn",
@@ -231,8 +224,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "worklistFilterNumberColumn",
@@ -289,8 +281,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "worklistFilterOptionsColumn",
@@ -357,8 +348,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "workListSelectAllRecords",
@@ -376,8 +366,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "workListSelectFirstRecord",
@@ -395,8 +384,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "workListSelectNthRecords",
@@ -437,8 +425,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "workListGetTotalRecords",
@@ -456,8 +443,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "workListGetRecordsOnPage",
@@ -475,8 +461,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "worklistAssignOwner",
@@ -530,8 +515,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "clickSaveAndClose",
@@ -549,8 +533,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "clickSave",
@@ -568,8 +551,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "assignOwner",
@@ -600,8 +582,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "clickTextBox",
@@ -632,8 +613,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "focusOutTextBox",
@@ -664,8 +644,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "getTextTextBox",
@@ -696,8 +675,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "setTextTextBox",
@@ -741,8 +719,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "verifyTextBoxReadOnly",
@@ -773,8 +750,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "verifyTextBoxMandatory",
@@ -805,8 +781,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "verifyTextBoxNotMandatory",
@@ -837,8 +812,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "clearTextBoxContent",
@@ -869,8 +843,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "verifyTextBoxErrorText",
@@ -914,8 +887,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "setValueSelectBox",
@@ -959,8 +931,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "getSelectedSelectBox",
@@ -991,8 +962,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "verifySelectBoxMandatory",
@@ -1023,8 +993,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "setTextRichTextBox",
@@ -1068,8 +1037,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "clearTextRichTextBox",
@@ -1100,8 +1068,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "verifyRichTextBoxMandatory",
@@ -1132,8 +1099,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "getTextRichTextBox",
@@ -1164,8 +1130,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "setValueLookUpTextBox",
@@ -1209,8 +1174,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "getValueLookUpTextBox",
@@ -1241,8 +1205,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "verifyLookUpTextBoxMandatory",
@@ -1273,8 +1236,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "verifyLookUpTextBoxNotMandatory",
@@ -1305,8 +1267,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "getDateDateBox",
@@ -1337,8 +1298,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "getDateDateBoxFormatted",
@@ -1382,8 +1342,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "setDateDateBox",
@@ -1427,8 +1386,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "setDateDateBoxFormatted",
@@ -1485,8 +1443,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "verifyDateBoxMandatory",
@@ -1517,8 +1474,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "verifyDateBoxNotMandatory",
@@ -1549,8 +1505,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "verifyDateBoxReadOnly",
@@ -1581,11 +1536,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

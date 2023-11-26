@@ -199,10 +199,8 @@ class keywords {
 			return
 		}
 		catch (NoSuchElementException e) {
-
 		}
 		catch (TimeoutException e) {
-
 		}
 
 		def dropView = "//li/button//label[text()='"+viewName+"']"
@@ -220,7 +218,6 @@ class keywords {
 			return
 		}
 		dropViewO.click()
-
 	}
 
 	@Keyword
@@ -1693,7 +1690,6 @@ class keywords {
 
 	@Keyword
 	def String getDateDateBoxFormatted(String label, String format, Number xTimeOutSeconds) {
-
 	}
 
 	@Keyword
@@ -1720,7 +1716,6 @@ class keywords {
 
 	@Keyword
 	def setDateDateBoxFormatted(String label, String ddmmyyyy, String format, Number xTimeOutSeconds) {
-
 	}
 
 	@Keyword

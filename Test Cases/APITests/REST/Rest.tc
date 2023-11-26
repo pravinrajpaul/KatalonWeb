@@ -21,9 +21,9 @@
       <variableId>096a63e5-7534-4e8e-91bc-69439585cb7a</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>990c020d-5f51-4506-8a75-a38b76552e90</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>City</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>db926443-b7ee-426d-9083-5d3bbf0c32fd</variableId>
    </variableLinks>
    <variableLinks>

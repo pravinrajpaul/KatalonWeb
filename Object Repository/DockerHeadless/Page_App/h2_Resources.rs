@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h1_It works</name>
+   <name>h2_Resources</name>
    <tag></tag>
-   <elementGuidId>4e7431cc-3fe8-477d-9019-911b223f4701</elementGuidId>
+   <elementGuidId>fb0202f9-5772-498f-8149-822137e531c1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//h1</value>
+         <key>CSS</key>
+         <value>h2</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>h1</value>
+         <key>XPATH</key>
+         <value>//h2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,39 +21,39 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h1</value>
-      <webElementGuid>773cde03-5ea8-4446-9e0a-937b7da5e444</webElementGuid>
+      <value>h2</value>
+      <webElementGuid>ec881f69-6b53-4eef-a9f9-58821d3c5d3f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>It works!</value>
-      <webElementGuid>e2beaeb0-8967-4076-9359-1700a985a884</webElementGuid>
+      <value>Resources</value>
+      <webElementGuid>68e26a38-c1ab-46ae-9a72-74a424288d4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/h1[1]</value>
-      <webElementGuid>b44fb778-ccc5-45fd-95e4-a9f3ee43c210</webElementGuid>
+      <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;content&quot;]/h2[1]</value>
+      <webElementGuid>f5865557-85b4-488a-9776-1ad3b0107570</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//h1</value>
-      <webElementGuid>b246c810-a7ec-450f-9cda-8defa58019a0</webElementGuid>
+      <value>//h2</value>
+      <webElementGuid>9c56c283-99e8-429e-a0ee-2b1742470c35</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//h1[(text() = 'It works!' or . = 'It works!')]</value>
-      <webElementGuid>d19e10eb-630d-410d-bfc4-f14194809207</webElementGuid>
+      <value>//h2[(text() = 'Resources' or . = 'Resources')]</value>
+      <webElementGuid>43273039-ae77-4afe-8919-863bb02959b8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
