@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>ContactDetails</name>
+   <name>ContactDetails-PROD</name>
    <tag></tag>
+   <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>00a7f8f6-bfe1-43bd-8f52-2f730324d8cd</dataFileGUID>
-   <dataSourceUrl>TestData/MasterData.xlsx</dataSourceUrl>
+   <dataSourceUrl>TestData/MasterData-PROD.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <properties>

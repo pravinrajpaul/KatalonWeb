@@ -32,4 +32,3 @@ Click the search button
 Navigate to the first result
 */
 
-

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NewRest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6147dd73-39ba-48ca-b104-54e98b24581c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2a6dc291-5ffd-448a-9822-87b4cd1d683a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d6191b53-dbc6-40f7-988d-ff432d413e6c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c174c51c-0301-499c-9118-1d145adf0ad5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Pravin'</defaultValue>
+      <description></description>
+      <id>2a6dc291-5ffd-448a-9822-87b4cd1d683a</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'10'</defaultValue>
+      <description></description>
+      <id>d6191b53-dbc6-40f7-988d-ff432d413e6c</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+   <variable>
+      <defaultValue>'10:00 AM'</defaultValue>
+      <description></description>
+      <id>c174c51c-0301-499c-9118-1d145adf0ad5</id>
+      <masked>false</masked>
+      <name>time</name>
+   </variable>
+</TestCaseEntity>

@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "0A4EBD6F0594903644FEA4EEE6184C69",
+  "keywordFileContentHash": "DF4872E5C83CE07CDF7410255DE0FDAB",
   "keywordClasses": [
     {
       "name": "mykeywords.CustomKeywords",
@@ -143,6 +143,38 @@
               "type": {
                 "fullClassName": "com.kms.katalon.core.testobject.TestObject",
                 "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "setTextJavaScript",
+          "parameters": [
+            {
+              "name": "tobj",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "text",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
                 "isArray": false,
                 "isGnericsPlaceHolder": false,
                 "hasImmutableClassName": false,

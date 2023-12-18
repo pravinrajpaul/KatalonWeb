@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_sc-q5rfsr-0 hxDCzu</name>
+   <tag></tag>
+   <elementGuidId>af343033-1ef6-4079-9f85-bf870154151e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div[data-test-id=&quot;omnicomposer-rich-text-ckeditor&quot;]>p</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id=':r9:--primary-pane']/div[2]/span/div/div/div/div[3]/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;:r9:--primary-pane&quot;)/div[@class=&quot;sc-1wvqs23-3 xENTb StyledPaneContent-sc-1b38mbh-0 lasZfd&quot;]/span[@class=&quot;mount-point-wrapper&quot;]/div[@class=&quot;sc-1wvqs23-5 iClfGL&quot;]/div[@class=&quot;sc-1aoqh0z-0 edYNnc&quot;]/div[@class=&quot;sc-1w03ldt-0 ugMPK&quot;]/div[@class=&quot;zendesk-editor--rich-text-container sc-1j8a31a-0 dsFzEz&quot;]/div[@class=&quot;sc-q5rfsr-0 hxDCzu&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>161eb38a-f700-4fc3-a0e5-a49ac562a972</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-q5rfsr-0 hxDCzu</value>
+      <webElementGuid>030ab55a-40f8-4159-b6aa-6384b337b59a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;:r9:--primary-pane&quot;)/div[@class=&quot;sc-1wvqs23-3 xENTb StyledPaneContent-sc-1b38mbh-0 lasZfd&quot;]/span[@class=&quot;mount-point-wrapper&quot;]/div[@class=&quot;sc-1wvqs23-5 iClfGL&quot;]/div[@class=&quot;sc-1aoqh0z-0 edYNnc&quot;]/div[@class=&quot;sc-1w03ldt-0 ugMPK&quot;]/div[@class=&quot;zendesk-editor--rich-text-container sc-1j8a31a-0 dsFzEz&quot;]/div[@class=&quot;sc-q5rfsr-0 hxDCzu&quot;]</value>
+      <webElementGuid>47a846b3-9bd9-448b-9413-aaa0f930c8b3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id=':r9:--primary-pane']/div[2]/span/div/div/div/div[3]/div</value>
+      <webElementGuid>7320aa34-9192-4031-b7ed-3331fd3dd728</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/div/div/div/div[3]/div</value>
+      <webElementGuid>981e2a0c-4a51-46ad-8a45-862e6411abf1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

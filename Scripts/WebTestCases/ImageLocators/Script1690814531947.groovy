@@ -33,5 +33,6 @@ WebUI.click(findTestObject('Object Repository/ImageLocators/Page_OrangeHRM/butto
 
 WebUI.verifyElementText(findTestObject('Object Repository/ImageLocators/Page_OrangeHRM/p_Invalid credentials'), 'Invalid credentials')
 
+
 WebUI.closeBrowser()
 

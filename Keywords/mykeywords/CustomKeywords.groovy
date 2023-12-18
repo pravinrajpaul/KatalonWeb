@@ -96,6 +96,27 @@ class CustomKeywords {
 		wd.switchTo().defaultContent()
 	}
 
+	@Keyword
+	def void setTextJavaScript(TestObject tobj, String text) {
+		WebDriver wd = DriverFactory.getWebDriver()
+		WebUiCommonHelper.switchToParentFrame(tobj)
+		String method = tobj.getSelectorMethod()
+		String selector = tobj.getSelectorCollection().get(tobj.getSelectorMethod()) //.getXpaths()
+		println(selector)
+		WebElement we = null
+		switch (method) {
+			case 'CSS':
+				we = wd.findElement(By.cssSelector(selector))
+				break
+			case 'XPATH':
+				we = wd.findElement(By.xpath(selector))
+				break
+		}
+		JavascriptExecutor js = (JavascriptExecutor) wd;
+		js.executeScript("arguments[0].value=arguments[1]", we, text);
+		wd.switchTo().defaultContent()
+	}
+
 
 	/**
 	 * Win app driver set installation path

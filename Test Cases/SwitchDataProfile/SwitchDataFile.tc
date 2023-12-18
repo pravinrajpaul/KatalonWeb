@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SwitchDataFile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>defeea37-a291-42bd-a716-2d139cba5a5c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>837186cc-3b8f-4714-b1a6-aeeb9a9a3d3c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Dummy'</defaultValue>
+      <description></description>
+      <id>837186cc-3b8f-4714-b1a6-aeeb9a9a3d3c</id>
+      <masked>false</masked>
+      <name>City</name>
+   </variable>
+</TestCaseEntity>

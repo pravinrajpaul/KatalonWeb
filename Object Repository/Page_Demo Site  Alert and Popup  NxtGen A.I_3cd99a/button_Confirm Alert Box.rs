@@ -6,12 +6,12 @@
    <elementGuidId>ed2633d9-f2e5-4f1c-ba5d-091666c8d4fe</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button[name=&quot;confirmalertbox&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[@name='confirmalertbox']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button[name=&quot;confirmalertbox&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e845d334-5d43-402c-b265-397726c1c28d</webElementGuid>
+      <webElementGuid>4dbbfb84-efaa-461f-bfbe-b1711bf29017</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>name</name>
       <type>Main</type>
       <value>confirmalertbox</value>
-      <webElementGuid>a5d9d6db-b717-421e-98af-03979baa62f5</webElementGuid>
+      <webElementGuid>b3d26607-adbe-4949-872b-e31c864bbd67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>myFunctionTwo()</value>
-      <webElementGuid>3fa48d85-485b-4ea4-9f89-6faaf4ed5256</webElementGuid>
+      <webElementGuid>b09d6f2a-6b13-43d3-a25e-0d740ac0741a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Confirm Alert Box</value>
-      <webElementGuid>cfa884ff-715e-43c9-904e-c4f544c050db</webElementGuid>
+      <webElementGuid>8ae9cd9f-3e84-47f4-bf4b-f063fcde54e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;post_type_exist clearfix&quot;]/div[@class=&quot;elementor elementor-3008&quot;]/section[@class=&quot;elementor-section elementor-top-section elementor-element elementor-element-859c260 elementor-section-boxed elementor-section-height-default elementor-section-height-default&quot;]/div[@class=&quot;elementor-container elementor-column-gap-default&quot;]/div[@class=&quot;elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-01aedcf&quot;]/div[@class=&quot;elementor-widget-wrap elementor-element-populated&quot;]/div[@class=&quot;elementor-element elementor-element-d94c712 elementor-widget elementor-widget-html&quot;]/div[@class=&quot;elementor-widget-container&quot;]/center[1]/button[1]</value>
-      <webElementGuid>f42f75ca-e4b2-43e0-b44b-72749027c83b</webElementGuid>
+      <webElementGuid>920fdf4a-2896-47e8-9498-7684a088f4a0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@name='confirmalertbox']</value>
-      <webElementGuid>d71eb9f7-148b-4e32-ad47-b9b30d550110</webElementGuid>
+      <webElementGuid>815854b3-cf05-423c-b0ca-b77e2f109422</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main']/div[2]/div/div/section[3]/div/div[2]/div/div/div/center/button</value>
-      <webElementGuid>f7baea8d-fd7a-41c4-8367-c667ddcaa1a0</webElementGuid>
+      <webElementGuid>c17b3d01-750d-4941-8f9d-5a5d9a6d6c55</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alert Box'])[1]/following::button[1]</value>
-      <webElementGuid>c8cb351e-9a9c-4799-bdab-c1b5cd968db1</webElementGuid>
+      <webElementGuid>1adcd278-54e0-4250-827c-8e3bdcd82b48</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alert and PopUp'])[1]/following::button[2]</value>
-      <webElementGuid>9bdd2b3e-1db1-4aa8-8483-41d3ac302902</webElementGuid>
+      <webElementGuid>64196cf1-3e51-4484-adbd-7820b2e2b50a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Prompt Alert Box'])[1]/preceding::button[1]</value>
-      <webElementGuid>0cbf4236-d272-47f8-b582-33cbc7afb1b3</webElementGuid>
+      <webElementGuid>32dddb63-a12e-4c78-b4a5-1dabe9adf538</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='© Copyright [2018-2023]. All Rights Reserved.'])[1]/preceding::button[2]</value>
-      <webElementGuid>5439cb14-6078-471c-9e74-5ac6bef2c37c</webElementGuid>
+      <webElementGuid>5ab15215-b17e-4a64-8603-fe83eeaaab0a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Confirm Alert Box']/parent::*</value>
-      <webElementGuid>d5aa918b-4a32-454c-b5bb-a2349eb384f3</webElementGuid>
+      <webElementGuid>4e54b98b-591f-4dbd-888a-007fd1da18ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/center/button</value>
-      <webElementGuid>2e079709-7810-4262-88d3-b26b8da5e814</webElementGuid>
+      <webElementGuid>9a4c2a79-b686-4acd-bf5c-8b994cbd9deb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@name = 'confirmalertbox' and (text() = 'Confirm Alert Box' or . = 'Confirm Alert Box')]</value>
-      <webElementGuid>df961e29-a60d-4e3f-8cfe-69770d1b88fd</webElementGuid>
+      <webElementGuid>df4a9eb4-7ec6-4338-8ccd-f87fda9da9f3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

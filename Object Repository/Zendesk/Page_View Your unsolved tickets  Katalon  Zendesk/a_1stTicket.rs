@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_1stTicket</name>
+   <tag></tag>
+   <elementGuidId>9c6d3188-d0fb-406c-a400-2108609e2403</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a[href^='tickets']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='views-ticket-table-15083514922013-container']/div/table/tbody/tr[2]/td[5]/div/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Subject Text' or . = 'Subject Text')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>33edeb3b-913c-4d87-abe9-e8edc9e73eb7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-1f77fvh-1 dSMZVu</value>
+      <webElementGuid>e22832c4-7832-4156-8b15-fbae0971c618</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Subject Text</value>
+      <webElementGuid>89383e27-33a6-444f-a0bf-0ea428f64d5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;views-ticket-table-15083514922013-container&quot;)/div[@class=&quot;sc-1spczzx-2 fDhULx&quot;]/table[@class=&quot;sc-1spczzx-3 dDRtsC StyledTable-sc-gje7na-0 gonVzc&quot;]/tbody[@class=&quot;StyledBody-sc-14ud6y-0 jDQgXE&quot;]/tr[@class=&quot;StyledRow__StyledBaseRow-sc-ek66ow-0 sc-15i63uz-0 dvmTBu StyledRow-sc-ek66ow-1 cWnnRo&quot;]/td[@class=&quot;sc-1f77fvh-0 czKGRS StyledCell-sc-8hpncx-0 ljckp&quot;]/div[1]/div[@class=&quot;sc-1f77fvh-1 dSMZVu&quot;]</value>
+      <webElementGuid>48ebd77e-641d-465a-bd94-68f947984ad0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='views-ticket-table-15083514922013-container']/div/table/tbody/tr[2]/td[5]/div/div</value>
+      <webElementGuid>a422ee6b-7012-4c7a-a6b4-67179f053993</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[5]/div/div</value>
+      <webElementGuid>eed78935-4f8d-4638-bd91-4f1c82913264</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Subject Text' or . = 'Subject Text')]</value>
+      <webElementGuid>8f5497d8-bb2d-4581-bad9-baffcccc9597</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

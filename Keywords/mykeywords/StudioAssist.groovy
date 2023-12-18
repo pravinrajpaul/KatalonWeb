@@ -32,4 +32,9 @@ public class StudioAssist {
 
 	/*Genarate a Katalon keyword using apache poi to fetch data from specified cell in a xlsx file*/
 
+	/*Genarate a Katalon keyword for javascript way to set text to input field in katalon object repository*/
+
+	/*Generate a Katalon keyword to transform an json node element to another and return the json object*/
+
+	/*Generate a Katalon keyword to extract specific data from pdf file*/
 }

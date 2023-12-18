@@ -25,6 +25,9 @@ response = WS.sendRequest(findTestObject('API/Rest/CreaterUser', [('name') : nam
 
 outname = WS.getElementPropertyValue(this.response, 'name')
 
+jsonResponse = new groovy.json.JsonSlurper().parseText(response.getResponseText())
+id = jsonResponse.id
+
 //assert name == outname
 //
 //outname = '123'
