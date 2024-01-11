@@ -36,5 +36,8 @@ public class StudioAssist {
 
 	/*Generate a Katalon keyword to transform an json node element to another and return the json object*/
 
-	/*Generate a Katalon keyword to extract specific data from pdf file*/
+	/*Generate a Katalon keyword to extract specific data from pdf file using pdfbox apache library*/
+	
+	/*Generate a katalon keyword to upload a image file to webportal*/
+
 }

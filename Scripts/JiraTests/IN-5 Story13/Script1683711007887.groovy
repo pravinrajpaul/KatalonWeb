@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://petstore.octoperf.com/actions/Catalog.action')
 

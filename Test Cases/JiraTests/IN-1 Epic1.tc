@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Summary: Epic1
+   <description>Summary: Epic1&#xd;
 Description: </description>
    <name>IN-1 Epic1</name>
    <tag>jira-integration</tag>

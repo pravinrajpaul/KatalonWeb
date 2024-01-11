@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_MediaHuman YouTube Downloader 3.9.9.88 (0105)</name>
+   <tag></tag>
+   <elementGuidId>ccf2b048-1679-496f-8cfd-7a371f551d5e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/main/section/div[2]/div[4]/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>75b1d73c-c2a8-421d-a78d-67867781c193</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card_title__az7G7</value>
+      <webElementGuid>975c8157-8f68-4d05-ac4e-d7d836f16e9b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/windows/mediahuman-youtube-downloader/</value>
+      <webElementGuid>dfd305d6-2a48-4ff7-9cf1-e751a0da7654</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>MediaHuman YouTube Downloader 3.9.9.88 (0105)</value>
+      <webElementGuid>48b9bc19-a306-447d-be1b-630a96146b27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;content&quot;]/main[@class=&quot;main&quot;]/section[@class=&quot;products&quot;]/div[@class=&quot;product-list&quot;]/div[@class=&quot;card_wrap__S35wt&quot;]/div[@class=&quot;card_info__LY5ob&quot;]/a[@class=&quot;card_title__az7G7&quot;]</value>
+      <webElementGuid>c343d2db-48a6-43f1-94e1-a89b236698d0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/main/section/div[2]/div[4]/div/a</value>
+      <webElementGuid>cddb1c9b-4ade-47a7-94ad-329c1d6efd0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'MediaHuman YouTube Downloader 3.9.9.88 (0105)')]</value>
+      <webElementGuid>7b1f7c32-cde6-4c33-afb1-538fb0d929e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='mb'])[3]/following::a[2]</value>
+      <webElementGuid>a676a119-c73a-4b28-8bd6-b92d4eb97424</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reputation'])[3]/following::a[2]</value>
+      <webElementGuid>97d12a87-0cbe-4d3f-8fe8-1e45ecfd7824</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download Managers'])[1]/preceding::a[1]</value>
+      <webElementGuid>ee07dab6-78c1-4402-bb05-02f21afefe40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='windows'])[4]/preceding::a[2]</value>
+      <webElementGuid>afb13a63-815a-450f-878c-3fd042f7ae0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='MediaHuman YouTube Downloader 3.9.9.88 (0105)']/parent::*</value>
+      <webElementGuid>cafffb95-bdec-4581-b96a-7589436853b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/windows/mediahuman-youtube-downloader/')])[2]</value>
+      <webElementGuid>922e6eae-aefd-4876-b2f8-ca2736d07d54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/a</value>
+      <webElementGuid>8bd19880-0862-4188-b8f0-e980e82b81fd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

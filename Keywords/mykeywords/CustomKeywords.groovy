@@ -1,10 +1,17 @@
 package mykeywords
+import java.util.concurrent.TimeUnit
+
 import org.openqa.selenium.By
+import org.openqa.selenium.Capabilities
 import org.openqa.selenium.JavascriptExecutor
+import org.openqa.selenium.Proxy
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
+import org.openqa.selenium.Proxy.ProxyType
 import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.chrome.ChromeOptions
+import org.openqa.selenium.remote.DesiredCapabilities
+import org.openqa.selenium.remote.RemoteWebDriver
 import org.openqa.selenium.support.ui.Select
 
 import com.kms.katalon.core.annotation.Keyword
@@ -12,6 +19,8 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.common.WebUiCommonHelper
 import com.kms.katalon.core.webui.driver.DriverFactory
+import com.kms.katalon.core.webui.driver.SmartWaitWebDriver
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 
 
@@ -19,6 +28,59 @@ import com.kms.katalon.core.webui.driver.DriverFactory
 class CustomKeywords {
 
 	Process proc = null;
+
+
+	@Keyword
+	def void openChromeBrowserCustomDriver(String driverPath) {
+		WebUI.openBrowser("")
+		SmartWaitWebDriver smartWaitDriver = (SmartWaitWebDriver) DriverFactory.getWebDriver()
+		if (smartWaitDriver instanceof WebDriver) {
+			Capabilities existingCapabilities = smartWaitDriver.getCapabilities()
+			WebUI.closeBrowser()
+			smartWaitDriver.quit()
+			ChromeOptions chromeOptions = new ChromeOptions()
+			existingCapabilities.asMap().each { key, value ->
+				if (key.equalsIgnoreCase("proxy") && value!=null && (((Proxy)value).getProxyType().equals(ProxyType.UNSPECIFIED))) {}
+				else if (key.equalsIgnoreCase("setWindowRect")) chromeOptions.setCapability("windowRect", value)
+				else chromeOptions.setCapability(key, value)
+			}
+			System.setProperty("webdriver.chrome.driver", driverPath)
+			def driver = new ChromeDriver(chromeOptions)
+			DriverFactory.changeWebDriver(driver)
+		}
+	}
+
+	@Keyword
+	def void openChromeBrowserCustomCapabilities(String url, List<String> args, Map<String, Object> options, Map<String, Object> capabilities) {
+		WebUI.openBrowser("")
+		def currentDriver = DriverFactory.getWebDriver()
+		if (currentDriver instanceof WebDriver) {
+			def chromeDriver = (SmartWaitWebDriver) currentDriver
+			Capabilities existingCapabilities = chromeDriver.getCapabilities()
+			ChromeOptions chromeOptions = new ChromeOptions()
+			existingCapabilities.asMap().each { key, value ->
+				if (key.equalsIgnoreCase("proxy") && value!=null && (((Proxy)value).getProxyType().equals(ProxyType.UNSPECIFIED))) {}
+				else if (key.equalsIgnoreCase("setWindowRect")) chromeOptions.setCapability("windowRect", value)
+				else chromeOptions.setCapability(key, value)
+			}
+			capabilities.each { key, value ->
+				chromeOptions.setCapability(key, value)
+			}
+			chromeOptions.addArguments(args)
+			if (options != null && !options.isEmpty())	chromeOptions.setExperimentalOption("prefs", options)
+			WebUI.closeBrowser()
+			chromeDriver.quit()
+			DriverFactory.changeWebDriver(new ChromeDriver(chromeOptions))
+		}
+		WebUI.navigateToUrl(url)
+	}
+
+
+	@Keyword
+	def setScriptTimeouts(long timeoutMinutes) {
+		WebDriver driver = DriverFactory.getWebDriver()
+		driver.manage().timeouts().setScriptTimeout(timeoutMinutes, TimeUnit.MINUTES)
+	}
 
 	@Keyword
 	def automateExistingOpenWindow() {
@@ -116,6 +178,9 @@ class CustomKeywords {
 		js.executeScript("arguments[0].value=arguments[1]", we, text);
 		wd.switchTo().defaultContent()
 	}
+
+
+
 
 
 	/**

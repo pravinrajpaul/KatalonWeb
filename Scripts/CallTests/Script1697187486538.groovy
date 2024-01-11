@@ -21,4 +21,3 @@ WebUI.callTestCase(findTestCase('WebTestCases/RichTextEditor'), [('variable') : 
 
 WebUI.callTestCase(findTestCase('StudioAssist'), [('variable2') : variable], FailureHandling.STOP_ON_FAILURE)
 
-

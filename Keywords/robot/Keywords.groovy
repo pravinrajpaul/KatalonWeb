@@ -31,7 +31,7 @@ public class Keywords {
 	public Keywords(Robot robot) {
 		this.robot = robot;
 	}
-	
+
 	@Keyword
 	public void typeString(CharSequence characters) {
 		int length = characters.length();
@@ -41,7 +41,7 @@ public class Keywords {
 		}
 	}
 
-	//mouseClickType : "Left Button Down/Up", "Right Button Down/Up", "Left Click", "Right Click", "Double Click"
+
 	@Keyword
 	public void mouseClick(String mouseClickType) {
 		switch (mouseClickType) {

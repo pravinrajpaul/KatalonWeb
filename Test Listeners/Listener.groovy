@@ -10,12 +10,16 @@ import java.util.logging.Level
 import java.util.logging.Logger
 import java.util.logging.SimpleFormatter
 
+import org.testng.ITestContext
+import org.testng.ITestNGMethod
+import org.testng.annotations.BeforeMethod
+
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testobject.TestObject as TestObject
-
+import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.testobject.TestObjectProperty
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -32,7 +36,12 @@ import com.kms.katalon.core.context.TestSuiteContext
 
 class Listener {
 
-
+		@BeforeTestSuite
+		def beforeTestSuite(TestSuiteContext testSuiteContext) {
+			System.setProperty("webdriver.chrome.driver", "D:\\PortableSoft\\chromedriver.exe")
+		}
+	
+	
 //	private static final Logger logger = Logger.getLogger("Listner.class")
 //	private static FileHandler fh
 //	

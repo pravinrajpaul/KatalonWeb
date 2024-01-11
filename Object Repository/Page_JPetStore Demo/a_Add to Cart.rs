@@ -6,12 +6,12 @@
    <elementGuidId>3d3d9276-632e-441f-9781-a4fb930ae9fa</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='Catalog']/table/tbody/tr[7]/td/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.Button</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Add to Cart')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

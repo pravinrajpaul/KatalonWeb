@@ -18,3 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/IN-1 Epic1 1.feature')
+
+CustomKeywords.'robot.Keywords.mouseClick'('')
+
