@@ -1,9 +1,20 @@
 {
-  "keywordFileContentHash": "FFF8B4664B72A3153EB1AE3A5FAFE6A1",
+  "keywordFileContentHash": "480D589500EE40A6E9FA6426CFF922A4",
   "keywordClasses": [
     {
       "name": "mykeywords.StudioAssist",
-      "keywordMethods": []
+      "keywordMethods": [
+        {
+          "name": "saveCookies",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "useSavedCookies",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
     }
   ],
   "javadocParsed": true

@@ -37,6 +37,15 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <validationSteps>
+      <id>044ef65d-a7eb-41cf-a547-612743b5d1f6</id>
+      <name>New Validation</name>
+      <type>JSON_SCHEMA</type>
+      <dataType>AUTO</dataType>
+      <target>RESPONSE</target>
+      <data></data>
+      <activate>true</activate>
+   </validationSteps>
    <variables>
       <defaultValue>''</defaultValue>
       <description></description>

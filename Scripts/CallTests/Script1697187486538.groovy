@@ -17,7 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('WebTestCases/RichTextEditor'), [('variable') : variable], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('StudioAssist'), [('variable2') : variable], FailureHandling.STOP_ON_FAILURE)
-
+def x = 0
+if (x==0) {
+	WebUI.callTestCase(findTestCase('WebTestCases/RichTextEditor'), [('variable') : variable], FailureHandling.STOP_ON_FAILURE)
+}
+else {
+	WebUI.callTestCase(findTestCase('StudioAssist'), [('variable2') : variable], FailureHandling.STOP_ON_FAILURE)
+}

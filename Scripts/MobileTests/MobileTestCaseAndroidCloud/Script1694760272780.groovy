@@ -19,44 +19,44 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('Resources/Mobile/Apk/Telegram.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/android.widget.TextView - Start Messaging (4)'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.tapAndHold(findTestObject('Object Repository/Mobile/android.widget.ImageView (1)'), 0, 0)
+Mobile.tapAndHold(findTestObject('null'), 0, 0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/android.widget.TextView'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
 Mobile.scrollToText('India')
 
-Mobile.tap(findTestObject('Object Repository/Mobile/android.widget.TextView -  India (2)'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.tap(findTestObject('Mobile/android.view.View (1)'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/android.view.View (2)'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/android.view.View (3)'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/android.view.View (4)'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/android.view.View (5)'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/android.view.View (6)'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/android.view.View (7)'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/android.view.View (8)'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/android.view.View (9)'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/android.view.View (10)'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/android.view.View (11)'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Mobile/android.widget.TextView - Invalid phone number. Please check the number and try again (1)'), 
+Mobile.verifyElementText(findTestObject('null'), 
     'Invalid phone number. Please check the number and try again.')
 
 Mobile.takeScreenshotAsCheckpoint("Mobile Telegram")
 
-Mobile.tap(findTestObject('Object Repository/Mobile/android.widget.TextView - OK (1)'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
 
 Mobile.closeApplication()

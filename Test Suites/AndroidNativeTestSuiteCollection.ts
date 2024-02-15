@@ -9,10 +9,20 @@
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
          <configuration>
-            <groupName>Web Desktop</groupName>
+            <groupName>Mobile</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>true</requireConfigurationData>
-            <runConfigurationId>TestCloud</runConfigurationId>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>OnePlus ONEPLUS A5010 (Android 10)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>4f4694e</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/AndroidNativeTestsuite</testSuiteEntity>

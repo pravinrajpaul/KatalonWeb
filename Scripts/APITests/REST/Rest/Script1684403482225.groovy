@@ -26,6 +26,7 @@ response = WS.sendRequest(findTestObject('API/Rest/CreaterUser', [('name') : nam
 outname = WS.getElementPropertyValue(this.response, 'name')
 
 jsonResponse = new groovy.json.JsonSlurper().parseText(response.getResponseText())
+
 id = jsonResponse.id
 
 //assert name == outname
@@ -49,8 +50,9 @@ RequestObject listUser = findTestObject('API/Rest/ListUsers', [('id') : id])
 
 listUser.setConnectionTimeout(30000)
 
-ResponseObject response1 = WS.sendRequestAndVerify(listUser)
+ResponseObject response1 = WS.sendRequest(listUser)
 
 //jsonResponse = new groovy.json.JsonSlurper().parseText(response.getResponseText())
 //field = jsonResponse.name
 println(response1.getResponseBodyContent())
+

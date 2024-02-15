@@ -37,7 +37,36 @@ public class StudioAssist {
 	/*Generate a Katalon keyword to transform an json node element to another and return the json object*/
 
 	/*Generate a Katalon keyword to extract specific data from pdf file using pdfbox apache library*/
-	
+
 	/*Generate a katalon keyword to upload a image file to webportal*/
 
+	/*Generate 2 Katalon keywords, one that saves cookies from existing browser session before close browser and second keyword that subsequently uses the saved cookie in the test case*/
+	/*
+	 *  This keyword saves the cookies from the existing browser session before closing the browser.
+	 *
+	 *  @param driver The WebDriver instance
+	 *  @param cookiesVariable The name of the variable to store the cookies
+	 */
+	// Save cookies from existing browser session
+	@Keyword
+	def saveCookies() {
+		// Get the cookies from the browser session
+		WebDriver driver = DriverFactory.getWebDriver()
+		GlobalVariable.cookiesVariable = DriverFactory.getWebDriver().manage().getCookies()
+	}
+
+	/*
+	 *  This keyword uses the saved cookies in the test case.
+	 *
+	 *  @param driver The WebDriver instance
+	 *  @param cookiesVariable The name of the variable that stores the cookies
+	 */
+	// Use saved cookies in a test case
+	@Keyword
+	def useSavedCookies() {
+		WebDriver driver = DriverFactory.getWebDriver()
+		// Set the saved cookies in the browser session
+		driver.manage().deleteAllCookies()
+		driver.manage().addCookie(GlobalVariable.cookiesVariable)
+	}
 }

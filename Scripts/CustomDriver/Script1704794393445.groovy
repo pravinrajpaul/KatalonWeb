@@ -17,11 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'web.WebAdditives.openChromeBrowserCustomDriver'('D:\\PortableSoft\\chromedriver.exe')
+//not_run: CustomKeywords.'mykeywords.CustomKeywords.openChromeBrowserCustomDriver1'('D:\\PortableSoft\\chromedriver.exe')
+CustomKeywords.'mykeywords.CustomKeywords.changeWebDriver'()
 
+//not_run: WebUI.openBrowser('')
 WebUI.navigateToUrl('https://www.google.com')
 
-WebUI.delay(5)
+WebUI.delay(15)
 
 WebUI.closeBrowser()
 

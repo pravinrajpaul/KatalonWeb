@@ -22,7 +22,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 /**
-Requirement description
+Test Steps
 
 Open browser
 Maximize browser window
@@ -32,4 +32,32 @@ Click the search button
 Navigate to the first result
 */
 
+WebUI.openBrowser('')
+
+
+WebUI.maximizeWindow()
+
+
+WebUI.navigateToUrl('https://www.google.com')
+
+
+WebUI.setText(findTestObject('Page_Google/input_q'), 'today\'s news')
+
+
+WebUI.click(findTestObject('Page_Google/input_btnK'))
+
+
+WebUI.click(findTestObject('Page_Google/a_firstResult'))
+/*
+ *  This code opens a web browser, maximizes the window, navigates to Google's homepage,
+ *  enters the text "today's news" in the search bar, clicks the search button, and clicks on the first search result.
+ *
+ *  1. Open a web browser.
+ *  2. Maximize the window.
+ *  3. Navigate to Google's homepage.
+ *  4. Enter the text "today's news" in the search bar.
+ *  5. Click the search button.
+ *  6. Click on the first search result.
+ *
+ */
 

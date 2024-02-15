@@ -1,11 +1,35 @@
 {
-  "keywordFileContentHash": "1BD9CA33757764084249F734F962D245",
+  "keywordFileContentHash": "BD1DBB61FC9BD5ED35292240AC9E066D",
   "keywordClasses": [
     {
       "name": "mykeywords.CustomKeywords",
       "keywordMethods": [
         {
+          "name": "changeWebDriver",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
           "name": "openChromeBrowserCustomDriver",
+          "parameters": [
+            {
+              "name": "driverPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "openChromeBrowserCustomDriver1",
           "parameters": [
             {
               "name": "driverPath",

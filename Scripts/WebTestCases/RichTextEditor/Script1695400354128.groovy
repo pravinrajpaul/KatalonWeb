@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://richtexteditor.com/')
+WebUI.navigateToUrl('https://richtexteditor.com/Demos/')
 
 WebUI.click(findTestObject('Object Repository/RichTextEditor/Page_WYSIWYG HTML Editor  Javascript Rich T_2f3e19/p_Rich Text Editor is a full-featured Javas_334e5c'), 
     FailureHandling.OPTIONAL)
