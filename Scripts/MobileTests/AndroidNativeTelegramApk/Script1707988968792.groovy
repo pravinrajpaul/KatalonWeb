@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('D:\\Development\\Katalon Studio\\KatalonWeb\\Resources\\Mobile\\Apk\\Telegram.apk', true)
+Mobile.startApplication('D:\\Development\\Katalon Studio\\KatalonWeb\\Resources\\Mobile\\Apk\\Telegram.apk', false)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Telegram/android.widget.TextView - Start Messaging'), 0)
 
@@ -25,7 +25,7 @@ Mobile.tap(findTestObject('Object Repository/Mobile/Telegram/android.widget.Text
 
 Mobile.scrollToText('Benin')
 
-Mobile.tap(findTestObject('Object Repository/Mobile/Telegram/android.widget.TextView -  Benin'), 0, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Mobile/Telegram/android.widget.TextView - 229'), 0, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Telegram/android.view.View'), 0)
 
