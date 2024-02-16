@@ -19,6 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+//Secure URL Login
 CustomKeywords.'web.WebAdditives.navigateToSecureURL'('https://the-internet.herokuapp.com/basic_auth', 'admin', 
     'JBKZBytFFfej3yUmo8nEbQ==:DYUJvCrRmlv45sHhbX5Few==')
 
