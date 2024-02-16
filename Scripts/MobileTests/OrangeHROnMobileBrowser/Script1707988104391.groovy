@@ -23,6 +23,10 @@ WebUI.setText(findTestObject('Object Repository/ImageLocators/Page_OrangeHRM/inp
 
 WebUI.setEncryptedText(findTestObject('Object Repository/ImageLocators/Page_OrangeHRM/input_Password_password'), 'OlJcUiGuze/ucJDTOpVqXA==')
 
+WebUI.click(findTestObject('ImageLocators/Page_OrangeHRM/h5_Login'))
+
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Object Repository/ImageLocators/Page_OrangeHRM/button_Login'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/ImageLocators/Page_OrangeHRM/p_Invalid credentials'), 'Invalid credentials')
