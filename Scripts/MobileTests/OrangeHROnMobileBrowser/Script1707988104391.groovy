@@ -25,7 +25,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/ImageLocators/Page_Oran
 
 WebUI.click(findTestObject('ImageLocators/Page_OrangeHRM/h5_Login'))
 
-Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/ImageLocators/Page_OrangeHRM/button_Login'))
 

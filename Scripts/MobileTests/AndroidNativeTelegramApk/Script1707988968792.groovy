@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('D:\\Development\\Katalon Studio\\KatalonWeb\\Resources\\Mobile\\Apk\\Telegram.apk', false)
+Mobile.startApplication('D:\\Development\\Katalon Studio\\KatalonWeb\\Resources\\Mobile\\Apk\\Telegram.apk', true)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Telegram/android.widget.TextView - Start Messaging'), 0)
 
