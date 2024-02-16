@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "245E6843FE2EAA1DF6F5EEB7F2A9BD91",
+  "keywordClasses": [
+    {
+      "name": "flutter.mobile.Keywords",
+      "keywordMethods": [
+        {
+          "name": "getText1",
+          "parameters": [
+            {
+              "name": "mo",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Keyword to get text\r\n\t * @param mo\r\n\t * @return\r\n\t */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
