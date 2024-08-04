@@ -18,8 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'com.katalon.plugin.keyword.email.EmailAccessKeywords.getLatestOffice365Mail'('outlook.office365.com', 'imaps', 
-    '993', true, false, 'pravinrajpaul@outlook.com', 'Jbjbjatwowf@8081', 'inbox')
+    '993', true, false, 'pravinrajpaul@outlook.com', '', 'inbox')
 
 CustomKeywords.'com.katalon.plugin.keyword.email.EmailAccessKeywords.sendTextOffice365Mail'('smtp.office365.com', '587', 
-    true, 'pravinrajpaul@outlook.com', 'Jbjbjatwowf@8081', ['pravinrajpaul@gmail.com'], 'Test', 'Test Body')
+    true, 'pravinrajpaul@outlook.com', '', ['pravinrajpaul@gmail.com'], 'Test', 'Test Body')
 
